@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="TheoCadences">
+<title>Cadences' identification</title>
+
+<para>Exercise: Identify the cadence shown</para>
+
+<exercise type="IdfyCadences" height="52">
+    <control_settings>TheoIdfyCadence</control_settings>
+    <mode>theory</mode>
+</exercise>
+
+</theme>

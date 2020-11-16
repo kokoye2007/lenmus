@@ -1,0 +1,6205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LenMus 5.4.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-18 10:16+0200\n"
+"PO-Revision-Date: 2020-04-18 10:16+0200\n"
+"Last-Translator: Mauro Giubileo <mgone@inwind.it>\n"
+"Language-Team: Cecilio Salmeron <s.cecilio@gmail.com>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SearchPath-0: src/app\n"
+"X-Poedit-SearchPath-1: src/auxmusic\n"
+"X-Poedit-SearchPath-2: src/exercises\n"
+"X-Poedit-SearchPath-3: src/exercises/auxctrols\n"
+"X-Poedit-SearchPath-4: src/exercises/constrains\n"
+"X-Poedit-SearchPath-5: src/exercises/ctrols\n"
+"X-Poedit-SearchPath-6: src/exercises/dialogs\n"
+"X-Poedit-SearchPath-7: src/exercises/params\n"
+"X-Poedit-SearchPath-8: src/globals\n"
+"X-Poedit-SearchPath-9: src/options\n"
+"X-Poedit-SearchPath-10: src/properties\n"
+"X-Poedit-SearchPath-11: src/sound\n"
+"X-Poedit-SearchPath-12: src/updater\n"
+"X-Poedit-SearchPath-13: src/widgets\n"
+"X-Poedit-SearchPath-14: src/xml_parser\n"
+"X-Poedit-SearchPath-15: xrc\n"
+"X-Poedit-SearchPath-16: src/app\n"
+"X-Poedit-SearchPath-17: src/dialogs/lenmus_dlg_metronome.cpp\n"
+"X-Poedit-SearchPath-18: src/dialogs/lenmus_dlg_books.cpp\n"
+
+#: src/app/lenmus_about_dialog.cpp:99 src/app/lenmus_about_dialog.cpp:134
+msgid "A free program for music language learning"
+msgstr "Un programma gratuito per l'apprendimento del linguaggio musicale"
+
+#: src/app/lenmus_about_dialog.cpp:152 src/app/lenmus_about_dialog.cpp:194
+msgid "Purpose"
+msgstr "Cos'è?"
+
+#: src/app/lenmus_about_dialog.cpp:155
+msgid "Licence"
+msgstr "Licenza"
+
+#: src/app/lenmus_about_dialog.cpp:158 src/app/lenmus_about_dialog.cpp:363
+msgid "Contributors"
+msgstr "Contributori"
+
+#: src/app/lenmus_about_dialog.cpp:161
+msgid "Art design"
+msgstr "Art design"
+
+#: src/app/lenmus_about_dialog.cpp:164
+msgid "Software used"
+msgstr "Software utilizzato"
+
+#: src/app/lenmus_about_dialog.cpp:167
+msgid "Build info."
+msgstr "Info sulla versione."
+
+#: src/app/lenmus_about_dialog.cpp:172
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:316
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:372
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:451
+#: src/exercises/dialogs/lenmus_dlg_exercise_mode.cpp:139
+#: src/options/lenmus_options_dlg.cpp:273 src/properties/DlgEditText.cpp:148
+#: src/properties/lenmus_dlg_properties.cpp:81 xrc/xrc_strings.cpp:62
+#: xrc/xrc_strings.cpp:127 xrc/xrc_strings.cpp:157 xrc/xrc_strings.cpp:251
+#: xrc/xrc_strings.cpp:305 xrc/xrc_strings.cpp:397
+msgid "Accept"
+msgstr "Accetta"
+
+#: src/app/lenmus_about_dialog.cpp:196
+msgid ""
+"LenMus is a free program to help you in the study of music theory and  ear "
+"training."
+msgstr ""
+"LenMus è un programma gratuito che ti aiuta nello studio della teoria "
+"musicale e nella formazione dell'orecchio."
+
+#: src/app/lenmus_about_dialog.cpp:199
+msgid ""
+"The LenMus Project is an open project, committed to the principles of Open "
+"Source, free education, and open access to information. It has no comercial "
+"purpose. It is an open workbench for working on all areas related to "
+"teaching music, and music representation and management with computers. It "
+"aims at developing publicly available knowledge, methods and algorithms "
+"related to all these areas and at the same time provides free quality "
+"software for music students, amateurs, and teachers."
+msgstr ""
+"Il Progetto LenMus è un progetto 'open', ovvero, ispirato ai principi "
+"dell'Open Source, libero apprendimento ed accesso aperto alle informazioni. "
+"Non vi sono scopi commerciali. Si può considerare LenMus come un insieme di "
+"strumenti di libero uso per lavorare in tutte le aree legate "
+"all'insegnamento musicale ed alla rappresentazione e/o gestione della musica "
+"tramite il computer. I suoi obiettivi sono: sviluppo e libera diffusione di "
+"teoria, metodi e algoritmi relati a queste aree e, contemporaneamente, "
+"fornire software libero di qualità per studenti di musica, appassionati ed "
+"insegnanti."
+
+#: src/app/lenmus_about_dialog.cpp:207
+msgid ""
+"If you find a bug or have a suggestion, please contact me. I depend on your "
+"feedback in order to continue to improve LenMus. So please visit LenMus "
+"website and give me your bug reports and feature requests. Thank you very "
+"much."
+msgstr ""
+"Se trovi un bug o hai un suggerimento, ti preghiamo di contattarci. Noi "
+"contiamo sul tuo aiuto per continuare a migliorare LenMus. Visita il nostro "
+"sito web e inviaci le tue segnalazioni di bug o richieste di funzionalità "
+"aggiuntive. Te ne saremo molto grati."
+
+#: src/app/lenmus_about_dialog.cpp:222
+msgid "License"
+msgstr "Licenza"
+
+#: src/app/lenmus_about_dialog.cpp:226
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation, either version 3 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"Questo programma è software libero; puoi ridistribuirlo e/o modificarlo "
+"secondo le condizioni della GNU General Public License pubblicata dalla Free "
+"Software Foundation, nella versione 3 di tale Licenza o, a tua scelta, in "
+"una qualsiasi versione successiva."
+
+#: src/app/lenmus_about_dialog.cpp:231
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  For more details see the GNU General "
+"Public License at "
+msgstr ""
+"Questo programma è distribuito nella speranza che possa essere utile, ma SI "
+"ESCLUDE OGNI GARANZIA, compresa la garanzia di COMMERCIABILITA' o IDONEITA' "
+"AD UN PARTICOLARE SCOPO. Per maggiori dettagli si veda la GNU General Public "
+"License a "
+
+#: src/app/lenmus_about_dialog.cpp:247
+msgid "Art desing credits"
+msgstr "Riconoscimenti per Art design"
+
+#: src/app/lenmus_about_dialog.cpp:248
+msgid ""
+"Some icons are original artwork for LenMus project; all these original icons "
+"are released under GNU GPL licence and under Creative Commons Attribution-"
+"ShareAlike license, you can choose the one you prefer for the intended "
+"usage. The other icons are taken from different sources:"
+msgstr ""
+"Alcune icone costituiscono una creazione artistica originale appositamente "
+"realizzata per il progetto LenMus; tali icone sono coperte da licenza GNU "
+"GPL e licenza Creative Commons Attribution-ShareAlike, pertanto potrai "
+"scegliere quella che preferisci, a seconda dell'uso richiesto. Le altre "
+"icone sono state prese da differenti sorgenti:"
+
+#: src/app/lenmus_about_dialog.cpp:253
+msgid ""
+"Taken or derived from those available in the Ximian collection (http://www."
+"novell.com/coolsolutions/feature/1637.html). Novell, who retains the "
+"copyright, has released these icons under the LGPL license. This means that "
+"you can use the icons in your programs free of charge. If you want to fork "
+"the icons into your own icon collection, you need to retain the license and "
+"the original copyrights, but from there you're free to do what you want."
+msgstr ""
+"Estratte o derivate da quelle disponibili nella collezione Ximian (http://"
+"www.novell.com/coolsolutions/feature/1637.html). Novell, che ne detiene i "
+"diritti, ha rilasciato queste icone sotto licenza LGPL. Ciò significa che "
+"puoi usare queste icone anche nei tuoi programmi, in maniera gratuita. Se "
+"vorrai inglobare tali icone in una tua collezione, dovrai mantenere "
+"invariata la loro licenza ed i copyright originali ma, a parte questo, "
+"potrai farne ciò che vuoi."
+
+#: src/app/lenmus_about_dialog.cpp:261
+msgid ""
+"Taken or derived from the GNOME project (http://art.gnome.org/themes/"
+"icon/1150), Tango theme. These icons are released under the Creative Commons "
+"Attribution-ShareAlike license."
+msgstr ""
+"Estratte o derivate dal progetto GNOME (http://art.gnome.org/themes/"
+"icon/1150), tema Tango. Queste icone sono rilasciate sotto licenza Creative "
+"Commons Attribution-ShareAlike."
+
+#: src/app/lenmus_about_dialog.cpp:265
+msgid ""
+"These icons are taken or derived from KDE project (http://kde.openoffice.org/"
+"servlets/ProjectDocumentList?folderID=314&amp;expandFolder=314). These icons "
+"are released under the GNU GPL license."
+msgstr ""
+"Queste icone sono estratte o derivate dal progetto KDE (http://kde."
+"openoffice.org/servlets/ProjectDocumentList?folderID=314&amp;"
+"expandFolder=314). (http://kde.openoffice.org/servlets/ProjectDocumentList?"
+"folderID=314&amp;expandFolder=314). Esse sono rilasciate sotto licenza GNU "
+"GPL."
+
+#: src/app/lenmus_about_dialog.cpp:269
+msgid ""
+"Taken or derived from eMule project (http://sourceforge.net/projects/emule) "
+"icons. eMule is a GNU GPL project so I assume that its icons are also "
+"available under GNU GPL."
+msgstr ""
+"Estratte o derivate dal progetto eMule (http://sourceforge.net/projects/"
+"emule). eMule è un progetto GNU GPL, perciò si presume che anche le sue "
+"icone siano coperte da GNU GPL."
+
+#: src/app/lenmus_about_dialog.cpp:272
+msgid ""
+"Taken or derived from John Zaitseff's icons (http://www.zap.org.au/documents/"
+"icons/dirtree-icons/sample.html). According to what is said there, these "
+"icons are released under the terms of the GNU General Public License."
+msgstr ""
+"Estratte o derivate dalle icone di John Zaitseff (http://www.zap.org.au/"
+"documents/icons/dirtree-icons/sample.html). Secondo quello che è scritto in "
+"quel sito, tali icone sono rilasciate sotto licenza GNU General Public."
+
+#: src/app/lenmus_about_dialog.cpp:276
+msgid ""
+"To LenMus developers knowledge, all used icons are freely usable either "
+"under GNU GPL, LGPL licence, or Creative Commons. If this were not the case, "
+"please, let us know to stop using them. See file \"icons.htm\" in folder "
+"\"res/icons\" for more details."
+msgstr ""
+"Agli sviluppatori di LenMus: tutte le icone usate sono coperte da licenza "
+"GNU GPL, LGPL o Creative Commons. Se non fosse questo il caso, si prega di "
+"avvisarci, così da non usarle più. Si veda il file \"icons.htm\" nella "
+"cartella \"res/icons\" per dettagli aggiuntivi."
+
+#: src/app/lenmus_about_dialog.cpp:292
+msgid "Software credits"
+msgstr "Riconoscimenti per il software"
+
+#: src/app/lenmus_about_dialog.cpp:293
+msgid ""
+"LenMus Phonascus uses <b>PortMidi</b> the Portable Real-Time MIDI Library "
+"(http://www.cs.cmu.edu/~music/portmusic/). PortMidi is copyright (c) "
+"1999-2000 Ross Bencina and Phil Burk and copyright (c) 2001 Roger B. "
+"Dannenberg. Its licence permits free use."
+msgstr ""
+"LenMus Phonascus usa <b>PortMidi</b>, la libreria MIDI Portatile e Real-Time "
+"(http://www.cs.cmu.edu/~music/portmusic/). PortMidi copyright (c) 1999-2000 "
+"Ross Bencina e Phil Burk e copyright (c) 2001 Roger B. Dannenberg. La sua "
+"licenza ne consente un uso libero."
+
+#: src/app/lenmus_about_dialog.cpp:298
+msgid ""
+"LenMus uses <b>sqlite3</b> (http://www.sqlite.org/), with <b>wxSQLite3</b> "
+"wrapper (http://wxcode.sourceforge.net/components/wxsqlite3) for wxWidgets. "
+"SQLite is a widely used library that implements a transactional SQL database "
+"engine. Unlike client-server database management systems, the SQLite engine "
+"is not a standalone process with which the program communicates. Instead, "
+"the SQLite library is linked with your program and becomes an integral part "
+"of it. SQLite was created by D. Richard Hipp and the source code is in the "
+"public domain and is thus free for use for any purpose, commercial or "
+"private. Wrapper wxSQLite3 was written by Ulrich Telle."
+msgstr ""
+"LenMus utilizza <b> sqlite3 </b> (http://www.sqlite.org/), con il wrapper "
+"<b> wxSQLite3 </b> (http://wxcode.sourceforge.net/components/wxsqlite3) per "
+"wxWidgets . SQLite è una libreria ampiamente utilizzata che implementa un "
+"motore di database SQL transazionale. A differenza dei sistemi di gestione "
+"del database client-server, il motore SQLite non è un processo autonomo con "
+"cui comunica il programma. Invece, la libreria SQLite è collegata al tuo "
+"programma e ne diventa parte integrante. SQLite è stato creato da D. Richard "
+"Hipp e il codice sorgente è di dominio pubblico ed è quindi gratuito per "
+"qualsiasi scopo, commerciale o privato. Wrapper wxSQLite3 è stato scritto da "
+"Ulrich Telle."
+
+#: src/app/lenmus_about_dialog.cpp:307
+msgid ""
+"LenMus Phonascus is built using the <b>wxWidgets</b> application framework "
+"(http://www.wxwidgets.org). It is 'Open Source', has multi-platform support, "
+"it is ease to learn and extend, it has a helpful community, and also has the "
+"possibility to use it in commercial products without licencing."
+msgstr ""
+"LenMus Phonascus è stato creato usando il framework applicativo "
+"<b>wxWidgets</b> (http://www.wxwidgets.org). Esso è 'Open Source', ha un "
+"supporto multi-piattaforma, è facile da imparare ed estendere, ha una "
+"comunità molto disponibile e dà anche la possibilità di usarlo in prodotti "
+"commerciali."
+
+#: src/app/lenmus_about_dialog.cpp:312
+msgid ""
+"And, of course, this program uses the LenMus <b>Lomse</b> free library to "
+"render the eBooks and the scores. See https://github.com/lenmus/lomse"
+msgstr ""
+"E, naturalmente, questo programma utilizza la libreria gratuita LenMus <b> "
+"Lomse </b> per eseguire il rendering degli eBook e dei punteggi. Vedi "
+"https://github.com/lenmus/lomse"
+
+#: src/app/lenmus_about_dialog.cpp:340
+msgid "Build information"
+msgstr "Informazioni sulla versione"
+
+#: src/app/lenmus_about_dialog.cpp:341
+msgid "Program version:"
+msgstr "Versione del programma:"
+
+#: src/app/lenmus_about_dialog.cpp:343
+msgid "Program build date:"
+msgstr "Data di creazione di questa versione:"
+
+#: src/app/lenmus_about_dialog.cpp:348
+msgid "Your computer information:"
+msgstr "Informazioni sul tuo computer:"
+
+#: src/app/lenmus_about_dialog.cpp:368
+msgid "Project management:"
+msgstr "Gestione di progetto:"
+
+#: src/app/lenmus_about_dialog.cpp:373
+msgid "Programming:"
+msgstr "Programmazione:"
+
+#: src/app/lenmus_about_dialog.cpp:379
+msgid "Linux package:"
+msgstr "Pacchetto Linux:"
+
+#: src/app/lenmus_about_dialog.cpp:385
+msgid "Music advice:"
+msgstr "Consiglio musicale:"
+
+#: src/app/lenmus_about_dialog.cpp:395
+msgid "Music texts and exercises:"
+msgstr "Nozioni di musica ed esercizi:"
+
+#: src/app/lenmus_about_dialog.cpp:397
+msgid "See credits page on each eBook"
+msgstr "Vedi la pagina dei crediti su ogni eBook"
+
+#: src/app/lenmus_about_dialog.cpp:402
+msgid "Translation:"
+msgstr "Traduzioni:"
+
+#: src/app/lenmus_about_dialog.cpp:403
+msgid "Basque"
+msgstr "Basco"
+
+#: src/app/lenmus_about_dialog.cpp:406
+msgid "Dutch"
+msgstr "Tedesco"
+
+#: src/app/lenmus_about_dialog.cpp:409
+msgid "Simplified Chinese"
+msgstr "Cinese semplificato"
+
+#: src/app/lenmus_about_dialog.cpp:412
+msgid "French"
+msgstr "Francese"
+
+#: src/app/lenmus_about_dialog.cpp:417
+msgid "Galician"
+msgstr "Galiziano"
+
+#: src/app/lenmus_about_dialog.cpp:422
+msgid "German"
+msgstr "Tedesco"
+
+#: src/app/lenmus_about_dialog.cpp:425
+msgid "Greek"
+msgstr "Greco"
+
+#: src/app/lenmus_about_dialog.cpp:428
+msgid "Italian"
+msgstr "Italiano"
+
+#: src/app/lenmus_about_dialog.cpp:432
+msgid "Russian"
+msgstr "Russo"
+
+#: src/app/lenmus_about_dialog.cpp:436
+msgid "Spanish"
+msgstr "Spagnolo"
+
+#: src/app/lenmus_about_dialog.cpp:439
+msgid "Turkish"
+msgstr "Turco"
+
+#: src/app/lenmus_about_dialog.cpp:445
+msgid "Thanks also to:"
+msgstr "Si ringraziano anche:"
+
+#: src/app/lenmus_about_dialog.cpp:450
+msgid ""
+"If you would like to help developing this program or join the project to "
+"help in any other way, you are indeed welcome; please, visit LenMus at "
+"GitHub (https://github.com/lenmus/lenmus) and leave a message by opening a "
+"new issue. Thank you and welcome."
+msgstr ""
+"Se desideri aiutarci nello sviluppo di questo programma o vuoi unirti al "
+"progetto per darci una mano in qualunque altro modo, sei sempre il "
+"benvenuto; in tal caso, ti preghiamo di visitare il sito LenMus su GitHub "
+"(https://github.com/lenmus/lenmus) e lascia un messaggio aprendo un nuovo "
+"'issue'. Grazie e benvenuto."
+
+#: src/app/lenmus_app.cpp:178
+#, c-format
+msgid "Another instance of %s is already running."
+msgstr "Un'altra istanza di %s è in esecuzione."
+
+#: src/app/lenmus_app.cpp:920
+msgid "LenMus First Run"
+msgstr "Prima esecuzione di LenMus"
+
+#: src/app/lenmus_command_event_handler.cpp:987
+#, fuzzy
+msgid "Add chord note"
+msgstr "Aggiungi un legame"
+
+#: src/app/lenmus_command_event_handler.cpp:996
+#, fuzzy
+msgid "Add tie"
+msgstr "Aggiungi titolo"
+
+#: src/app/lenmus_command_event_handler.cpp:1057
+msgid "Add tuplet"
+msgstr "Aggiungi un gruppo irregolare"
+
+#: src/app/lenmus_command_event_handler.cpp:1110
+msgid "Break a beam"
+msgstr "Rompi un raggruppamento"
+
+#: src/app/lenmus_command_event_handler.cpp:1118
+#: src/app/lenmus_command_event_handler.cpp:1134
+#, fuzzy
+msgid "Change numeric property"
+msgstr "Cambia tonalità della nota"
+
+#: src/app/lenmus_command_event_handler.cpp:1126
+msgid "Change color property"
+msgstr ""
+
+#: src/app/lenmus_command_event_handler.cpp:1142
+#, fuzzy
+msgid "Change string property"
+msgstr "Cambia tonalità della nota"
+
+#: src/app/lenmus_command_event_handler.cpp:1159
+#, fuzzy
+msgid "Change notes/rests dots"
+msgstr "Cambia tonalità della nota"
+
+#: src/app/lenmus_command_event_handler.cpp:1185
+msgid "Change note accidentals"
+msgstr "Cambia alterazioni della nota"
+
+#: src/app/lenmus_command_event_handler.cpp:1238
+msgid "Delete selection"
+msgstr "Cancella selezione"
+
+#: src/app/lenmus_command_event_handler.cpp:1255
+#, c-format
+msgid "Delete %s"
+msgstr "Cancella %s"
+
+#: src/app/lenmus_command_event_handler.cpp:1265
+msgid "Delete tie"
+msgstr "Cancella un legame"
+
+#: src/app/lenmus_command_event_handler.cpp:1274
+msgid "Delete tuplet"
+msgstr "Cancella un gruppo irregolare"
+
+#: src/app/lenmus_command_event_handler.cpp:1288
+#, fuzzy
+msgid "Insert barline"
+msgstr "Inserisci stanghetta"
+
+#: src/app/lenmus_command_event_handler.cpp:1303
+msgid "Insert clef"
+msgstr "Inserisci chiave"
+
+#: src/app/lenmus_command_event_handler.cpp:1356
+#: src/app/lenmus_command_event_handler.cpp:1564
+msgid "Insert note"
+msgstr "Inserisci nota"
+
+#: src/app/lenmus_command_event_handler.cpp:1375
+#: src/app/lenmus_command_event_handler.cpp:1578
+msgid "Insert rest"
+msgstr "Inserisci pausa"
+
+#: src/app/lenmus_command_event_handler.cpp:1408
+msgid "Add beam"
+msgstr "Aggiungi un raggruppamento"
+
+#: src/app/lenmus_command_event_handler.cpp:1434
+#, fuzzy
+msgid "Move control point"
+msgstr "sposta nota"
+
+#: src/app/lenmus_command_event_handler.cpp:1451
+#, fuzzy
+#| msgid "Select octave %d"
+msgid "Select object"
+msgstr "Seleziona ottava %d"
+
+#: src/app/lenmus_document_canvas.cpp:2171
+msgid ""
+"The document contains scores created with a previous version. You must "
+"convert the document to current format (Menu > File > Convert) and edit the "
+"converted document."
+msgstr ""
+"Il documento contiene partiture create con una versione precedente. È "
+"necessario convertire il documento nel formato corrente (Menu> File> "
+"Converti) e modificare il documento convertito."
+
+#: src/app/lenmus_document_canvas.cpp:2278
+#, c-format
+msgid ""
+"Document %s has been modified. Would you like to save it before closing?"
+msgstr "Il documento %s è stato modificato. Vuoi salvarlo prima di chiudere?"
+
+#: src/app/lenmus_document_canvas.cpp:2282
+msgid "Save the file before closing"
+msgstr "Salva il file prima di chiuderlo"
+
+#: src/app/lenmus_document_canvas.cpp:2283
+msgid "Close without saving the file"
+msgstr "Chiudi senza salvare il file"
+
+#: src/app/lenmus_document_canvas.cpp:2299
+#: src/app/lenmus_document_canvas.cpp:2351 src/app/lenmus_main_frame.cpp:804
+msgid "Header"
+msgstr ""
+
+#: src/app/lenmus_document_canvas.cpp:2311
+#: src/app/lenmus_document_canvas.cpp:2363 src/app/lenmus_main_frame.cpp:806
+msgid "Paragraph"
+msgstr ""
+
+#: src/app/lenmus_document_canvas.cpp:2408
+#: src/app/lenmus_document_canvas.cpp:2433
+msgid "&Cut"
+msgstr "&Taglia"
+
+#: src/app/lenmus_document_canvas.cpp:2426
+#: src/app/lenmus_document_canvas.cpp:2438 src/app/lenmus_main_frame.cpp:1047
+msgid "Edit"
+msgstr "Modifica"
+
+#: src/app/lenmus_document_frame.cpp:294 src/app/lenmus_document_frame.cpp:335
+#, c-format
+msgid "Failed adding book %s"
+msgstr "Tentativo fallito aggiunta book %s"
+
+#: src/app/lenmus_help_system.cpp:99
+#, fuzzy
+msgid "Help system"
+msgstr "sistema"
+
+#: src/app/lenmus_help_system.cpp:127
+msgid "Opening Internet browser. Please wait ..."
+msgstr "Apertura del browser Internet. Attendere prego ..."
+
+#: src/app/lenmus_help_system.cpp:193
+msgid "Help documentation not found: Re-install LenMus?"
+msgstr "Documentazione della guida non trovata: reinstallare LenMus?"
+
+#: src/app/lenmus_main_frame.cpp:711
+msgid "New"
+msgstr "Nuovo"
+
+#: src/app/lenmus_main_frame.cpp:714
+msgid "Open"
+msgstr "Aprire"
+
+#: src/app/lenmus_main_frame.cpp:718
+msgid "Open books"
+msgstr "Apri libri"
+
+#: src/app/lenmus_main_frame.cpp:741
+msgid "Save"
+msgstr "Salva"
+
+#: src/app/lenmus_main_frame.cpp:743 src/app/lenmus_main_frame.cpp:3561
+#: src/app/lenmus_main_frame.cpp:3584
+msgid "Save as"
+msgstr "Salva come ..."
+
+#: src/app/lenmus_main_frame.cpp:745
+msgid "Convert"
+msgstr "Convertire"
+
+#: src/app/lenmus_main_frame.cpp:747 src/dialogs/lenmus_dlg_books.cpp:102
+msgid "Close"
+msgstr "Chiudi"
+
+#: src/app/lenmus_main_frame.cpp:749
+msgid "Close all"
+msgstr "Chiudi tutto"
+
+#: src/app/lenmus_main_frame.cpp:753
+msgid "Print"
+msgstr "Stampa"
+
+#: src/app/lenmus_main_frame.cpp:755
+msgid "Print Setup"
+msgstr "Parametri di stampa..."
+
+#: src/app/lenmus_main_frame.cpp:759
+msgid "Quit"
+msgstr "Finire"
+
+#: src/app/lenmus_main_frame.cpp:793
+#, fuzzy
+msgid "Enable edition"
+msgstr "Ripetizione doppia"
+
+#: src/app/lenmus_main_frame.cpp:797 src/app/lenmus_main_frame.cpp:1705
+#: xrc/xrc_strings.cpp:155
+msgid "Undo"
+msgstr "Annulla operazione"
+
+#: src/app/lenmus_main_frame.cpp:799 src/app/lenmus_main_frame.cpp:1709
+#: xrc/xrc_strings.cpp:156
+msgid "Redo"
+msgstr "Rifai operazione"
+
+#: src/app/lenmus_main_frame.cpp:808
+msgid "Score"
+msgstr "Partitura"
+
+#: src/app/lenmus_main_frame.cpp:810
+#, fuzzy
+msgid "Insert ..."
+msgstr "Inserisci chiave"
+
+#: src/app/lenmus_main_frame.cpp:810
+msgid "Insert new content in the document"
+msgstr ""
+
+#: src/app/lenmus_main_frame.cpp:820
+msgid "Tool bar"
+msgstr "Barra strumenti"
+
+#: src/app/lenmus_main_frame.cpp:821
+msgid "Hide/show the tools bar"
+msgstr "Mostra/nascondi la barra strumenti"
+
+#: src/app/lenmus_main_frame.cpp:822
+msgid "Status bar"
+msgstr "Barra di stato"
+
+#: src/app/lenmus_main_frame.cpp:823
+msgid "Hide/show the status bar"
+msgstr "Mostra/nascondi la barra di stato"
+
+#: src/app/lenmus_main_frame.cpp:824
+msgid "Table of content"
+msgstr "Contenuti"
+
+#: src/app/lenmus_main_frame.cpp:825
+msgid "Hide/show the TOC for current book"
+msgstr "Nascondi / mostra il sommario per il libro corrente"
+
+#: src/app/lenmus_main_frame.cpp:828 src/app/lenmus_main_frame.cpp:2172
+msgid "Virtual keyboard"
+msgstr ""
+
+#: src/app/lenmus_main_frame.cpp:829
+#, fuzzy
+msgid "Hide/show virtual keyboard"
+msgstr "Mostra/nascondi righelli"
+
+#: src/app/lenmus_main_frame.cpp:830 src/app/lenmus_main_frame.cpp:2860
+msgid "Command console"
+msgstr ""
+
+#: src/app/lenmus_main_frame.cpp:831
+msgid "Show the commands console"
+msgstr ""
+
+#: src/app/lenmus_main_frame.cpp:835
+msgid "Welcome page"
+msgstr "Pagina di Benvenuto"
+
+#: src/app/lenmus_main_frame.cpp:836
+msgid "Hide/show welcome page"
+msgstr "Mostra/nascondi pagina di benvenuto"
+
+#: src/app/lenmus_main_frame.cpp:838
+msgid "Show voices in colors"
+msgstr ""
+
+#: src/app/lenmus_main_frame.cpp:839
+msgid "Use a different colour for each voice"
+msgstr ""
+
+#: src/app/lenmus_main_frame.cpp:950 src/app/lenmus_main_frame.cpp:1757
+#: src/app/lenmus_main_frame.cpp:2998
+msgid "Actual size"
+msgstr "Dim. originale"
+
+#: src/app/lenmus_main_frame.cpp:952 src/app/lenmus_main_frame.cpp:1758
+#: src/app/lenmus_main_frame.cpp:2990
+msgid "Fit page full"
+msgstr "Pagina intera"
+
+#: src/app/lenmus_main_frame.cpp:953 src/app/lenmus_main_frame.cpp:1727
+msgid "Zoom so that the full page is displayed"
+msgstr "Visualizza la pagina nella sua interezza"
+
+#: src/app/lenmus_main_frame.cpp:955 src/app/lenmus_main_frame.cpp:1759
+#: src/app/lenmus_main_frame.cpp:2994
+msgid "Fit page width"
+msgstr "Larghez. pag."
+
+#: src/app/lenmus_main_frame.cpp:956 src/app/lenmus_main_frame.cpp:1731
+msgid "Zoom so that page width equals window width"
+msgstr "Imposta larghezza pagina uguale alla larghezza della finestra"
+
+#: src/app/lenmus_main_frame.cpp:959 src/app/lenmus_main_frame.cpp:1735
+msgid "Enlarge image size"
+msgstr "Allarga dimensione immagine"
+
+#: src/app/lenmus_main_frame.cpp:961 src/app/lenmus_main_frame.cpp:1739
+msgid "Reduce image size"
+msgstr "Riduci dimensione immagine"
+
+#: src/app/lenmus_main_frame.cpp:962
+msgid "Zoom to ..."
+msgstr "Ingrandisci a ..."
+
+#: src/app/lenmus_main_frame.cpp:969
+msgid "play"
+msgstr "interpretare"
+
+#: src/app/lenmus_main_frame.cpp:970 src/app/lenmus_main_frame.cpp:1770
+msgid "Start/resume play back. From selection of full score"
+msgstr "Inizia/riprendi riproduzione (solo selezione)"
+
+#: src/app/lenmus_main_frame.cpp:972
+msgid "play from cursor"
+msgstr "Riproduci dal cursore"
+
+#: src/app/lenmus_main_frame.cpp:973 src/app/lenmus_main_frame.cpp:1774
+msgid "Start/resume play back. From cursor measure"
+msgstr "Inizia/riprendi riproduzione (dalla misura in cui si trova il cursore)"
+
+#: src/app/lenmus_main_frame.cpp:975 src/dialogs/lenmus_dlg_metronome.cpp:430
+#: src/exercises/constrains/lenmus_constrains.cpp:373
+#: src/exercises/constrains/lenmus_constrains.cpp:375
+#: src/exercises/constrains/lenmus_music_reading_constrains.cpp:41
+#: src/exercises/constrains/lenmus_music_reading_constrains.cpp:44
+msgid "Stop"
+msgstr "Stop"
+
+#: src/app/lenmus_main_frame.cpp:976 src/app/lenmus_main_frame.cpp:1778
+msgid "Stop playing back"
+msgstr "Ferma riproduzione"
+
+#: src/app/lenmus_main_frame.cpp:977
+msgid "Pause"
+msgstr "Pausa"
+
+#: src/app/lenmus_main_frame.cpp:978 src/app/lenmus_main_frame.cpp:1782
+msgid "Pause playing back"
+msgstr "Pausa riproduzione"
+
+#: src/app/lenmus_main_frame.cpp:979
+msgid "Do count off"
+msgstr ""
+
+#: src/app/lenmus_main_frame.cpp:980
+msgid "Do count off before starting the play back"
+msgstr ""
+
+#: src/app/lenmus_main_frame.cpp:983
+msgid "Metronome on"
+msgstr "Metronomo attivo"
+
+#: src/app/lenmus_main_frame.cpp:984 src/app/lenmus_main_frame.cpp:1791
+msgid "Turn metronome on/off"
+msgstr "Metronomo on/off"
+
+#: src/app/lenmus_main_frame.cpp:987 src/options/lenmus_sound_opt_panel.cpp:94
+#: src/options/lenmus_sound_opt_panel.cpp:615
+#: src/options/lenmus_sound_opt_panel.cpp:760
+msgid "Test sound"
+msgstr "Suono di prova"
+
+#: src/app/lenmus_main_frame.cpp:988
+msgid "play an scale to test sound"
+msgstr "suona una scala come test sonoro"
+
+#: src/app/lenmus_main_frame.cpp:989
+msgid "All sounds off"
+msgstr "Disattiva tutti i suoni"
+
+#: src/app/lenmus_main_frame.cpp:990
+msgid "Stop inmediatly all sounds"
+msgstr "Ferma immediatamente tutti i suoni"
+
+#: src/app/lenmus_main_frame.cpp:996 src/options/lenmus_options_dlg.cpp:158
+msgid "Preferences"
+msgstr "Preferenze"
+
+#: src/app/lenmus_main_frame.cpp:997
+msgid "Open preferences dialog"
+msgstr "Apri il dialogo delle preferenze"
+
+#: src/app/lenmus_main_frame.cpp:1002
+msgid "Metronome"
+msgstr "Metronomo"
+
+#: src/app/lenmus_main_frame.cpp:1003
+msgid "Open metronome tool"
+msgstr "Apri lo strumento metronomo"
+
+#: src/app/lenmus_main_frame.cpp:1013
+msgid "LenMus manual"
+msgstr "Aiuto per LenMus"
+
+#: src/app/lenmus_main_frame.cpp:1014
+msgid "Open user's manual"
+msgstr "Apri il manuale dell'utente"
+
+#: src/app/lenmus_main_frame.cpp:1015
+msgid "Editor quick guide"
+msgstr "Guida rapida alla modifica"
+
+#: src/app/lenmus_main_frame.cpp:1016
+#, fuzzy
+msgid "Show editor quick guide"
+msgstr "Guida rapida alla modifica"
+
+#: src/app/lenmus_main_frame.cpp:1018
+msgid "Study guide"
+msgstr "Guida allo studio"
+
+#: src/app/lenmus_main_frame.cpp:1019
+msgid "How to use LenMus in your studies"
+msgstr "Come usare LenMus nei tuoi studi"
+
+#: src/app/lenmus_main_frame.cpp:1021
+#, fuzzy
+msgid "Search help"
+msgstr "Cerca"
+
+#: src/app/lenmus_main_frame.cpp:1022
+msgid "Search help documentation"
+msgstr ""
+
+#: src/app/lenmus_main_frame.cpp:1024
+msgid "Check now for updates"
+msgstr "Controlla ora disponibilità aggiornamenti"
+
+#: src/app/lenmus_main_frame.cpp:1025
+msgid "Connect to the Internet and check for program updates"
+msgstr ""
+"Si connette ad Internet e verifica se ci sono aggiornamenti del programma"
+
+#: src/app/lenmus_main_frame.cpp:1027 src/app/lenmus_welcome_window.cpp:176
+msgid "Visit LenMus website"
+msgstr "Visita il sito web di LenMus"
+
+#: src/app/lenmus_main_frame.cpp:1028
+msgid "Open the Internet browser and go to LenMus website"
+msgstr "Apre un browser Internet e va al sito LenMus"
+
+#: src/app/lenmus_main_frame.cpp:1031
+msgid "About"
+msgstr "Informazioni"
+
+#: src/app/lenmus_main_frame.cpp:1032
+msgid "Display information about program version and credits"
+msgstr "Mostra informazioni sulla versione del programma e riconoscimenti"
+
+#: src/app/lenmus_main_frame.cpp:1043
+msgid "File"
+msgstr "File"
+
+#: src/app/lenmus_main_frame.cpp:1049
+msgid "View"
+msgstr "Visualizza"
+
+#: src/app/lenmus_main_frame.cpp:1053 src/options/lenmus_options_dlg.cpp:168
+msgid "Sound"
+msgstr "Suono"
+
+#: src/app/lenmus_main_frame.cpp:1059
+msgid "Zoom"
+msgstr "Zoom"
+
+#: src/app/lenmus_main_frame.cpp:1060
+msgid "Options"
+msgstr "Opzioni"
+
+#: src/app/lenmus_main_frame.cpp:1061
+msgid "Tools"
+msgstr "Strumenti"
+
+#: src/app/lenmus_main_frame.cpp:1062 src/widgets/lenmus_wizard.cpp:116
+msgid "Help"
+msgstr "Aiuto"
+
+#: src/app/lenmus_main_frame.cpp:1232 src/app/lenmus_main_frame.cpp:1242
+msgid "LenMus files"
+msgstr "Formato LenMus"
+
+#: src/app/lenmus_main_frame.cpp:1234 src/app/lenmus_main_frame.cpp:1244
+msgid "MusicXML files"
+msgstr "Formato MusicXML"
+
+#: src/app/lenmus_main_frame.cpp:1236
+msgid "MNX files"
+msgstr "Formato MNX"
+
+#: src/app/lenmus_main_frame.cpp:1247
+msgid "Choose the file to open"
+msgstr "Scegli il file da aprire"
+
+#: src/app/lenmus_main_frame.cpp:1305
+msgid "Errors in file "
+msgstr "Errori nel file "
+
+#: src/app/lenmus_main_frame.cpp:1660
+msgid "Set user preferences"
+msgstr "Imposta preferenze utente"
+
+#: src/app/lenmus_main_frame.cpp:1661
+msgid "Help button"
+msgstr "Pulsante d'aiuto"
+
+#: src/app/lenmus_main_frame.cpp:1670
+#, fuzzy
+msgid "New document"
+msgstr "Apri documento HTML"
+
+#: src/app/lenmus_main_frame.cpp:1672
+msgid "Open a score"
+msgstr "Apri una partitura"
+
+#: src/app/lenmus_main_frame.cpp:1676 src/app/lenmus_welcome_window.cpp:210
+msgid "Open the music books"
+msgstr "Apri un music book"
+
+#: src/app/lenmus_main_frame.cpp:1680
+msgid "Save current score to disk"
+msgstr "Salva la partitura corrente su disco"
+
+#: src/app/lenmus_main_frame.cpp:1684
+msgid "Print document"
+msgstr "Stampa documento"
+
+#: src/app/lenmus_main_frame.cpp:1723
+msgid "Hide/show the Table Of Content for current book"
+msgstr "Nascondi / mostra la tabella dei contenuti per il libro corrente"
+
+#: src/app/lenmus_main_frame.cpp:1812 src/app/lenmus_main_frame.cpp:1859
+msgid "Metronome tools"
+msgstr "Strumenti metronomo"
+
+#: src/app/lenmus_main_frame.cpp:1816 src/app/lenmus_main_frame.cpp:1855
+#, fuzzy
+msgid "play tools"
+msgstr "Strumenti di riproduzione"
+
+#: src/app/lenmus_main_frame.cpp:1820 src/app/lenmus_main_frame.cpp:1851
+msgid "Main tools"
+msgstr "Strumenti principali"
+
+#: src/app/lenmus_main_frame.cpp:1824 src/app/lenmus_main_frame.cpp:1847
+msgid "Zooming tools"
+msgstr "Strumenti di ingrandimento"
+
+#: src/app/lenmus_main_frame.cpp:1828 src/app/lenmus_main_frame.cpp:1843
+msgid "Edit tools"
+msgstr "Strumenti di modifica"
+
+#: src/app/lenmus_main_frame.cpp:1832 src/app/lenmus_main_frame.cpp:1839
+msgid "File tools"
+msgstr "Strumenti per file"
+
+#: src/app/lenmus_main_frame.cpp:2068
+#, fuzzy
+msgid "Counters & options"
+msgstr "Altre opzioni"
+
+#: src/app/lenmus_main_frame.cpp:2240
+#, fuzzy
+msgid "Start page"
+msgstr "Stanghetta di inizio"
+
+#: src/app/lenmus_main_frame.cpp:2253
+#, c-format
+msgid "File '%s' not found."
+msgstr "Errore: File '%s' non trovato."
+
+#: src/app/lenmus_main_frame.cpp:2254 src/app/lenmus_main_frame.cpp:3010
+#: src/app/lenmus_main_frame.cpp:3016
+msgid "Error message"
+msgstr "Messaggio d'errore"
+
+#: src/app/lenmus_main_frame.cpp:2371 src/app/lenmus_welcome_window.cpp:306
+#: src/dialogs/lenmus_dlg_books.cpp:227 src/dialogs/lenmus_dlg_books.cpp:254
+msgid "Sorry: File not found!"
+msgstr "Spiacenti: file non trovato!"
+
+#: src/app/lenmus_main_frame.cpp:2979
+msgid "Zooming? (10 to 800)"
+msgstr "Zoom? (da 10 a 800)"
+
+#: src/app/lenmus_main_frame.cpp:3009
+#, c-format
+msgid "Invalid zooming factor '%s'"
+msgstr "Fattore di zoom '%s' non valido"
+
+#: src/app/lenmus_main_frame.cpp:3015
+msgid "Zooming factor must be greater that 10% and lower than 800%"
+msgstr "Il fattore di zoom deve essere più grande di 10% e minore di 800%"
+
+#: src/app/lenmus_main_frame.cpp:3049
+#, fuzzy
+msgid "Edit toolbox"
+msgstr "Riquadro di modifica"
+
+#: src/app/lenmus_main_frame.cpp:3225
+msgid ""
+"There is a problem for printing.\n"
+"Perhaps your current printer is not set correctly?"
+msgstr ""
+"C'è un problema nella stampa.\n"
+"Forse non hai impostato correttamente la stampante?"
+
+#: src/app/lenmus_main_frame.cpp:3225 src/app/lenmus_main_frame.cpp:3227
+msgid "Printing"
+msgstr "Stampa"
+
+#: src/app/lenmus_main_frame.cpp:3227
+msgid "Printing cancelled"
+msgstr "Stampa annullata"
+
+#: src/app/lenmus_score_wizard.cpp:168
+msgid "Score configuration wizard"
+msgstr "Configurazione guidata della partitura"
+
+#: src/app/lenmus_score_wizard.cpp:182
+msgid "Empty (manuscript paper)"
+msgstr "Vuoto (foglio manoscritto)"
+
+#: src/app/lenmus_score_wizard.cpp:183
+msgid "Cello and piano"
+msgstr "Violoncello e piano"
+
+#: src/app/lenmus_score_wizard.cpp:184
+msgid "Flute"
+msgstr "Flauto"
+
+#: src/app/lenmus_score_wizard.cpp:185
+msgid "Guitar"
+msgstr "Chitarra"
+
+#: src/app/lenmus_score_wizard.cpp:186
+msgid "Piano"
+msgstr "Piano"
+
+#: src/app/lenmus_score_wizard.cpp:187
+msgid "Trio sonata"
+msgstr "Sonata in trio"
+
+#: src/app/lenmus_score_wizard.cpp:188
+msgid "Tuba"
+msgstr ""
+
+#: src/app/lenmus_score_wizard.cpp:189
+msgid "Viola and piano"
+msgstr "Viola e piano"
+
+#: src/app/lenmus_score_wizard.cpp:190
+msgid "Violin"
+msgstr "Violino"
+
+#: src/app/lenmus_score_wizard.cpp:191
+msgid "Violin and piano"
+msgstr "Violino e piano"
+
+#: src/app/lenmus_score_wizard.cpp:192
+msgid "Voice and keyboard"
+msgstr ""
+
+#: src/app/lenmus_score_wizard.cpp:274
+#, c-format
+msgid "Error: Template '%s' not found."
+msgstr "Errore: Modello '%s' non trovato."
+
+#: src/app/lenmus_score_wizard.cpp:276
+msgid "Possible causes:"
+msgstr "Possibili cause:"
+
+#: src/app/lenmus_score_wizard.cpp:278
+msgid "- An error during lenmus installation."
+msgstr "- Un errore durante l'installazione di lenmus."
+
+#: src/app/lenmus_score_wizard.cpp:280
+msgid "- An accidental deletion of the required template."
+msgstr "- Una cancellazione involontaria del modello richiesto."
+
+#: src/app/lenmus_score_wizard.cpp:282
+msgid "An empty score will be created."
+msgstr "Sarà creata una partitura vuota."
+
+#: src/app/lenmus_score_wizard.cpp:398
+msgid "Select instruments and style"
+msgstr "Selezionare gli strumenti e lo stile"
+
+#: src/app/lenmus_score_wizard.cpp:410 src/app/lenmus_score_wizard.cpp:568
+#: src/app/lenmus_score_wizard.cpp:800
+msgid "Preview"
+msgstr "Anteprima"
+
+#: src/app/lenmus_score_wizard.cpp:547
+msgid "Select a key signature"
+msgstr "Scegliere un'armatura di chaive"
+
+#: src/app/lenmus_score_wizard.cpp:549
+#: src/exercises/ctrols/lenmus_idfy_tonality_ctrol.cpp:152
+msgid "Major"
+msgstr "Maggiore"
+
+#: src/app/lenmus_score_wizard.cpp:549
+msgid "minor"
+msgstr "minore"
+
+#: src/app/lenmus_score_wizard.cpp:551
+msgid "Key type"
+msgstr "Tipo chiave"
+
+#: src/app/lenmus_score_wizard.cpp:687
+msgid "none"
+msgstr "niente"
+
+#: src/app/lenmus_score_wizard.cpp:744
+msgid "Select time signature"
+msgstr "Scegliere il tipo di tempo"
+
+#: src/app/lenmus_score_wizard.cpp:749
+msgid "Time signature"
+msgstr "Tempo"
+
+#: src/app/lenmus_score_wizard.cpp:755
+msgid "Other time signatures"
+msgstr "Altri tipi di tempo"
+
+#: src/app/lenmus_score_wizard.cpp:764
+msgid "Numerator"
+msgstr "Numeratore"
+
+#: src/app/lenmus_score_wizard.cpp:776
+msgid "Denominator"
+msgstr "Denominatore"
+
+#: src/app/lenmus_splash_frame.cpp:101
+msgid "Free software under GNU General Public License, version 3 or later."
+msgstr ""
+"Software libero coperto da GNU General Public License, versione 3 o "
+"successiva."
+
+#: src/app/lenmus_status_bar.cpp:126
+msgid "Display page and time referred to mouse position"
+msgstr ""
+
+#: src/app/lenmus_status_bar.cpp:130
+msgid "Display page and time referred to caret position"
+msgstr ""
+
+#: src/app/lenmus_welcome_window.cpp:132
+msgid "Welcome to LenMus"
+msgstr "Benvenuto in LenMus"
+
+#: src/app/lenmus_welcome_window.cpp:140
+#, c-format
+msgid "Version %s"
+msgstr "Versione% s"
+
+#: src/app/lenmus_welcome_window.cpp:151
+msgid "About LenMus"
+msgstr "Per sapere cos'è LenMus"
+
+#: src/app/lenmus_welcome_window.cpp:166
+msgid "What's is new in this version"
+msgstr "Novità di LenMus"
+
+#: src/app/lenmus_welcome_window.cpp:171
+msgid "Report an error or make suggestions"
+msgstr ""
+
+#: src/app/lenmus_welcome_window.cpp:190
+msgid "Learn and practise music theory"
+msgstr "Impara la teoria musicale ed esercitati"
+
+#: src/app/lenmus_welcome_window.cpp:205
+msgid "Study guide: How to use this program"
+msgstr "Guida allo studio: come utilizzare questo programma"
+
+#: src/app/lenmus_welcome_window.cpp:219
+msgid "Recent documents"
+msgstr "Documenti recenti"
+
+#: src/app/lenmus_zip_reader.cpp:68
+#, c-format
+msgid "Cannot open HTML document: %s"
+msgstr "Impossibile aprire il documento HTML: %s"
+
+#: src/auxmusic/lenmus_cadence.cpp:1451
+#, fuzzy
+#| msgid "Chords"
+msgid "Chord is valid"
+msgstr "Accordi"
+
+#: src/auxmusic/lenmus_cadence.cpp:1453
+msgid "Not all chord steps in the chord"
+msgstr ""
+
+#: src/auxmusic/lenmus_cadence.cpp:1455
+msgid "Acorde completo. Contiene todas las notas (en todo caso, elidir la 5ª)"
+msgstr ""
+
+#: src/auxmusic/lenmus_cadence.cpp:1457
+msgid "Parallel motion of perfect octaves, perfect fifths or unisons"
+msgstr ""
+
+#: src/auxmusic/lenmus_cadence.cpp:1459
+msgid "Resultant fifths or octaves in no valid cases"
+msgstr ""
+
+#: src/auxmusic/lenmus_cadence.cpp:1461
+msgid "The fifth is doubled"
+msgstr ""
+
+#: src/auxmusic/lenmus_cadence.cpp:1463
+msgid "The leading tone is doubled"
+msgstr ""
+
+#: src/auxmusic/lenmus_cadence.cpp:1465
+msgid "Scale degree seven (the leading tone) doesn't resolve to tonic"
+msgstr ""
+
+#: src/auxmusic/lenmus_cadence.cpp:1467
+msgid "The seventh does not resolve down by second"
+msgstr ""
+
+#: src/auxmusic/lenmus_cadence.cpp:1469
+msgid "Notes interval greater than one octave (other than bass-tenor)"
+msgstr ""
+
+#: src/auxmusic/lenmus_cadence.cpp:1471
+msgid "Notes not in ascending sequence or duplicated"
+msgstr ""
+
+#: src/auxmusic/lenmus_cadence.cpp:1473
+msgid "Voice overlap"
+msgstr ""
+
+#: src/auxmusic/lenmus_cadence.cpp:1475
+msgid ""
+"Chromatic accidental not resolved in the same direction than key accidental"
+msgstr ""
+
+#: src/auxmusic/lenmus_cadence.cpp:1478
+msgid ""
+"No es conveniente exceder el intervalo de sexta, exceptuando la octava justa"
+msgstr ""
+
+#: src/auxmusic/lenmus_cadence.cpp:1481
+msgid ""
+"Bass moves by step and not all other voices moves in the opposite direction"
+msgstr ""
+
+#: src/auxmusic/lenmus_cadence.cpp:1484
+msgid ""
+"Cuando el bajo enlaza el V grado con el VI (cadencia rota), en el acorde de "
+"VI grado se duplica la tercera"
+msgstr ""
+
+#: src/auxmusic/lenmus_cadence.cpp:1511 src/auxmusic/lenmus_cadence.cpp:1512
+#: src/auxmusic/lenmus_cadence.cpp:1513 src/auxmusic/lenmus_cadence.cpp:1514
+#: src/exercises/ctrols/lenmus_idfy_cadences_ctrol.cpp:170
+msgid "Perfect"
+msgstr "Perfetta"
+
+#: src/auxmusic/lenmus_cadence.cpp:1516 src/auxmusic/lenmus_cadence.cpp:1517
+#: src/auxmusic/lenmus_cadence.cpp:1518 src/auxmusic/lenmus_cadence.cpp:1519
+#: src/exercises/ctrols/lenmus_idfy_cadences_ctrol.cpp:176
+#: xrc/xrc_strings.cpp:319 xrc/xrc_strings.cpp:391
+msgid "Plagal"
+msgstr "Plagale"
+
+#: src/auxmusic/lenmus_cadence.cpp:1523 xrc/xrc_strings.cpp:317
+#: xrc/xrc_strings.cpp:390
+msgid "Imperfect authentic"
+msgstr "Imperfetto autentico"
+
+#: src/auxmusic/lenmus_cadence.cpp:1525 src/auxmusic/lenmus_cadence.cpp:1526
+#: src/auxmusic/lenmus_cadence.cpp:1527 src/auxmusic/lenmus_cadence.cpp:1528
+#: src/auxmusic/lenmus_cadence.cpp:1529 src/auxmusic/lenmus_cadence.cpp:1530
+#: src/auxmusic/lenmus_cadence.cpp:1531
+#: src/exercises/ctrols/lenmus_idfy_cadences_ctrol.cpp:188
+#: xrc/xrc_strings.cpp:336 xrc/xrc_strings.cpp:393
+msgid "Deceptive"
+msgstr "Ingannevole"
+
+#: src/auxmusic/lenmus_cadence.cpp:1533 src/auxmusic/lenmus_cadence.cpp:1534
+#: src/auxmusic/lenmus_cadence.cpp:1535 src/auxmusic/lenmus_cadence.cpp:1536
+#: src/auxmusic/lenmus_cadence.cpp:1537 src/auxmusic/lenmus_cadence.cpp:1538
+#: src/auxmusic/lenmus_cadence.cpp:1539 src/auxmusic/lenmus_cadence.cpp:1540
+#: src/auxmusic/lenmus_cadence.cpp:1541
+#: src/exercises/ctrols/lenmus_idfy_cadences_ctrol.cpp:194
+#: xrc/xrc_strings.cpp:394
+msgid "Half cadence"
+msgstr "Mezza cadenza"
+
+#: src/auxmusic/lenmus_chord.cpp:624
+msgid "root position"
+msgstr "posizione di base"
+
+#: src/auxmusic/lenmus_chord.cpp:626
+msgid "1st inversion"
+msgstr "1ª inversione"
+
+#: src/auxmusic/lenmus_chord.cpp:628
+msgid "2nd inversion"
+msgstr "2ª inversione"
+
+#: src/auxmusic/lenmus_chord.cpp:630
+msgid "3rd inversion"
+msgstr "3ª inversione"
+
+#: src/auxmusic/lenmus_chord.cpp:632
+msgid "4th inversion"
+msgstr "4ª inversione"
+
+#: src/auxmusic/lenmus_chord.cpp:634
+msgid "5th inversion"
+msgstr "5ª inversione"
+
+#: src/auxmusic/lenmus_chord.cpp:639
+msgid "unknown chord"
+msgstr "accordo sconosciuto"
+
+#: src/auxmusic/lenmus_chord.cpp:766
+msgid "Not identified"
+msgstr "Non identificato"
+
+#: src/auxmusic/lenmus_chord.cpp:775 xrc/xrc_strings.cpp:205
+msgid "Major triad"
+msgstr "Triade Maggiore"
+
+#: src/auxmusic/lenmus_chord.cpp:776 xrc/xrc_strings.cpp:206
+msgid "Minor triad"
+msgstr "Triade minore"
+
+#: src/auxmusic/lenmus_chord.cpp:777 xrc/xrc_strings.cpp:207
+msgid "Augmented triad"
+msgstr "Triade aumentata"
+
+#: src/auxmusic/lenmus_chord.cpp:778 xrc/xrc_strings.cpp:208
+msgid "Diminished triad"
+msgstr "Triade diminuita"
+
+#: src/auxmusic/lenmus_chord.cpp:779
+msgid "Suspended triad (4th)"
+msgstr "Triade sospesa (4ª)"
+
+#: src/auxmusic/lenmus_chord.cpp:780
+msgid "Suspended triad (2nd)"
+msgstr "Triade sospesa (2ª)"
+
+#: src/auxmusic/lenmus_chord.cpp:783
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:109 xrc/xrc_strings.cpp:15
+#: xrc/xrc_strings.cpp:212
+msgid "Major 7th"
+msgstr "7ª Maggiore"
+
+#: src/auxmusic/lenmus_chord.cpp:784
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:110
+#: xrc/xrc_strings.cpp:216
+msgid "Dominant 7th"
+msgstr "7ª dominante"
+
+#: src/auxmusic/lenmus_chord.cpp:785
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:111
+#: xrc/xrc_strings.cpp:213
+msgid "Minor 7th"
+msgstr "7ª minore"
+
+#: src/auxmusic/lenmus_chord.cpp:786
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:112
+#: xrc/xrc_strings.cpp:215
+msgid "Diminished 7th"
+msgstr "7ª diminuita"
+
+#: src/auxmusic/lenmus_chord.cpp:787 xrc/xrc_strings.cpp:217
+msgid "Half diminished 7th"
+msgstr "7ª semi-diminuita"
+
+#: src/auxmusic/lenmus_chord.cpp:788 xrc/xrc_strings.cpp:218
+msgid "Augmented major 7th"
+msgstr "7ª maggiore aumentata"
+
+#: src/auxmusic/lenmus_chord.cpp:789
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:115
+#: xrc/xrc_strings.cpp:214
+msgid "Augmented 7th"
+msgstr "7ª aumentata"
+
+#: src/auxmusic/lenmus_chord.cpp:790 xrc/xrc_strings.cpp:219
+msgid "Minor major 7th"
+msgstr "7ª minore maggiore"
+
+#: src/auxmusic/lenmus_chord.cpp:793
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:119 xrc/xrc_strings.cpp:13
+#: xrc/xrc_strings.cpp:221
+msgid "Major 6th"
+msgstr "6ª maggiore"
+
+#: src/auxmusic/lenmus_chord.cpp:794
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:120
+#: xrc/xrc_strings.cpp:223
+msgid "Minor 6th"
+msgstr "6ª minore"
+
+#: src/auxmusic/lenmus_chord.cpp:795
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:121
+#: xrc/xrc_strings.cpp:222
+msgid "Augmented 6th"
+msgstr "6ª aumentata"
+
+#: src/auxmusic/lenmus_chord.cpp:798
+msgid "Dominant ninth"
+msgstr "9ª dominante"
+
+#: src/auxmusic/lenmus_chord.cpp:799
+msgid "Major ninth"
+msgstr "9ª Maggiore"
+
+#: src/auxmusic/lenmus_chord.cpp:800
+msgid "Minor ninth"
+msgstr "9ª minore"
+
+#: src/auxmusic/lenmus_chord.cpp:803
+msgid "Dominant 11th"
+msgstr "11ª dominante"
+
+#: src/auxmusic/lenmus_chord.cpp:804
+msgid "Major 11th"
+msgstr "11ª Maggiore"
+
+#: src/auxmusic/lenmus_chord.cpp:805
+msgid "Minor 11th"
+msgstr "11ª minore"
+
+#: src/auxmusic/lenmus_chord.cpp:808
+msgid "Dominant 13th"
+msgstr "13ª dominante"
+
+#: src/auxmusic/lenmus_chord.cpp:809 xrc/xrc_strings.cpp:25
+msgid "Major 13th"
+msgstr "13a Maggiore"
+
+#: src/auxmusic/lenmus_chord.cpp:810
+msgid "Minor 13th"
+msgstr "13ª minore"
+
+#: src/auxmusic/lenmus_chord.cpp:814
+msgid "Tristan chord"
+msgstr "Accordo di Tristan"
+
+#: src/auxmusic/lenmus_interval.cpp:43 src/auxmusic/lenmus_interval.cpp:76
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:100
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:273
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1066
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1071
+#: xrc/xrc_strings.cpp:4
+msgid "Unison"
+msgstr "Unisono"
+
+#: src/auxmusic/lenmus_interval.cpp:44
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1002
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1072
+msgid "2nd"
+msgstr "2ª"
+
+#: src/auxmusic/lenmus_interval.cpp:45
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1003
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1073
+msgid "3rd"
+msgstr "3ª"
+
+#: src/auxmusic/lenmus_interval.cpp:46
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1004
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1074
+msgid "4th"
+msgstr "4ª"
+
+#: src/auxmusic/lenmus_interval.cpp:47
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1005
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1075
+msgid "5th"
+msgstr "5ª"
+
+#: src/auxmusic/lenmus_interval.cpp:48
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1006
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1076
+msgid "6th"
+msgstr "6ª"
+
+#: src/auxmusic/lenmus_interval.cpp:49
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1007
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1077
+msgid "7th"
+msgstr "7ª"
+
+#: src/auxmusic/lenmus_interval.cpp:50
+msgid "octave"
+msgstr "ottava"
+
+#: src/auxmusic/lenmus_interval.cpp:51
+msgid "9th"
+msgstr "9ª"
+
+#: src/auxmusic/lenmus_interval.cpp:52
+msgid "10th"
+msgstr "10ª"
+
+#: src/auxmusic/lenmus_interval.cpp:53
+msgid "11th"
+msgstr "11ª"
+
+#: src/auxmusic/lenmus_interval.cpp:54
+msgid "12th"
+msgstr "12ª"
+
+#: src/auxmusic/lenmus_interval.cpp:55
+msgid "13th"
+msgstr "13ª"
+
+#: src/auxmusic/lenmus_interval.cpp:56
+msgid "14th"
+msgstr "14ª"
+
+#: src/auxmusic/lenmus_interval.cpp:57
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:300
+#: xrc/xrc_strings.cpp:28
+msgid "Two octaves"
+msgstr "Due ottave"
+
+#: src/auxmusic/lenmus_interval.cpp:78
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:275
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1067
+msgid "Chromatic semitone"
+msgstr "Semitono cromatico"
+
+#: src/auxmusic/lenmus_interval.cpp:80
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:277
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1068
+msgid "Chromatic tone"
+msgstr "Tono cromatico"
+
+#: src/auxmusic/lenmus_interval.cpp:85
+msgid " diminished"
+msgstr "diminuita"
+
+#: src/auxmusic/lenmus_interval.cpp:86
+msgid " minor"
+msgstr "minore"
+
+#: src/auxmusic/lenmus_interval.cpp:87
+msgid " mayor"
+msgstr "maggiore"
+
+#: src/auxmusic/lenmus_interval.cpp:88
+msgid " augmented"
+msgstr "aumentata"
+
+#: src/auxmusic/lenmus_interval.cpp:89
+msgid " perfect"
+msgstr "perfetta"
+
+#: src/auxmusic/lenmus_interval.cpp:90
+msgid " double augmented"
+msgstr "aumentata doppia"
+
+#: src/auxmusic/lenmus_interval.cpp:91
+msgid " double diminished"
+msgstr "diminuita doppia"
+
+#: src/auxmusic/lenmus_interval.cpp:206
+msgid ""
+"It is not possible to generate an interval satisfying the constraints "
+"imposed by the chosen settings."
+msgstr ""
+"Non è possibile generare un intervallo che soddisfi i vincoli imposti dalle "
+"opzioni scelte."
+
+#: src/auxmusic/lenmus_interval.cpp:250
+msgid "ascending"
+msgstr "ascendente"
+
+#: src/auxmusic/lenmus_interval.cpp:250
+msgid "descending"
+msgstr "discendente"
+
+#: src/auxmusic/lenmus_scale.cpp:155
+msgid "Major natural"
+msgstr "Maggiore Naturale"
+
+#: src/auxmusic/lenmus_scale.cpp:156
+msgid "Major type II"
+msgstr "Maggiore tipo II"
+
+#: src/auxmusic/lenmus_scale.cpp:157
+msgid "Major type III"
+msgstr "Maggiore tipo III"
+
+#: src/auxmusic/lenmus_scale.cpp:158
+msgid "Major type IV"
+msgstr "Maggiore tipo IV"
+
+#: src/auxmusic/lenmus_scale.cpp:161
+msgid "Minor natural"
+msgstr "Minore naturale"
+
+#: src/auxmusic/lenmus_scale.cpp:162
+msgid "Minor Dorian"
+msgstr "Minore Dorico"
+
+#: src/auxmusic/lenmus_scale.cpp:163
+msgid "Minor Harmonic"
+msgstr "Minore Armonica"
+
+#: src/auxmusic/lenmus_scale.cpp:164
+msgid "Minor Melodic"
+msgstr "Minore Melodica"
+
+#: src/auxmusic/lenmus_scale.cpp:167
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:156
+#: xrc/xrc_strings.cpp:267
+msgid "Ionian"
+msgstr "Ionico"
+
+#: src/auxmusic/lenmus_scale.cpp:168
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:151
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:157
+#: xrc/xrc_strings.cpp:263 xrc/xrc_strings.cpp:269
+msgid "Dorian"
+msgstr "Dorico"
+
+#: src/auxmusic/lenmus_scale.cpp:169
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:158
+#: xrc/xrc_strings.cpp:271
+msgid "Phrygian"
+msgstr "Frigio"
+
+#: src/auxmusic/lenmus_scale.cpp:170
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:159
+#: xrc/xrc_strings.cpp:273
+msgid "Lydian"
+msgstr "Lidio"
+
+#: src/auxmusic/lenmus_scale.cpp:171
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:160
+#: xrc/xrc_strings.cpp:268
+msgid "Mixolydian"
+msgstr "Misolidio"
+
+#: src/auxmusic/lenmus_scale.cpp:172
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:161
+#: xrc/xrc_strings.cpp:270
+msgid "Aeolian"
+msgstr "Eolio"
+
+#: src/auxmusic/lenmus_scale.cpp:173
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:162
+#: xrc/xrc_strings.cpp:272
+msgid "Locrian"
+msgstr "Locrio"
+
+#: src/auxmusic/lenmus_scale.cpp:176
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:165
+#: xrc/xrc_strings.cpp:276
+msgid "Pentatonic minor"
+msgstr "Pentatonica minore"
+
+#: src/auxmusic/lenmus_scale.cpp:177
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:166
+#: xrc/xrc_strings.cpp:275
+msgid "Pentatonic major"
+msgstr "Pentatonica maggiore"
+
+#: src/auxmusic/lenmus_scale.cpp:178
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:167
+#: xrc/xrc_strings.cpp:278
+msgid "Blues"
+msgstr "Blues"
+
+#: src/auxmusic/lenmus_scale.cpp:179
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:168
+#: xrc/xrc_strings.cpp:277
+msgid "Whole tones"
+msgstr "Toni interi"
+
+#: src/auxmusic/lenmus_scale.cpp:180
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:169
+#: xrc/xrc_strings.cpp:279
+msgid "Chromatic"
+msgstr "Cromatica"
+
+#: src/auxmusic/lenmus_utilities.cpp:303
+msgid "Simple barline"
+msgstr "Stanghetta semplice"
+
+#: src/auxmusic/lenmus_utilities.cpp:304
+msgid "Double barline"
+msgstr "Stanghetta doppia"
+
+#: src/auxmusic/lenmus_utilities.cpp:305
+msgid "Final barline"
+msgstr "Stanghetta finale"
+
+#: src/auxmusic/lenmus_utilities.cpp:306
+msgid "Start repetition"
+msgstr "Inizio ripetizione"
+
+#: src/auxmusic/lenmus_utilities.cpp:307
+msgid "End repetition"
+msgstr "Fine ripetizione"
+
+#: src/auxmusic/lenmus_utilities.cpp:308
+msgid "Start barline"
+msgstr ""
+
+#: src/auxmusic/lenmus_utilities.cpp:309
+msgid "Double repetition"
+msgstr "Ripetizione doppia"
+
+#: src/auxmusic/lenmus_utilities.cpp:310
+msgid "Double repetition alt."
+msgstr ""
+
+#: src/auxmusic/lenmus_utilities.cpp:331
+msgid "Default stem"
+msgstr ""
+
+#: src/auxmusic/lenmus_utilities.cpp:332
+msgid "Stem up"
+msgstr ""
+
+#: src/auxmusic/lenmus_utilities.cpp:333
+msgid "Stem down"
+msgstr ""
+
+#: src/auxmusic/lenmus_utilities.cpp:334
+msgid "Stem double"
+msgstr ""
+
+#: src/auxmusic/lenmus_utilities.cpp:335
+#, fuzzy
+msgid "Stem none"
+msgstr "niente"
+
+#: src/auxmusic/lenmus_utilities.cpp:365
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:158
+#: xrc/xrc_strings.cpp:347
+msgid "C Major"
+msgstr "DO Maggiore"
+
+#: src/auxmusic/lenmus_utilities.cpp:366
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:162
+#: xrc/xrc_strings.cpp:348
+msgid "G Major"
+msgstr "SOL Maggiore"
+
+#: src/auxmusic/lenmus_utilities.cpp:367
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:166
+#: xrc/xrc_strings.cpp:349
+msgid "D Major"
+msgstr "RE Maggiore"
+
+#: src/auxmusic/lenmus_utilities.cpp:368
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:170
+#: xrc/xrc_strings.cpp:350
+msgid "A Major"
+msgstr "LA Maggiore"
+
+#: src/auxmusic/lenmus_utilities.cpp:369
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:174
+#: xrc/xrc_strings.cpp:351
+msgid "E Major"
+msgstr "MI Maggiore"
+
+#: src/auxmusic/lenmus_utilities.cpp:370
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:178
+#: xrc/xrc_strings.cpp:352
+msgid "B Major"
+msgstr "SI Maggiore"
+
+#: src/auxmusic/lenmus_utilities.cpp:371
+msgid "F # Major"
+msgstr "FA # Maggiore"
+
+#: src/auxmusic/lenmus_utilities.cpp:372
+msgid "C # Major"
+msgstr "DO # Maggiore"
+
+#: src/auxmusic/lenmus_utilities.cpp:373
+msgid "C b Major"
+msgstr "DO b Maggiore"
+
+#: src/auxmusic/lenmus_utilities.cpp:374
+msgid "G b Major"
+msgstr "SOL b Maggiore"
+
+#: src/auxmusic/lenmus_utilities.cpp:375
+msgid "D b Major"
+msgstr "RE b Maggiore"
+
+#: src/auxmusic/lenmus_utilities.cpp:376
+msgid "A b Major"
+msgstr "LA b Maggiore"
+
+#: src/auxmusic/lenmus_utilities.cpp:377
+msgid "E b Major"
+msgstr "MI b Maggiore"
+
+#: src/auxmusic/lenmus_utilities.cpp:378
+msgid "B b Major"
+msgstr "SI b Maggiore"
+
+#: src/auxmusic/lenmus_utilities.cpp:379
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:219
+#: xrc/xrc_strings.cpp:361
+msgid "F Major"
+msgstr "FA Maggiore"
+
+#: src/auxmusic/lenmus_utilities.cpp:381
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:123
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:477
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:228
+#: xrc/xrc_strings.cpp:362
+msgid "A minor"
+msgstr "LA minore"
+
+#: src/auxmusic/lenmus_utilities.cpp:382
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:124
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:471
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:232
+#: xrc/xrc_strings.cpp:363
+msgid "E minor"
+msgstr "MI minore"
+
+#: src/auxmusic/lenmus_utilities.cpp:383
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:125
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:480
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:236
+#: xrc/xrc_strings.cpp:364
+msgid "B minor"
+msgstr "SI minore"
+
+#: src/auxmusic/lenmus_utilities.cpp:384
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:126
+msgid "F # minor"
+msgstr "FA # minore"
+
+#: src/auxmusic/lenmus_utilities.cpp:385
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:127
+msgid "C # minor"
+msgstr "DO # minore"
+
+#: src/auxmusic/lenmus_utilities.cpp:386
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:128
+msgid "G # minor"
+msgstr "SOL # minore"
+
+#: src/auxmusic/lenmus_utilities.cpp:387
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:129
+msgid "D # minor"
+msgstr "RE # minore"
+
+#: src/auxmusic/lenmus_utilities.cpp:388
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:130
+msgid "A # minor"
+msgstr "LA # minore"
+
+#: src/auxmusic/lenmus_utilities.cpp:389
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:131
+msgid "A b minor"
+msgstr "LA b minore"
+
+#: src/auxmusic/lenmus_utilities.cpp:390
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:132
+msgid "E b minor"
+msgstr "MI b minore"
+
+#: src/auxmusic/lenmus_utilities.cpp:391
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:133
+msgid "B b minor"
+msgstr "SI b minore"
+
+#: src/auxmusic/lenmus_utilities.cpp:392
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:134
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:472
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:277
+#: xrc/xrc_strings.cpp:373
+msgid "F minor"
+msgstr "FA minore"
+
+#: src/auxmusic/lenmus_utilities.cpp:393
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:135
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:466
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:281
+#: xrc/xrc_strings.cpp:374
+msgid "C minor"
+msgstr "DO minore"
+
+#: src/auxmusic/lenmus_utilities.cpp:394
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:136
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:474
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:285
+#: xrc/xrc_strings.cpp:375
+msgid "G minor"
+msgstr "SOL minore"
+
+#: src/auxmusic/lenmus_utilities.cpp:395
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:137
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:468
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:289
+#: xrc/xrc_strings.cpp:376
+msgid "D minor"
+msgstr "RE minore"
+
+#: src/dialogs/lenmus_dlg_books.cpp:67
+msgid "Available music books"
+msgstr "Libri di musica disponibili"
+
+#: src/dialogs/lenmus_dlg_books.cpp:127
+msgid ""
+"Please read the <a-1>Study guide</a-1> for information about the best way to "
+"use LenMus Phonascus and the books."
+msgstr ""
+"Leggere la <a-1> Guida allo studio </a-1> per informazioni sul modo migliore "
+"di utilizzare LenMus Phonascus e i libri."
+
+#: src/dialogs/lenmus_dlg_books.cpp:138
+msgid "Available books:"
+msgstr "Libri disponibili:"
+
+#: src/dialogs/lenmus_dlg_books.cpp:144
+#, c-format
+msgid "Error when trying to move to folder %s"
+msgstr "Errore nel provare a spostare la cartella %s"
+
+#: src/dialogs/lenmus_dlg_metronome.cpp:122
+msgid "Metronome settings"
+msgstr "Impostazioni del metronomo"
+
+#: src/dialogs/lenmus_dlg_metronome.cpp:177
+msgid "Tempo:"
+msgstr "Tempo:"
+
+#: src/dialogs/lenmus_dlg_metronome.cpp:229
+msgid "or tap tempo with this button or with space bar"
+msgstr "oppure tocca tempo con questo pulsante o con la barra spaziatrice"
+
+#: src/dialogs/lenmus_dlg_metronome.cpp:247
+msgid "Count:"
+msgstr "Conto:"
+
+#: src/dialogs/lenmus_dlg_metronome.cpp:260
+msgid "Reset"
+msgstr "Azzerare"
+
+#: src/dialogs/lenmus_dlg_metronome.cpp:276
+msgid "Max:"
+msgstr "Max:"
+
+#: src/dialogs/lenmus_dlg_metronome.cpp:289
+msgid "Min:"
+msgstr "Min:"
+
+#: src/dialogs/lenmus_dlg_metronome.cpp:307
+msgid "Metronome beat is:"
+msgstr "Il battito del metronomo è:"
+
+#: src/dialogs/lenmus_dlg_metronome.cpp:315
+msgid "the note value selected at right"
+msgstr "il valore della nota selezionato a destra"
+
+#: src/dialogs/lenmus_dlg_metronome.cpp:318
+msgid "implied by time signature"
+msgstr "implicito dall'indicazione del tempo"
+
+#: src/dialogs/lenmus_dlg_metronome.cpp:339
+#: src/dialogs/lenmus_dlg_metronome.cpp:425
+msgid "Start"
+msgstr "Iniziare"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:81
+msgid "Mode:"
+msgstr "Modalità:"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:242
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:717
+msgid "Reset counters"
+msgstr "Azzera contatori"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:251
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:553
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:726
+msgid "Change mode"
+msgstr "Cambia modalità"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:287
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:748
+msgid "Right answers counter"
+msgstr "Contatore risposte a destra"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:295
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:756
+msgid "Wrong answers counter"
+msgstr "Contatore risposte errate"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:304
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:765
+msgid "Total: your marks"
+msgstr "Totale: i tuoi punti"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:440
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:581
+msgid "Questions:"
+msgstr "Domande:"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:444
+msgid "New questions / to review questions"
+msgstr "Nuove domande / domande da rivedere"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:452
+msgid "Estimated time to finish this session"
+msgstr "Tempo stimato per terminare questa sessione"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:457
+msgid "Session:"
+msgstr "Sezione:"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:474
+msgid "Short"
+msgstr "Breve"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:481
+msgid "Medium"
+msgstr "Medie"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:488
+msgid "Long"
+msgstr "Lungo"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:507
+msgid "Short term achievement"
+msgstr "Risultati a breve termine"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:522
+msgid "Medium term achievement"
+msgstr "Risultati a medio termine"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:537
+msgid "Long term achievement"
+msgstr "Risultati a lungo termine"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:545
+msgid "Explain"
+msgstr "Spiegare"
+
+#: src/exercises/auxctrols/lenmus_counters_ctrol.cpp:610
+msgid "Progress report"
+msgstr "Rapporto sullo stato di avanzamento"
+
+#: src/exercises/constrains/lenmus_constrains.cpp:45
+msgid "Learning"
+msgstr "Apprendimento"
+
+#: src/exercises/constrains/lenmus_constrains.cpp:46
+msgid "Practise"
+msgstr "Pratice"
+
+#: src/exercises/constrains/lenmus_constrains.cpp:47
+msgid "Exam"
+msgstr "Esame"
+
+#: src/exercises/constrains/lenmus_constrains.cpp:48
+msgid "Quiz"
+msgstr "Concorrenza"
+
+#: src/exercises/constrains/lenmus_constrains.cpp:372
+#: src/exercises/constrains/lenmus_music_reading_constrains.cpp:40
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:334
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1042
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1089
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1097
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1122
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1246
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1255
+#: src/exercises/ctrols/lenmus_theo_music_reading_ctrol.cpp:193
+msgid "Play"
+msgstr "Suona"
+
+#: src/exercises/constrains/lenmus_constrains.cpp:374
+#: src/exercises/constrains/lenmus_music_reading_constrains.cpp:43
+msgid "Read"
+msgstr "Leggi"
+
+#: src/exercises/constrains/lenmus_constrains.cpp:376
+#, c-format
+msgid "Measure %d"
+msgstr "Battuta %d"
+
+#: src/exercises/constrains/lenmus_constrains.cpp:377
+#, c-format
+msgid "Stop %d"
+msgstr "Stop %d"
+
+#: src/exercises/ctrols/lenmus_dictation_ctrol.cpp:156
+msgid "Play fragment 1"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_dictation_ctrol.cpp:157
+msgid "Play fragment 2"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_dictation_ctrol.cpp:158
+msgid "Play fragment 3"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_dictation_ctrol.cpp:159
+msgid "Play fragment 4"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_dictation_ctrol.cpp:161
+msgid "Stop fragment 1"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_dictation_ctrol.cpp:162
+msgid "Stop fragment 2"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_dictation_ctrol.cpp:163
+msgid "Stop fragment 3"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_dictation_ctrol.cpp:164
+msgid "Stop fragment 4"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_dictation_ctrol.cpp:295
+msgid "This is the solution (in colour, missing in your score):"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_dictation_ctrol.cpp:305
+msgid "Perfect!"
+msgstr "¡Perfetto!"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:101
+#: xrc/xrc_strings.cpp:5
+msgid "minor 2nd"
+msgstr "2ª minore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:102
+msgid "major 2nd"
+msgstr "2ª maggiore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:103
+#: xrc/xrc_strings.cpp:7
+msgid "minor 3rd"
+msgstr "3ª minore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:104
+msgid "major 3rd"
+msgstr "3ª maggiore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:105
+msgid "4th perfect"
+msgstr "4ª perfetta"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:106
+msgid "aug.4th/dim.5th"
+msgstr "4ª aum./5ª dim."
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:107
+#: xrc/xrc_strings.cpp:11
+msgid "perfect 5th"
+msgstr "5ª perfetta"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:108
+#: xrc/xrc_strings.cpp:12
+msgid "minor 6th"
+msgstr "6ª minore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:109
+msgid "major 6th"
+msgstr "6ª maggiore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:110
+#: xrc/xrc_strings.cpp:14
+msgid "minor 7th"
+msgstr "7ª minore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:111
+msgid "major 7th"
+msgstr "7ª maggiore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:112
+#: xrc/xrc_strings.cpp:16
+msgid "perfect 8th"
+msgstr "8ª perfetta"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:113
+#: xrc/xrc_strings.cpp:17
+msgid "minor 9th"
+msgstr "9ª minore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:114
+msgid "major 9th"
+msgstr "9ª maggiore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:115
+#: xrc/xrc_strings.cpp:19
+msgid "minor 10th"
+msgstr "10ª minore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:116
+msgid "major 10th"
+msgstr "10ª maggiore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:117
+#: xrc/xrc_strings.cpp:21
+msgid "perfect 11th"
+msgstr "11ª perfetta"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:118
+msgid "aug.11th / dim.12th"
+msgstr "11ª aum. / 12ª dim."
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:119
+#: xrc/xrc_strings.cpp:23
+msgid "perfect 12th"
+msgstr "12ª perfetta"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:120
+#: xrc/xrc_strings.cpp:24
+msgid "minor 13th"
+msgstr "13ª minore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:121
+msgid "major 13th"
+msgstr "13ª maggiore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:122
+#: xrc/xrc_strings.cpp:26
+msgid "minor 14th"
+msgstr "14ª minore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:123
+msgid "major 14th"
+msgstr "14ª maggiore"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:124
+msgid "two octaves"
+msgstr "due ottave"
+
+#: src/exercises/ctrols/lenmus_ear_intervals_ctrol.cpp:344
+#: src/exercises/ctrols/lenmus_idfy_cadences_ctrol.cpp:338
+#: src/exercises/ctrols/lenmus_idfy_tonality_ctrol.cpp:247
+msgid "Press 'Play' to hear the problem again."
+msgstr "Premere 'Suona' per ascoltare di nuovo il problema."
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:257
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1656
+#: src/exercises/ctrols/lenmus_theo_music_reading_ctrol.cpp:119
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:77
+msgid "Exercise options"
+msgstr "Opzioni esercizio"
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:270
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1645
+#: src/exercises/ctrols/lenmus_theo_music_reading_ctrol.cpp:174
+msgid "Go back to theory"
+msgstr "Torna alla teoria"
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:285
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1669
+#: src/exercises/ctrols/lenmus_theo_music_reading_ctrol.cpp:132
+msgid "See source score"
+msgstr "Guarda partitura sorgente"
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:293
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1677
+#: src/exercises/ctrols/lenmus_theo_music_reading_ctrol.cpp:140
+msgid "See MIDI events"
+msgstr "Esamina eventi MIDI"
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:313
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1555
+#: src/exercises/ctrols/lenmus_theo_music_reading_ctrol.cpp:183
+msgid "New problem"
+msgstr "Nuovo problema"
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:323
+msgid "Show solution"
+msgstr "Mostra soluzione"
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:792
+#: src/exercises/ctrols/lenmus_idfy_cadences_ctrol.cpp:344
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:684
+msgid "Click on 'New problem' to start"
+msgstr "Clicca su 'Nuovo problema' per iniziare"
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:914
+msgid "First one greater"
+msgstr "Il primo più grande"
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:915
+msgid "Second one greater"
+msgstr "Il secondo più grande"
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:916
+msgid "Both are equal"
+msgstr "Entrambi sono uguali"
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1002
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1142
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1217
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1559
+msgid "Stop playing"
+msgstr "Ferma riproduzione"
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1090
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1257
+msgid "Press 'Play' to hear it again"
+msgstr "Premere 'Suona' per ascoltare ancora"
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1308
+msgid ""
+"Press any button below to hear how it sounds, and compare with the right "
+"answer"
+msgstr ""
+"Premi qualsiasi pulsante in basso per ascoltare come suona e confronta con "
+"la risposta giusta"
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1556
+msgid "Play problem"
+msgstr "Riproduci il problema"
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1557
+msgid "Done"
+msgstr "Fatto"
+
+#: src/exercises/ctrols/lenmus_exercise_ctrol.cpp:1558
+msgid "Play my score"
+msgstr "Riproduci la partitura"
+
+#: src/exercises/ctrols/lenmus_generators.cpp:1110
+msgid "No more scheduled work for today."
+msgstr "Nessun lavoro programmato per oggi."
+
+#: src/exercises/ctrols/lenmus_generators.cpp:1111
+#: src/exercises/ctrols/lenmus_generators.cpp:1114
+msgid "Exercise will be changed to 'Practise' mode."
+msgstr "L'esercizio verrà modificato in modalità \"Pratica\"."
+
+#: src/exercises/ctrols/lenmus_generators.cpp:1113
+msgid "No scheduled work for today."
+msgstr "Nessun lavoro programmato per oggi."
+
+#: src/exercises/ctrols/lenmus_generators.cpp:1427
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: src/exercises/ctrols/lenmus_generators.cpp:1433
+msgid "milliseconds"
+msgstr "millisecondi"
+
+#: src/exercises/ctrols/lenmus_generators.cpp:1439
+#: src/exercises/ctrols/lenmus_generators.cpp:1450
+msgid "Session report"
+msgstr "Rapporto sulla sessione"
+
+#: src/exercises/ctrols/lenmus_generators.cpp:1440
+#: src/exercises/ctrols/lenmus_generators.cpp:1451
+msgid "New questions:"
+msgstr "Nuove domande:"
+
+#: src/exercises/ctrols/lenmus_generators.cpp:1441
+#: src/exercises/ctrols/lenmus_generators.cpp:1452
+msgid "Questions to review:"
+msgstr "Domande da rivedere:"
+
+#: src/exercises/ctrols/lenmus_generators.cpp:1442
+#: src/exercises/ctrols/lenmus_generators.cpp:1453
+msgid "Average answer time:"
+msgstr "Tempo medio di risposta:"
+
+#: src/exercises/ctrols/lenmus_idfy_cadences_ctrol.cpp:158
+#: xrc/xrc_strings.cpp:310
+msgid "Terminal"
+msgstr "Terminale"
+
+#: src/exercises/ctrols/lenmus_idfy_cadences_ctrol.cpp:164
+#: xrc/xrc_strings.cpp:325
+msgid "Transient"
+msgstr "Transitorio"
+
+#: src/exercises/ctrols/lenmus_idfy_cadences_ctrol.cpp:182
+msgid "Imperfect"
+msgstr "Imperfetto"
+
+#: src/exercises/ctrols/lenmus_idfy_cadences_ctrol.cpp:336
+msgid "Identify the next cadence:"
+msgstr "Identifica la cadenza successiva:"
+
+#: src/exercises/ctrols/lenmus_idfy_cadences_ctrol.cpp:347
+msgid "An A4 note will be played before the cadence begins."
+msgstr "Una nota La4 sarà suonata prima che inizi la cadenza."
+
+#: src/exercises/ctrols/lenmus_idfy_cadences_ctrol.cpp:349
+msgid "A tonic chord will be played before the cadence begins."
+msgstr "Un accordo tonico verrà suonato prima che inizi la cadenza."
+
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:101
+msgid "Major "
+msgstr "Maggiore"
+
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:102
+msgid "Minor "
+msgstr "Minore"
+
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:103
+msgid "Augmented "
+msgstr "Aumentata"
+
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:104
+msgid "Diminished "
+msgstr "Diminuita"
+
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:105
+#: xrc/xrc_strings.cpp:209
+msgid "Suspended (4th)"
+msgstr "Sospesa (4ª)"
+
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:106
+#: xrc/xrc_strings.cpp:210
+msgid "Suspended (2nd)"
+msgstr "Sospesa (2ª)"
+
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:113
+msgid "Half dim. 7th"
+msgstr "7ª semi-diminuita"
+
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:114
+msgid "Aug. major 7th"
+msgstr "7ª aum. maggiore"
+
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:116
+msgid "Minor-major 7th"
+msgstr "7ª minore-maggiore"
+
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:199
+msgid "Triads:"
+msgstr "Triadi:"
+
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:224
+msgid "Seventh chords:"
+msgstr "Accordi di settima:"
+
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:249
+msgid "Other chords:"
+msgstr "Altri accordi:"
+
+#: src/exercises/ctrols/lenmus_idfy_chords_ctrol.cpp:331
+msgid "Identify the next chord:"
+msgstr "Identifica il prossimo accordo:"
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:110
+msgid "Play again"
+msgstr "Riproduci di nuovo"
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:118
+msgid "Play all notes to identify"
+msgstr "Riproduci tutte le note per identificarti"
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:127
+msgid "Play A4 reference note"
+msgstr "Riproduci nota di riferimento A4"
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:136
+msgid "Continue"
+msgstr "Continua"
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:196
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:557
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:582
+msgid "C"
+msgstr "DO"
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:197
+msgid "C#/Db"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:198
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:558
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:583
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:209
+msgid "D"
+msgstr "RE"
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:199
+msgid "D#/Eb"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:200
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:559
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:584
+msgid "E"
+msgstr "MI"
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:201
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:560
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:585
+msgid "F"
+msgstr "FA"
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:202
+msgid "F#/Gb"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:203
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:561
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:586
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:234
+msgid "G"
+msgstr "SOL"
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:204
+msgid "G#/Ab"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:205
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:562
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:587
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:242
+msgid "A"
+msgstr "LA"
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:206
+msgid "A#/Bb"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:207
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:563
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:588
+msgid "B"
+msgstr "SI"
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:388
+msgid "The note is: "
+msgstr "La nota è: "
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:391
+msgid "Click on 'Continue' to listen a new note"
+msgstr "Fai clic su \"Continua\" per ascoltare una nuova nota"
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:402
+msgid "Identify the following note:"
+msgstr "Identifica il prossimo nota:"
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:706
+msgid "You will have to identify the following notes:"
+msgstr "Dovrai identificare le seguenti note:"
+
+#: src/exercises/ctrols/lenmus_idfy_notes_ctrol.cpp:778
+msgid "Try again!"
+msgstr "¡Riprova!"
+
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:144
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:150
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:552
+#: xrc/xrc_strings.cpp:257 xrc/xrc_strings.cpp:262
+msgid "Natural"
+msgstr "Naturale"
+
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:145
+#: xrc/xrc_strings.cpp:258
+msgid "Type II"
+msgstr "Tipo II"
+
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:146
+#: xrc/xrc_strings.cpp:259
+msgid "Type III"
+msgstr "Tipo III"
+
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:147
+#: xrc/xrc_strings.cpp:260
+msgid "Type IV"
+msgstr "Tipo IV"
+
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:152
+#: xrc/xrc_strings.cpp:264
+msgid "Harmonic"
+msgstr "Armonica"
+
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:153
+#: xrc/xrc_strings.cpp:265
+msgid "Melodic"
+msgstr "Melodica"
+
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:194
+msgid "Major:"
+msgstr "Maggiore:"
+
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:198
+msgid "Minor:"
+msgstr "Minore:"
+
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:202
+msgid "Gregorian modes:"
+msgstr "Modi gregoriani:"
+
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:206
+msgid "Other scales:"
+msgstr "Altre scale:"
+
+#: src/exercises/ctrols/lenmus_idfy_scales_ctrol.cpp:323
+msgid "Identify the next scale:"
+msgstr "Identifica la prossima scala:"
+
+#: src/exercises/ctrols/lenmus_idfy_tonality_ctrol.cpp:157
+msgid "Minor"
+msgstr "Minore"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:324
+msgid ", harmonic"
+msgstr ", armonica"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:326
+msgid ", ascending"
+msgstr ", ascendente"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:328
+msgid ", descending"
+msgstr ", discendente"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:540
+msgid "Build a "
+msgstr "Costruisci un"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:550
+msgid "Double flat"
+msgstr "Doppio bemolle"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:551
+msgid "Flat"
+msgstr "Bemolle"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:553
+msgid "Sharp"
+msgstr "Diesis"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:554
+msgid "Double sharp"
+msgstr "Doppio diesis"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:566
+msgid "bb C"
+msgstr "bb DO"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:567
+msgid "bb D"
+msgstr "bb RE"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:568
+msgid "bb E"
+msgstr "bb MI"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:569
+msgid "bb F"
+msgstr "bb FA"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:570
+msgid "bb G"
+msgstr "bb SOL"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:571
+msgid "bb A"
+msgstr "bb LA"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:572
+msgid "bb B"
+msgstr "bb SI"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:574
+msgid "b C"
+msgstr "b DO"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:575
+msgid "b D"
+msgstr "b RE"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:576
+msgid "b E"
+msgstr "b MI"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:577
+msgid "b F"
+msgstr "b FA"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:578
+msgid "b G"
+msgstr "b SOL"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:579
+msgid "b A"
+msgstr "b LA"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:580
+msgid "b B"
+msgstr "b SI"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:590
+msgid "# C"
+msgstr "# DO"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:591
+msgid "# D"
+msgstr "# RE"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:592
+msgid "# E"
+msgstr "# MI"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:593
+msgid "# F"
+msgstr "# FA"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:594
+msgid "# G"
+msgstr "# SOL"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:595
+msgid "# A"
+msgstr "# LA"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:596
+msgid "# B"
+msgstr "# SI"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:598
+msgid "x C"
+msgstr "x DO"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:599
+msgid "x D"
+msgstr "x RE"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:600
+msgid "x E"
+msgstr "x MI"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:601
+msgid "x F"
+msgstr "x FA"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:602
+msgid "x G"
+msgstr "x SOL"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:603
+msgid "x A"
+msgstr "x LA"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:604
+msgid "x B"
+msgstr "x SI"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:866
+msgid "Identify the next interval:"
+msgstr "Identifica il prossimo intervallo:"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:994
+msgid "dd - double diminished"
+msgstr "dd - diminuita doppia"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:995
+msgid "dim - diminished"
+msgstr "dim - diminuita"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:996
+msgid "m - minor"
+msgstr "m - minore"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:997
+msgid "M, P - Major, Perfect"
+msgstr "M, P - Maggiore, Perfetta"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:998
+msgid "aug - augmented"
+msgstr "aum - aumentata"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:999
+msgid "da - double augmented"
+msgstr "da - doppia aumentata"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1008
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1078
+msgid "8ve"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1012
+msgid "dd2"
+msgstr "dd2"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1013
+msgid "dd3"
+msgstr "dd3"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1014
+msgid "dd4"
+msgstr "dd4"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1015
+msgid "dd5"
+msgstr "dd5"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1016
+msgid "dd6"
+msgstr "dd6"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1017
+msgid "dd7"
+msgstr "dd7"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1018
+msgid "dd8"
+msgstr "dd8"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1021
+msgid "dim2"
+msgstr "dim2"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1022
+msgid "dim3"
+msgstr "dim3"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1023
+msgid "dim4"
+msgstr "dim4"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1024
+msgid "dim5"
+msgstr "dim5"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1025
+msgid "dim6"
+msgstr "dim6"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1026
+msgid "dim7"
+msgstr "dim7"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1027
+msgid "dim8"
+msgstr "dim8"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1030
+msgid "m2"
+msgstr "m2"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1031
+msgid "m3"
+msgstr "m3"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1034
+msgid "m6"
+msgstr "m6"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1035
+msgid "m7"
+msgstr "m7"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1039
+msgid "M2"
+msgstr "M2"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1040
+msgid "M3"
+msgstr "M3"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1041
+msgid "P4"
+msgstr "P4"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1042
+msgid "P5"
+msgstr "P5"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1043
+msgid "M6"
+msgstr "M6"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1044
+msgid "M7"
+msgstr "M7"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1045
+msgid "P8"
+msgstr "P8"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1048
+msgid "aug2"
+msgstr "aum2"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1049
+msgid "aug3"
+msgstr "aum3"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1050
+msgid "aug4"
+msgstr "aum4"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1051
+msgid "aug5"
+msgstr "aum5"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1052
+msgid "aug6"
+msgstr "aum6"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1053
+msgid "aug7"
+msgstr "aum7"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1054
+msgid "aug8"
+msgstr "aum8"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1057
+msgid "da2"
+msgstr "da2"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1058
+msgid "da3"
+msgstr "da3"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1059
+msgid "da4"
+msgstr "da4"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1060
+msgid "da5"
+msgstr "da5"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1061
+msgid "da6"
+msgstr "da6"
+
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1062
+#: src/exercises/ctrols/lenmus_theo_intervals_ctrol.cpp:1063
+msgid "da7"
+msgstr "da7"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:107
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:448
+msgid "C major"
+msgstr "C maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:108
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:457
+msgid "G major"
+msgstr "SOL maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:109
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:451
+msgid "D major"
+msgstr "RE maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:110
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:459
+msgid "A major"
+msgstr "LA maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:111
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:453
+msgid "E major"
+msgstr "MI maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:112
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:461
+msgid "B major"
+msgstr "SI maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:113
+msgid "F # major"
+msgstr "FA # maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:114
+msgid "C # major"
+msgstr "DO # maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:115
+msgid "C b major"
+msgstr "DO b maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:116
+msgid "G b major"
+msgstr "SOL b maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:117
+msgid "D b major"
+msgstr "RE b maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:118
+msgid "A b major"
+msgstr "LA b maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:119
+msgid "E b major"
+msgstr "MI b maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:120
+msgid "B b major"
+msgstr "SI b maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:121
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:454
+msgid "F major"
+msgstr "FA maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:447
+msgid "C flat major"
+msgstr "DO bemolle maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:449
+msgid "C sharp major"
+msgstr "DO diesis maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:450
+msgid "D flat major"
+msgstr "RE bemolle maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:452
+msgid "E flat major"
+msgstr "MI bemolle maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:455
+msgid "F sharp major"
+msgstr "FA diesis maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:456
+msgid "G flat major"
+msgstr "SOL bemolle  maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:458
+msgid "A flat major"
+msgstr "LA bemolle maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:460
+msgid "B flat major"
+msgstr "SI bemolle maggiore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:467
+msgid "C sharp minor"
+msgstr "DO diesis minore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:469
+msgid "D sharp minor"
+msgstr "RE diesis minore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:470
+msgid "E flat minor"
+msgstr "MI bemolle minore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:473
+msgid "F sharp minor"
+msgstr "FA diesis minore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:475
+msgid "G sharp minor"
+msgstr "SOL diesis minore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:476
+msgid "A flat minor"
+msgstr "LA bemolle minore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:478
+msgid "A sharp minor"
+msgstr "LA diesis minore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:479
+msgid "B flat minor"
+msgstr "SI bemolle minore"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:485
+msgid "No accidentals"
+msgstr "Niente alterazioni"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:486
+msgid "1 #"
+msgstr "1 #"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:487
+msgid "2 #"
+msgstr "2 #"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:488
+msgid "3 #"
+msgstr "3 #"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:489
+msgid "4 #"
+msgstr "4 #"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:490
+msgid "5 #"
+msgstr "5 #"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:491
+msgid "6 #"
+msgstr "6 #"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:492
+msgid "7 #"
+msgstr "7 #"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:493
+msgid "1 b"
+msgstr "1 b"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:494
+msgid "2 b"
+msgstr "2 b"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:495
+msgid "3 b"
+msgstr "3 b"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:496
+msgid "4 b"
+msgstr "4 b"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:497
+msgid "5 b"
+msgstr "5 b"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:498
+msgid "6 b"
+msgstr "6 b"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:499
+msgid "7 b"
+msgstr "7 b"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:521
+msgid "Problem. Identify the following key signature:"
+msgstr "Problema. Identificare la seguente armatura di chiave"
+
+#: src/exercises/ctrols/lenmus_theo_key_sign_ctrol.cpp:529
+msgid "Problem. How many accidentals has next key signature?:"
+msgstr "Problema. Quanti incidenti ha la prossima armatura di chiave ?:"
+
+#: src/exercises/ctrols/lenmus_theo_music_reading_ctrol.cpp:154
+msgid "Start with count off"
+msgstr ""
+
+#: src/exercises/ctrols/lenmus_theo_music_reading_ctrol.cpp:161
+msgid "Play with metronome"
+msgstr "Riproduci con il metronomo"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_ear_intervals.cpp:360
+msgid "Min. note must be lower than max. note"
+msgstr "La tonalità minima deve essere inferiore a quella massima"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_ear_intervals.cpp:436
+msgid ""
+"It is not possible to generate any interval. Selected notes' range interval "
+"(tab 'Other settings') is lower than minimum allowed interval (tab "
+"'Intervals')"
+msgstr ""
+"Non è possibile generare nessun intervallo. L'intervallo delle note "
+"selezionate (scheda 'Altre impostazioni') è minore del più piccolo "
+"intervallo consentito (scheda 'Intervalli')"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_ear_intervals.cpp:447
+msgid ""
+"It is nor possible to generate all the selected intervals. Selected notes "
+"range interval (tab 'Other settings') is lower than maximum allowed interval "
+"(tab 'Intervals')"
+msgstr ""
+"Non è possibile generare tutti gli intervalli selezionati. L'intervallo "
+"delle note selezionate (scheda 'Altre impostazioni') è maggiore del più "
+"grande intervallo consentito (scheda 'Intervalli')"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:163
+msgid "Notes to practise"
+msgstr "Note con cui fare pratica"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:168
+msgid "From this key signature:"
+msgstr "Da questa armatura di chiave:"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:189
+msgid "The following notes:"
+msgstr "Le seguenti note:"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:201
+msgid "B b / C"
+msgstr ""
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:205
+msgid "C # / D b"
+msgstr ""
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:213
+msgid "D # / E b"
+msgstr ""
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:217
+msgid "E / F b"
+msgstr ""
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:221
+msgid "E # / F"
+msgstr ""
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:230
+msgid "F # / G b"
+msgstr ""
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:238
+msgid "G # / A b"
+msgstr ""
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:246
+msgid "A # / B b"
+msgstr ""
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:250
+msgid "B / C b"
+msgstr ""
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:264
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:233
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:343
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:431
+#: xrc/xrc_strings.cpp:29 xrc/xrc_strings.cpp:60 xrc/xrc_strings.cpp:224
+#: xrc/xrc_strings.cpp:248 xrc/xrc_strings.cpp:280
+msgid "You must choose one at least! "
+msgstr "Devi sceglierne almeno una!"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:281
+msgid "Notes"
+msgstr "Note"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:286
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:199
+#: xrc/xrc_strings.cpp:69
+msgid "G clef (violin)"
+msgstr "Chiave di Sol (violino)"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:286
+msgid "F clef in 4th line (bass)"
+msgstr "Chiave di Fa sulla 4a linea (basso)"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:286
+msgid "F clef in 3rd line"
+msgstr "Chiave di Fa sulla 3a linea"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:286
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:211
+#: xrc/xrc_strings.cpp:78
+msgid "C clef on 1st line (soprano)"
+msgstr "Chiave di DO sulla 1a linea (soprano)"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:286
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:215
+#: xrc/xrc_strings.cpp:81
+msgid "C clef on 2nd line (mezzo soprano)"
+msgstr "Chiave di DO sulla 2a linea (mezzo soprano)"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:286
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:219
+#: xrc/xrc_strings.cpp:84
+msgid "C clef on 3rd line (contralto)"
+msgstr "Chiave di DO sulla 3a linea (contralto)"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:286
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:223
+#: xrc/xrc_strings.cpp:87
+msgid "C clef on 4th line (tenor)"
+msgstr "Chiave di DO sulla 4a linea (tenore)"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:288
+msgid "Clef to use"
+msgstr "Chiavi da usare"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:295
+msgid "Clef"
+msgstr "Chiave"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:300
+msgid "One octave"
+msgstr "Un'ottava"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:302
+#, fuzzy
+msgid "How many octaves"
+msgstr "Due ottave"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:309
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:444
+#: src/options/lenmus_options_dlg.cpp:201
+msgid "Other"
+msgstr "Altro"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_notes.cpp:320
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:376
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:455
+#: src/options/lenmus_options_dlg.cpp:276 src/properties/DlgEditText.cpp:154
+#: src/properties/lenmus_dlg_properties.cpp:87
+#: src/widgets/lenmus_wizard.cpp:138 xrc/xrc_strings.cpp:63
+#: xrc/xrc_strings.cpp:158 xrc/xrc_strings.cpp:252 xrc/xrc_strings.cpp:306
+#: xrc/xrc_strings.cpp:398
+msgid "Cancel"
+msgstr "Annulla"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:64
+msgid "Identify tonality settings"
+msgstr "Impostazioni per Identificare tonalità"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:150
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:333
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:256
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:356
+#: xrc/xrc_strings.cpp:34 xrc/xrc_strings.cpp:107 xrc/xrc_strings.cpp:225
+#: xrc/xrc_strings.cpp:226 xrc/xrc_strings.cpp:281 xrc/xrc_strings.cpp:282
+#: xrc/xrc_strings.cpp:345 xrc/xrc_strings.cpp:346
+msgid "Key signatures"
+msgstr "Armatura di chiave"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:182
+#: xrc/xrc_strings.cpp:353
+msgid "F# Major"
+msgstr "FA# Maggiore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:186
+#: xrc/xrc_strings.cpp:354
+msgid "C# Major"
+msgstr "DO# Maggiore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:195
+#: xrc/xrc_strings.cpp:355
+msgid "Cb Major"
+msgstr "DOb Maggiore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:199
+#: xrc/xrc_strings.cpp:356
+msgid "Gb Major"
+msgstr "SOLb Maggiore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:203
+#: xrc/xrc_strings.cpp:357
+msgid "Db Major"
+msgstr "REb Maggiore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:207
+#: xrc/xrc_strings.cpp:358
+msgid "Ab Major"
+msgstr "LAb Maggiore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:211
+#: xrc/xrc_strings.cpp:359
+msgid "Eb Major"
+msgstr "MIb Maggiore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:215
+#: xrc/xrc_strings.cpp:360
+msgid "Bb Major"
+msgstr "SIb Maggiore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:240
+#: xrc/xrc_strings.cpp:365
+msgid "F# minor"
+msgstr "FA# minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:244
+#: xrc/xrc_strings.cpp:366
+msgid "C# minor"
+msgstr "DO# minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:248
+#: xrc/xrc_strings.cpp:367
+msgid "G# minor"
+msgstr "SOL# minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:252
+#: xrc/xrc_strings.cpp:368
+msgid "D# minor"
+msgstr "RE# minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:256
+#: xrc/xrc_strings.cpp:369
+msgid "A# minor"
+msgstr "LA# minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:265
+#: xrc/xrc_strings.cpp:370
+msgid "Ab minor"
+msgstr "LAb minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:269
+#: xrc/xrc_strings.cpp:371
+msgid "Eb minor"
+msgstr "MIb minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:273
+#: xrc/xrc_strings.cpp:372
+msgid "Bb minor"
+msgstr "SIb minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:300
+#: xrc/xrc_strings.cpp:377
+msgid "check/uncheck all major"
+msgstr "marca/smarca tutte le maggiori"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:304
+#: xrc/xrc_strings.cpp:378
+msgid "check/uncheck all minor"
+msgstr "marca/smarca tutte le minori"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:320
+#: xrc/xrc_strings.cpp:123 xrc/xrc_strings.cpp:379
+msgid "You must choose at least one key signature! "
+msgstr "Devi scegliere almeno un'armatura di chaive!"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:338
+msgid "Just identify type: major or minor"
+msgstr "Basta identificare il tipo: maggiore o minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:338
+msgid "Name the key signature"
+msgstr "Denominare la firma della armatura di chiave"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:340
+#: xrc/xrc_strings.cpp:384
+msgid "Type of desired answer"
+msgstr "Tipi di risposte desiderate"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:347
+#: xrc/xrc_strings.cpp:383
+msgid "Answer buttons"
+msgstr "Bottoni di risposta"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_idfy_tonality.cpp:361
+msgid ""
+"You must choose at least one major and one minor in tab 'Key signatures'! "
+msgstr ""
+"¡Devi scegliere almeno un maggiore e un minore nella scheda \"Armatura di "
+"chiave\"!"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:93
+msgid "Options: Intervals - Theory exercises"
+msgstr "Opzioni: intervalli - esercizi di teoria"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:197
+msgid "Clefs to use"
+msgstr "Chiavi da usare"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:203
+#: xrc/xrc_strings.cpp:72
+msgid "F clef on 4th line (bass)"
+msgstr "Chiave di FA sulla 4a linea (basso)"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:207
+#: xrc/xrc_strings.cpp:75
+msgid "F clef on 3rd line"
+msgstr "Chiave di Fa sulla 3a linea"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:250
+msgid "Clefs"
+msgstr "Chiavi"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:264
+#: xrc/xrc_strings.cpp:35 xrc/xrc_strings.cpp:108 xrc/xrc_strings.cpp:227
+#: xrc/xrc_strings.cpp:283
+msgid "C Major / A minor"
+msgstr "DO Maggiore / LA minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:268
+#: xrc/xrc_strings.cpp:36 xrc/xrc_strings.cpp:109 xrc/xrc_strings.cpp:228
+#: xrc/xrc_strings.cpp:284
+msgid "G Major / E minor"
+msgstr "SOL Maggiore / MI minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:272
+#: xrc/xrc_strings.cpp:37 xrc/xrc_strings.cpp:45 xrc/xrc_strings.cpp:110
+#: xrc/xrc_strings.cpp:118 xrc/xrc_strings.cpp:229 xrc/xrc_strings.cpp:237
+#: xrc/xrc_strings.cpp:285
+msgid "D Major / B minor"
+msgstr "RE Maggiore / SI minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:276
+#: xrc/xrc_strings.cpp:38 xrc/xrc_strings.cpp:111 xrc/xrc_strings.cpp:230
+#: xrc/xrc_strings.cpp:286
+msgid "A Major / F# minor"
+msgstr "LA Maggiore / FA# minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:280
+#: xrc/xrc_strings.cpp:39 xrc/xrc_strings.cpp:112 xrc/xrc_strings.cpp:231
+#: xrc/xrc_strings.cpp:287
+msgid "E Major / C# minor"
+msgstr "MI Maggiore / DO# minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:284
+#: xrc/xrc_strings.cpp:40 xrc/xrc_strings.cpp:113 xrc/xrc_strings.cpp:232
+#: xrc/xrc_strings.cpp:288
+msgid "B Major / G# minor"
+msgstr "SI Maggiore / SOL# minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:288
+#: xrc/xrc_strings.cpp:41 xrc/xrc_strings.cpp:114 xrc/xrc_strings.cpp:233
+#: xrc/xrc_strings.cpp:289
+msgid "F# Major / D# minor"
+msgstr "FA# Maggiore / RE# minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:292
+#: xrc/xrc_strings.cpp:42 xrc/xrc_strings.cpp:115 xrc/xrc_strings.cpp:234
+#: xrc/xrc_strings.cpp:290
+msgid "C# Major / A# minor"
+msgstr "DO# Maggiore / LA# minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:301
+#: xrc/xrc_strings.cpp:43 xrc/xrc_strings.cpp:116 xrc/xrc_strings.cpp:235
+#: xrc/xrc_strings.cpp:291
+msgid "Cb Major / Ab minor"
+msgstr "DOb Maggiore / LAb minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:305
+#: xrc/xrc_strings.cpp:44 xrc/xrc_strings.cpp:117 xrc/xrc_strings.cpp:236
+#: xrc/xrc_strings.cpp:292
+msgid "Gb Major / Eb minor"
+msgstr "SOLb Maggiore / MIb minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:309
+#: xrc/xrc_strings.cpp:293
+msgid "Db Major / Bb minor"
+msgstr "REb Maggior / SIb minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:313
+#: xrc/xrc_strings.cpp:46 xrc/xrc_strings.cpp:119 xrc/xrc_strings.cpp:238
+#: xrc/xrc_strings.cpp:294
+msgid "Ab Major / F minor"
+msgstr "LAb Maggiore / FA minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:317
+#: xrc/xrc_strings.cpp:47 xrc/xrc_strings.cpp:120 xrc/xrc_strings.cpp:239
+#: xrc/xrc_strings.cpp:295
+msgid "Eb Major / C minor"
+msgstr "MIb Maggiore / DO minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:321
+#: xrc/xrc_strings.cpp:48 xrc/xrc_strings.cpp:121 xrc/xrc_strings.cpp:240
+#: xrc/xrc_strings.cpp:296
+msgid "Bb Major / G minor"
+msgstr "SIb Maggiore / SOL minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:325
+#: xrc/xrc_strings.cpp:49 xrc/xrc_strings.cpp:122 xrc/xrc_strings.cpp:241
+#: xrc/xrc_strings.cpp:297
+msgid "F Major / D minor"
+msgstr "FA Maggiore / RE minore"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:361
+msgid "Just name the interval number"
+msgstr "Basta nominare il numero dell'intervallo"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:361
+msgid "Perfect, major and minor intervals"
+msgstr "Intervalli perfetti, maggiori e minori"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:361
+msgid "Also augmented and diminished"
+msgstr "Anche aumentato e diminuito"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:361
+msgid "Also double augmented / diminished"
+msgstr "Anche doppio aumentato / diminuito"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:363
+msgid "Difficulty"
+msgstr "Difficoltà"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:368
+msgid "Maximum number of leger lines"
+msgstr "Numero massimo di linee aggiuntive"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:376
+msgid "Above"
+msgstr "Sopra"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:390
+msgid "Below"
+msgstr "Sotto"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:405
+#: xrc/xrc_strings.cpp:56
+msgid "Intervals' types"
+msgstr "Tipi di intervalli"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:407
+#: xrc/xrc_strings.cpp:57
+msgid "Harmonic (simultaneous notes)"
+msgstr "Armonico (note simultanee)"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:411
+#: xrc/xrc_strings.cpp:58
+msgid "Melodic (ascending)"
+msgstr "Melodico (ascendente)"
+
+#: src/exercises/dialogs/lenmus_dlg_cfg_theo_intervals.cpp:416
+#: xrc/xrc_strings.cpp:59
+msgid "Melodic (descending)"
+msgstr "Melodico (discendente)"
+
+#: src/exercises/dialogs/lenmus_dlg_exercise_mode.cpp:54
+msgid "Choose the operation mode"
+msgstr "Scegli la modalità operativa"
+
+#: src/exercises/dialogs/lenmus_dlg_exercise_mode.cpp:95
+msgid "Learning mode"
+msgstr "Modalità di apprendimento"
+
+#: src/exercises/dialogs/lenmus_dlg_exercise_mode.cpp:98
+msgid ""
+"The program will record and analyse your answers.  Questions will focus on "
+"those issues in which the program detects that you are having more trouble. "
+"This mode minimizes your study time and optimises your learning rate. It is "
+"based on the 'Leitner' methodology, also known as 'spaced repetition'."
+msgstr ""
+"Il programma registrerà e analizzerà le tue risposte. Le domande si "
+"concentreranno su quei problemi in cui il programma rileva che stai "
+"riscontrando più problemi. Questa modalità riduce al minimo i tempi di "
+"studio e ottimizza il tasso di apprendimento. Si basa sulla metodologia "
+"\"Leitner\", nota anche come \"ripetizione distanziata\"."
+
+#: src/exercises/dialogs/lenmus_dlg_exercise_mode.cpp:105
+msgid "Practice mode"
+msgstr "Modalità di pratica"
+
+#: src/exercises/dialogs/lenmus_dlg_exercise_mode.cpp:108
+msgid ""
+"The program uses your performance data, saved in learning mode, to choose "
+"questions. It selects questions at random but giving more probability to "
+"those that are troubling you. This mode is useful when you have finished "
+"your daily assignment in 'learning' mode and you would like to practise more."
+msgstr ""
+"Il programma utilizza i dati sulle prestazioni, salvati in modalità di "
+"apprendimento, per scegliere le domande. Seleziona le domande a caso ma "
+"dando più probabilità a quelle che ti preoccupano. Questa modalità è utile "
+"quando hai terminato il tuo compito quotidiano in modalità \"apprendimento\" "
+"e desideri esercitarti di più."
+
+#: src/exercises/dialogs/lenmus_dlg_exercise_mode.cpp:115
+msgid "Exam mode"
+msgstr "Modalità di esame"
+
+#: src/exercises/dialogs/lenmus_dlg_exercise_mode.cpp:118
+msgid ""
+"Neither your saved performance data not your answers to previous questions "
+"are taken into account to formulate questions. At any moment, all possible "
+"questions have the same probability of being asked. This mode is useful for "
+"testing your knowledge before taking an examination, but is less useful for "
+"learning."
+msgstr ""
+"Né i dati sul rendimento salvati né le risposte alle domande precedenti "
+"vengono presi in considerazione per formulare domande. In qualsiasi momento, "
+"tutte le possibili domande hanno la stessa probabilità di essere poste. "
+"Questa modalità è utile per testare le tue conoscenze prima di sostenere un "
+"esame, ma è meno utile per l'apprendimento."
+
+#: src/exercises/dialogs/lenmus_dlg_exercise_mode.cpp:125
+msgid "Quiz mode"
+msgstr "Modalità concorrenza"
+
+#: src/exercises/dialogs/lenmus_dlg_exercise_mode.cpp:128
+msgid ""
+"This mode is similar to the 'exam' mode but two answer counters are "
+"displayed and questions are accounted in both counters: one in the first "
+"counter and the next one in the second counter. This mode is useful to work "
+"in pairs or in teams at classroom."
+msgstr ""
+"Questa modalità è simile alla modalità \"esame\", ma vengono visualizzati "
+"due contatori di risposte e le domande vengono contabilizzate in entrambi i "
+"contatori: uno nel primo contatore e il successivo nel secondo contatore. "
+"Questa modalità è utile per lavorare in coppia o in gruppo in classe."
+
+#: src/globals/lenmus_actions.cpp:61
+msgid "(Undefined)"
+msgstr "(Non specificata)"
+
+#: src/globals/lenmus_actions.cpp:342
+msgid "General actions on documents"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:344
+msgid "Application appearance and layout"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:346
+msgid "Toolbox: select tools and options"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:348
+msgid "Score edition"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:350
+msgid "Edition: general actions"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:407
+msgid "Create a new blank document"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:412
+msgid "Open a existing document"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:417
+msgid "Reload current document"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:422
+msgid "Open a music book"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:427
+msgid "Close current document"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:432
+msgid "Save current document to file"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:437
+msgid "Save current document with a different name"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:442
+msgid "Convert document to latest format"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:447
+msgid "Close all documents"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:452
+msgid "Print current document"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:457
+msgid "Zoom in"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:462
+msgid "Zoom out"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:467
+msgid "Allow edition of current document"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:474
+msgid "Exit program"
+msgstr "Esci dal programma"
+
+#: src/globals/lenmus_actions.cpp:479
+msgid "Configure printer options"
+msgstr "Configura le opzioni di stampa"
+
+#: src/globals/lenmus_actions.cpp:487
+msgid "Undo last action"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:492
+msgid "Redo last undo"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:498
+msgid "Move cursor back"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:503
+msgid "Move cursor forward"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:508
+msgid "Move cursor down"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:513
+msgid "Move cursor up"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:518
+msgid "Cursor: enter object"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:523
+msgid "Cursor: exit object"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:528
+msgid "Move cursor to next page"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:533
+#, fuzzy
+msgid "Move cursor to previous page"
+msgstr "Vai alla pagina precedentemente visitata"
+
+#: src/globals/lenmus_actions.cpp:539
+#, fuzzy
+msgid "Delete selection or pointed object"
+msgstr "Cancella selezione"
+
+#: src/globals/lenmus_actions.cpp:544
+msgid "Move cursor back and delete object"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:550
+#, fuzzy
+msgid "Insert a header"
+msgstr "Inserisci chiave"
+
+#: src/globals/lenmus_actions.cpp:555
+msgid "Insert a paragraph"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:560
+#, fuzzy
+msgid "Insert a score"
+msgstr "Chiudi una partitura"
+
+#: src/globals/lenmus_actions.cpp:566
+#, fuzzy
+msgid "Remove selection"
+msgstr "Cancella selezione"
+
+#: src/globals/lenmus_actions.cpp:574
+#, fuzzy
+msgid "Move cursor to next measure"
+msgstr "Sposta indietro: fuori misura"
+
+#: src/globals/lenmus_actions.cpp:579
+#, fuzzy
+msgid "Move cursor to previous measure"
+msgstr "Sposta indietro: fuori misura"
+
+#: src/globals/lenmus_actions.cpp:584
+#, fuzzy
+msgid "Move cursor to first measure"
+msgstr "Sposta indietro: fuori misura"
+
+#: src/globals/lenmus_actions.cpp:589
+#, fuzzy
+msgid "Move cursor to last measure"
+msgstr "Sposta indietro: fuori misura"
+
+#: src/globals/lenmus_actions.cpp:594
+msgid "Move cursor to start of system"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:599
+msgid "Move cursor end of system"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:604
+msgid "Move cursor to first staff"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:609
+msgid "Move cursor to last staff"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:615
+#, fuzzy
+msgid "Add note A"
+msgstr "Aggiungi un legame"
+
+#: src/globals/lenmus_actions.cpp:620
+#, fuzzy
+msgid "Add note B"
+msgstr "Aggiungi un legame"
+
+#: src/globals/lenmus_actions.cpp:625
+#, fuzzy
+msgid "Add note C"
+msgstr "Aggiungi un legame"
+
+#: src/globals/lenmus_actions.cpp:630
+#, fuzzy
+msgid "Add note D"
+msgstr "Aggiungi un legame"
+
+#: src/globals/lenmus_actions.cpp:635
+#, fuzzy
+msgid "Add note E"
+msgstr "Aggiungi un legame"
+
+#: src/globals/lenmus_actions.cpp:640
+#, fuzzy
+msgid "Add note F"
+msgstr "Aggiungi un legame"
+
+#: src/globals/lenmus_actions.cpp:645
+#, fuzzy
+msgid "Add note G"
+msgstr "Aggiungi un legame"
+
+#: src/globals/lenmus_actions.cpp:651
+msgid "Display dialog for adding a clef"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:657
+#, fuzzy
+msgid "Add a rest"
+msgstr "Aggiungi titoli"
+
+#: src/globals/lenmus_actions.cpp:663
+#, fuzzy
+msgid "Add barline"
+msgstr "Stanghetta finale"
+
+#: src/globals/lenmus_actions.cpp:669
+#, fuzzy
+msgid "Add note A to chord"
+msgstr "Aggiungi un titolo al pentagramma"
+
+#: src/globals/lenmus_actions.cpp:674
+#, fuzzy
+msgid "Add note B to chord"
+msgstr "Aggiungi un titolo al pentagramma"
+
+#: src/globals/lenmus_actions.cpp:679
+#, fuzzy
+msgid "Add note C to chord"
+msgstr "Aggiungi un titolo al pentagramma"
+
+#: src/globals/lenmus_actions.cpp:684
+#, fuzzy
+msgid "Add note D to chord"
+msgstr "Aggiungi un titolo al pentagramma"
+
+#: src/globals/lenmus_actions.cpp:689
+#, fuzzy
+msgid "Add note E to chord"
+msgstr "Aggiungi un titolo al pentagramma"
+
+#: src/globals/lenmus_actions.cpp:694
+#, fuzzy
+msgid "Add note F to chord"
+msgstr "Aggiungi un titolo al pentagramma"
+
+#: src/globals/lenmus_actions.cpp:699
+#, fuzzy
+msgid "Add note G to chord"
+msgstr "Aggiungi un titolo al pentagramma"
+
+#: src/globals/lenmus_actions.cpp:705
+#, fuzzy
+msgid "Select prev. note/rest"
+msgstr "Scegliere il tipo di tempo"
+
+#: src/globals/lenmus_actions.cpp:710
+#, fuzzy
+msgid "Select next note/rest"
+msgstr "Scegliere il tipo di tempo"
+
+#: src/globals/lenmus_actions.cpp:715
+#, fuzzy
+msgid "Select all to start of measure"
+msgstr "Scegliere un'armatura di chaive"
+
+#: src/globals/lenmus_actions.cpp:721
+#, fuzzy
+msgid "Select all to end of measure"
+msgstr "Scegliere un'armatura di chaive"
+
+#: src/globals/lenmus_actions.cpp:727
+msgid "Select all to start of system"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:733
+msgid "Select all to end of system"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:743
+msgid "Toolbox: select notes tools"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:748
+msgid "Toolbox: select clef tools"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:753
+msgid "Toolbox: select barline tools"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:758
+msgid "Toolbox: select symbols tools"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:764
+msgid "Select note/rest duration: longa"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:769
+msgid "Select note/rest duration: breve"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:774
+#, fuzzy
+msgid "Select note/rest duration: whole"
+msgstr "Selezionare gli strumenti e lo stile"
+
+#: src/globals/lenmus_actions.cpp:779
+msgid "Select note/rest duration: half"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:784
+msgid "Select note/rest duration: quarter"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:789
+msgid "Select note/rest duration: eight"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:794
+msgid "Select note/rest duration: 16th"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:799
+#, fuzzy
+msgid "Select note/rest duration: 32nd"
+msgstr "Selezionare gli strumenti e lo stile"
+
+#: src/globals/lenmus_actions.cpp:804
+msgid "Select note/rest duration: 64th"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:809
+msgid "Select note/rest duration: 128th"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:814
+msgid "Select note/rest duration: 256th"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:819
+#, fuzzy
+msgid "Select next accidental"
+msgstr "Cambia alterazioni della nota"
+
+#: src/globals/lenmus_actions.cpp:824
+#, fuzzy
+msgid "Select prev accidental"
+msgstr "Cambia alterazioni della nota"
+
+#: src/globals/lenmus_actions.cpp:829
+#, fuzzy
+msgid "Select next voice"
+msgstr "Seleziona voce %d"
+
+#: src/globals/lenmus_actions.cpp:834
+#, fuzzy
+msgid "Select prev voice"
+msgstr "Seleziona voce %d"
+
+#: src/globals/lenmus_actions.cpp:839
+#, fuzzy
+msgid "Select next octave"
+msgstr "Seleziona ottava %d"
+
+#: src/globals/lenmus_actions.cpp:844
+#, fuzzy
+msgid "Select prev octave"
+msgstr "Seleziona ottava %d"
+
+#: src/globals/lenmus_actions.cpp:849
+msgid "Increment note/rest dots"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:854
+msgid "Decrement note/rest dots"
+msgstr ""
+
+#: src/globals/lenmus_actions.cpp:879
+msgid "Action code not defined."
+msgstr ""
+
+#: src/options/lenmus_colors_opt_panel.cpp:49
+msgid "Choose colors to use:"
+msgstr "Scegli i colori da usare:"
+
+#: src/options/lenmus_internet_opt_panel.cpp:82
+#: src/options/lenmus_internet_opt_panel.cpp:112
+msgid "Never"
+msgstr "Mai"
+
+#: src/options/lenmus_internet_opt_panel.cpp:83
+msgid "Daily"
+msgstr "Giornaliermente"
+
+#: src/options/lenmus_internet_opt_panel.cpp:84
+msgid "Weekly"
+msgstr "Settimanalmente"
+
+#: src/options/lenmus_internet_opt_panel.cpp:85
+msgid "Monthly"
+msgstr "Mensilmente"
+
+#: src/options/lenmus_internet_opt_panel.cpp:160 xrc/xrc_strings.cpp:173
+msgid "Internet connection options"
+msgstr "Opzioni di connettività internet"
+
+#: src/options/lenmus_internet_opt_panel.cpp:181 xrc/xrc_strings.cpp:174
+msgid "Software updates"
+msgstr "Aggiornamenti software"
+
+#: src/options/lenmus_internet_opt_panel.cpp:189 xrc/xrc_strings.cpp:175
+msgid "Check for updates"
+msgstr "Controlla aggiornamenti"
+
+#: src/options/lenmus_internet_opt_panel.cpp:204 xrc/xrc_strings.cpp:176
+msgid "Last successful check:"
+msgstr "Ultimo controllo riuscito:"
+
+#: src/options/lenmus_internet_opt_panel.cpp:216 xrc/xrc_strings.cpp:178
+msgid "Use a proxy server to connect to Internet"
+msgstr "Usa un proxy server per connessione Internet"
+
+#: src/options/lenmus_internet_opt_panel.cpp:219 xrc/xrc_strings.cpp:179
+msgid "Proxy settings"
+msgstr "Impostazione proxy"
+
+#: src/options/lenmus_internet_opt_panel.cpp:221 xrc/xrc_strings.cpp:180
+msgid "Server settings"
+msgstr "Impostazioni server"
+
+#: src/options/lenmus_internet_opt_panel.cpp:229 xrc/xrc_strings.cpp:181
+msgid "Host:"
+msgstr "Host:"
+
+#: src/options/lenmus_internet_opt_panel.cpp:239 xrc/xrc_strings.cpp:182
+msgid "Port number:"
+msgstr "Numero porta:"
+
+#: src/options/lenmus_internet_opt_panel.cpp:258 xrc/xrc_strings.cpp:183
+msgid "Please enter data for both, host name and port number"
+msgstr "Per favore, inserire i dati per entrambi, nome host e numero porta"
+
+#: src/options/lenmus_internet_opt_panel.cpp:270 xrc/xrc_strings.cpp:184
+msgid "Proxy server requires authentication"
+msgstr "Il proxy server richiede autenticazione"
+
+#: src/options/lenmus_internet_opt_panel.cpp:273 xrc/xrc_strings.cpp:185
+msgid "Authentication"
+msgstr "Autenticazione"
+
+#: src/options/lenmus_internet_opt_panel.cpp:278 xrc/xrc_strings.cpp:186
+msgid "Username:"
+msgstr "Username:"
+
+#: src/options/lenmus_internet_opt_panel.cpp:288 xrc/xrc_strings.cpp:187
+msgid "Password:"
+msgstr "Password:"
+
+#: src/options/lenmus_internet_opt_panel.cpp:307 xrc/xrc_strings.cpp:188
+msgid "Please enter data for both, user name and password"
+msgstr "Si prega di inserire dati per entrambi, username e password"
+
+#: src/options/lenmus_lang_opt_panel.cpp:83 xrc/xrc_strings.cpp:160
+msgid "Language preferences"
+msgstr "Preferenze di linguaggio"
+
+#: src/options/lenmus_lang_opt_panel.cpp:103 xrc/xrc_strings.cpp:161
+msgid "Choose language to use:"
+msgstr "Scegli il linguaggio da usare:"
+
+#: src/options/lenmus_options_dlg.cpp:115
+msgid "Configuration options"
+msgstr "Opzioni di configurazione"
+
+#: src/options/lenmus_options_dlg.cpp:163
+msgid "Language"
+msgstr "Linguaggio"
+
+#: src/options/lenmus_options_dlg.cpp:178
+msgid "Toolbars"
+msgstr "Barre strumenti"
+
+#: src/options/lenmus_options_dlg.cpp:183
+msgid "Internet"
+msgstr "Internet"
+
+#: src/options/lenmus_options_dlg.cpp:191
+msgid "Shortcuts"
+msgstr ""
+
+#: src/options/lenmus_options_dlg.cpp:197
+msgid "Playback"
+msgstr "Riproduzione"
+
+#: src/options/lenmus_options_dlg.cpp:371
+msgid "Please correct the errors before moving to another section."
+msgstr ""
+"Si prega di correggere gli errori prima di muoversi ad un'altra sezione."
+
+#: src/options/lenmus_other_opt_panel.cpp:67
+msgid "Other options"
+msgstr "Altre opzioni"
+
+#: src/options/lenmus_other_opt_panel.cpp:88
+msgid "Exercises"
+msgstr "Esercizi"
+
+#: src/options/lenmus_other_opt_panel.cpp:91
+msgid "Generate right/wrong sounds when clicking an answer button"
+msgstr "Genera suoni giusto/sbagliato quando si clicca sul bottone di risposta"
+
+#: src/options/lenmus_other_opt_panel.cpp:97
+msgid "Do not show solution and generate new problem if answer is correct"
+msgstr ""
+"Non mostrare la soluzione e genera un nuovo problema se la risposta è "
+"corretta"
+
+#: src/options/lenmus_other_opt_panel.cpp:112
+msgid "Enable experimental (unstable / in development) features"
+msgstr ""
+
+#: src/options/lenmus_playback_opt_panel.cpp:102
+msgid "Playback options"
+msgstr "Opzioni di riproduzione"
+
+#: src/options/lenmus_playback_opt_panel.cpp:123
+msgid "Visual tracking"
+msgstr "Tracciamento visivo"
+
+#: src/options/lenmus_playback_opt_panel.cpp:125
+msgid "Highlight notes being played back in color"
+msgstr "Evidenzia le note riprodotte a colori"
+
+#: src/options/lenmus_playback_opt_panel.cpp:134
+msgid "Highlight color"
+msgstr "Colore da evidenziare"
+
+#: src/options/lenmus_playback_opt_panel.cpp:143
+msgid "Draw a cursor line at current beat"
+msgstr "Disegna una linea del cursore alla battuta corrente"
+
+#: src/options/lenmus_playback_opt_panel.cpp:152
+msgid "Cursor line color"
+msgstr "Colore della linea del cursore"
+
+#: src/options/lenmus_playback_opt_panel.cpp:170
+msgid "Cursor line width (millimeters)"
+msgstr "Larghezza della linea del cursore (millimetri)"
+
+#: src/options/lenmus_playback_opt_panel.cpp:191
+msgid "Error: invalid width"
+msgstr "Errore: larghezza non valida"
+
+#: src/options/lenmus_shortcuts_opt_panel.cpp:220
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: src/options/lenmus_shortcuts_opt_panel.cpp:238
+msgid "Category:"
+msgstr ""
+
+#: src/options/lenmus_shortcuts_opt_panel.cpp:270
+msgid "Action"
+msgstr "Azione"
+
+#: src/options/lenmus_shortcuts_opt_panel.cpp:271
+msgid "Shortcut"
+msgstr ""
+
+#: src/options/lenmus_shortcuts_opt_panel.cpp:292
+msgid "Reset all to default"
+msgstr ""
+
+#: src/options/lenmus_shortcuts_opt_panel.cpp:295
+#, fuzzy
+msgid "Clear selected"
+msgstr "Cancella tutto"
+
+#: src/options/lenmus_shortcuts_opt_panel.cpp:298
+#, fuzzy
+msgid "Change selected"
+msgstr "Cambia testo"
+
+#: src/options/lenmus_sound_opt_panel.cpp:65
+#, fuzzy
+#| msgid "Score configuration wizard"
+msgid "Sound configuration"
+msgstr "Configurazione guidata della partitura"
+
+#: src/options/lenmus_sound_opt_panel.cpp:85
+msgid "Use external synthesizer"
+msgstr ""
+
+#: src/options/lenmus_sound_opt_panel.cpp:85
+msgid "Use internal synthesizer"
+msgstr ""
+
+#: src/options/lenmus_sound_opt_panel.cpp:87
+#, fuzzy
+#| msgid "Choose the file to open"
+msgid "Choose synthesizer to use"
+msgstr "Scegli il file da aprire"
+
+#: src/options/lenmus_sound_opt_panel.cpp:97
+#, fuzzy
+#| msgid "Reset counters"
+msgid "Reset to defaults"
+msgstr "Azzera contatori"
+
+#: src/options/lenmus_sound_opt_panel.cpp:105
+#, fuzzy
+#| msgid "Intervals"
+msgid "Internal synth."
+msgstr "Intervalli"
+
+#: src/options/lenmus_sound_opt_panel.cpp:107
+msgid "External synth."
+msgstr ""
+
+#: src/options/lenmus_sound_opt_panel.cpp:109
+#, fuzzy
+#| msgid "Instrument selection"
+msgid "Instrument sound"
+msgstr "Selezione strumento"
+
+#: src/options/lenmus_sound_opt_panel.cpp:111
+#, fuzzy
+#| msgid "Metronome on"
+msgid "Metronome sound"
+msgstr "Metronomo attivo"
+
+#: src/options/lenmus_sound_opt_panel.cpp:239
+msgid "SoundFont to use"
+msgstr ""
+
+#: src/options/lenmus_sound_opt_panel.cpp:251
+msgid ""
+"A Soundfont is a file (.sf2/.sf3) with a collection of sample-based "
+"instrument sounds. The internal synthesizer needs a SoundFont to generate "
+"the sounds."
+msgstr ""
+
+#: src/options/lenmus_sound_opt_panel.cpp:258
+msgid "Soundfont to use"
+msgstr ""
+
+#: src/options/lenmus_sound_opt_panel.cpp:274
+#, fuzzy
+#| msgid "Channel:"
+msgid "Change"
+msgstr "Canale:"
+
+#: src/options/lenmus_sound_opt_panel.cpp:341
+#, fuzzy
+#| msgid "Choose the operation mode"
+msgid "Choose the SoundFont to load"
+msgstr "Scegli la modalità operativa"
+
+#: src/options/lenmus_sound_opt_panel.cpp:383
+msgid "Midi devices to use"
+msgstr "Dispositivi MIDI da usare"
+
+#: src/options/lenmus_sound_opt_panel.cpp:393
+msgid ""
+"To generate sounds the program needs a MIDI synthesizer device. Normally, "
+"one of these devices is included in the sound board of the PC, but your PC "
+"might have more than one."
+msgstr ""
+"Per generare suoni, il programma necessita di un dispositivo sintetizzatore "
+"MIDI. Normalmente, uno di questi dispositivi è incluso nella scheda sonora "
+"del tuo PC, ma potrebbero essercene anche più d'uno."
+
+#: src/options/lenmus_sound_opt_panel.cpp:396
+msgid ""
+"If your PC has more than one device, choose one of them. You can test all of "
+"them and choose the one whose sound you prefer."
+msgstr ""
+"Se il tuo PC possiede più di un dispositivo, scegline uno. Puoi provarli e "
+"scegliere quello che suona meglio per te."
+
+#: src/options/lenmus_sound_opt_panel.cpp:405
+msgid "Output device:"
+msgstr "Dispositivo di output:"
+
+#: src/options/lenmus_sound_opt_panel.cpp:467
+msgid "None"
+msgstr "Niente"
+
+#: src/options/lenmus_sound_opt_panel.cpp:569
+msgid "Voice channel and instrument"
+msgstr "Canale voce e strumento"
+
+#: src/options/lenmus_sound_opt_panel.cpp:579
+msgid ""
+"Channels 10 and 16 are specialized in percussion sounds. So it is "
+"recommended to choose any other channel (it doesn't matter which one)."
+msgstr ""
+"I canali 10 e 16 sono dedicati ai suoni a percussione, pertanto, si "
+"raccomanda di scegliere qualsiasi altro canale."
+
+#: src/options/lenmus_sound_opt_panel.cpp:582
+msgid ""
+"To facilitate access to the instruments they are grouped into sections. "
+"First choose a section and then choose the desired instrument."
+msgstr ""
+"Per facilitare l'accesso agli strumenti, essi sono raggruppati in sezioni. "
+"Prima scegli una sezione e poi scegli lo strumento desiderato."
+
+#: src/options/lenmus_sound_opt_panel.cpp:591
+#: src/options/lenmus_sound_opt_panel.cpp:736
+msgid "Channel:"
+msgstr "Canale:"
+
+#: src/options/lenmus_sound_opt_panel.cpp:601
+msgid "Section:"
+msgstr "Sezione:"
+
+#: src/options/lenmus_sound_opt_panel.cpp:608
+msgid "Instrument:"
+msgstr "Strumento:"
+
+#: src/options/lenmus_sound_opt_panel.cpp:714
+msgid "Metronome channel and sounds"
+msgstr "canale e suoni per il metronomo"
+
+#: src/options/lenmus_sound_opt_panel.cpp:724
+msgid ""
+"Channels 10 and 16 are specialized in percussion sounds. So it is "
+"recommended to choose one of these (it doesn't matter which one)."
+msgstr ""
+"I canali 10 e 16 sono dedicati ai suoni a percussione, pertanto, si "
+"raccomanda di scegliere uno di questi due."
+
+#: src/options/lenmus_sound_opt_panel.cpp:727
+msgid ""
+"To better identify the first beat of each measure it is possible to assign a "
+"different sound to it. But you can also choose the same sound for both, the "
+"first beat and the others."
+msgstr ""
+"Per meglio identificare la prima battuta di ogni misura è possibile "
+"assegnare un suono differente ad essa. E' anche possibile scegliere lo "
+"stesso suono per entrambe, la prima battuta e le altre."
+
+#: src/options/lenmus_sound_opt_panel.cpp:746
+msgid "Sound for first beat of each measure:"
+msgstr "Suono per la prima battuta di ogni misura:"
+
+#: src/options/lenmus_sound_opt_panel.cpp:753
+msgid "Sound for other beats of each measure:"
+msgstr "Suono per le altre battute di ogni misura:"
+
+#: src/options/lenmus_toolbar_opt_panel.cpp:90 xrc/xrc_strings.cpp:163
+msgid "Preferences for toolbars"
+msgstr "Preferenze per barre strumenti"
+
+#: src/options/lenmus_toolbar_opt_panel.cpp:110 xrc/xrc_strings.cpp:165
+msgid "&Small"
+msgstr "&Piccole"
+
+#: src/options/lenmus_toolbar_opt_panel.cpp:110 xrc/xrc_strings.cpp:166
+msgid "&Medium"
+msgstr "&Medie"
+
+#: src/options/lenmus_toolbar_opt_panel.cpp:110 xrc/xrc_strings.cpp:167
+msgid "&Large"
+msgstr "&Grandi"
+
+#: src/options/lenmus_toolbar_opt_panel.cpp:112 xrc/xrc_strings.cpp:164
+msgid "Icons' size"
+msgstr "Dimensioni icone"
+
+#: src/options/lenmus_toolbar_opt_panel.cpp:121 xrc/xrc_strings.cpp:169
+msgid "&No labels"
+msgstr "&Niente etichette"
+
+#: src/options/lenmus_toolbar_opt_panel.cpp:121 xrc/xrc_strings.cpp:170
+msgid "Labels &bottom"
+msgstr "Etichette in &basso"
+
+#: src/options/lenmus_toolbar_opt_panel.cpp:121 xrc/xrc_strings.cpp:171
+msgid "Labels &right"
+msgstr "Etichette a &destra"
+
+#: src/options/lenmus_toolbar_opt_panel.cpp:123 xrc/xrc_strings.cpp:168
+msgid "Labels"
+msgstr "Etichette"
+
+#: src/properties/DlgEditText.cpp:66
+msgid "Edit text"
+msgstr "Modifica testo"
+
+#: src/properties/DlgEditText.cpp:96
+msgid "Copy"
+msgstr "Copia"
+
+#: src/properties/DlgEditText.cpp:100
+msgid "Cut"
+msgstr "Taglia"
+
+#: src/properties/DlgEditText.cpp:104 src/properties/DlgEditText.cpp:110
+#: src/properties/DlgEditText.cpp:114 src/properties/DlgEditText.cpp:118
+msgid "Paste"
+msgstr "Incolla"
+
+#: src/properties/DlgEditText.cpp:122
+msgid "Text color selector"
+msgstr "Seleziona colore testo"
+
+#: src/properties/DlgTextStyles.cpp:93
+msgid "Styles defined in current score"
+msgstr "Stili definiti nel pentagramma corrente."
+
+#: src/properties/DlgTextStyles.cpp:287 src/properties/DlgTextStyles.cpp:292
+#: src/properties/DlgTextStyles.cpp:297
+msgid "Not yet implemented"
+msgstr "Non ancora implementato"
+
+#: src/properties/TextProperties.cpp:158
+msgid "Text style:"
+msgstr "Stile testo:"
+
+#: src/properties/TextProperties.cpp:167
+msgid "Add/change styles"
+msgstr "Aggiungi/modifica stili"
+
+#: src/properties/lenmus_dlg_properties.cpp:57
+msgid "Properties"
+msgstr "Proprietà"
+
+#: src/properties/lenmus_dlg_properties.cpp:167 xrc/xrc_strings.cpp:153
+msgid "Barline"
+msgstr "Stanghetta"
+
+#: src/properties/lenmus_dlg_properties.cpp:182
+msgid "General"
+msgstr "Generale"
+
+#: src/properties/lenmus_properties_barline.cpp:107
+#, fuzzy
+msgid "Barline type"
+msgstr "Stanghetta"
+
+#: src/properties/lenmus_properties_general.cpp:145
+msgid "false"
+msgstr ""
+
+#: src/properties/lenmus_properties_general.cpp:146
+msgid "true"
+msgstr ""
+
+#: src/updater/lenmus_updater.cpp:107
+msgid "You are not connected to internet!"
+msgstr "¡Non sei connesso a Internet!"
+
+#: src/updater/lenmus_updater.cpp:108
+msgid "To check for updates LenMus needs internet connection."
+msgstr ""
+"Per verificare la disponibilità di aggiornamenti LenMus necessita di una "
+"connessione a Internet."
+
+#: src/updater/lenmus_updater.cpp:109
+msgid "Please, connect to internet and then retry."
+msgstr "Per favore, connettiti a Internet e poi riprova."
+
+#: src/updater/lenmus_updater.cpp:203
+msgid "Error checking for updates"
+msgstr "Errore nella verifica di aggiornamenti"
+
+#: src/updater/lenmus_updater.cpp:204
+msgid ""
+"A connection with the server could not be established. Check that you are "
+"connected to the internet and that no firewalls are blocking this program; "
+"then try again. If problems persist, the server may be down. Please, try "
+"again later."
+msgstr ""
+"Non è stato possibile stabilire una connessione con il server. Controlla se "
+"sei collegato ad internet e che non vi siano dei firewall a bloccare questo "
+"programma, poi riprova. Se il problema persiste, il server potrebbe essere "
+"momentaneamente fuori uso. Riprova più tardi."
+
+#: src/updater/lenmus_updater.cpp:367
+msgid "No updates available."
+msgstr "Nessun aggiornamento disponibile"
+
+#: src/widgets/MusicSymbolList.cpp:140 src/widgets/lenmus_msg_box.cpp:149
+msgid "Question"
+msgstr "Domanda"
+
+#: src/widgets/MusicSymbolList.cpp:168 src/widgets/lenmus_msg_box.cpp:176
+msgid "Error"
+msgstr "Errore"
+
+#: src/widgets/lenmus_wizard.cpp:123
+msgid "< Previous"
+msgstr "< Precedente"
+
+#: src/widgets/lenmus_wizard.cpp:127
+msgid "Next >"
+msgstr "Successivo >"
+
+#: src/widgets/lenmus_wizard.cpp:131
+msgid "Finish"
+msgstr "Fine"
+
+#: src/widgets/lenmus_wizard.cpp:242
+msgid "unknown button"
+msgstr "pulsante sconosciuto"
+
+#: xrc/xrc_strings.cpp:1
+msgid "Configuration: Intervals - identification by ear"
+msgstr "Configurazione: Intervalli - identificazione a orecchio"
+
+#: xrc/xrc_strings.cpp:2
+msgid "Intervals"
+msgstr "Intervalli"
+
+#: xrc/xrc_strings.cpp:3
+msgid "Intervals to practise"
+msgstr "Intervalli con cui fare pratica"
+
+#: xrc/xrc_strings.cpp:6
+msgid "Major 2nd"
+msgstr "2a Maggiore"
+
+#: xrc/xrc_strings.cpp:8
+msgid "Major 3rd"
+msgstr "3a Maggiore"
+
+#: xrc/xrc_strings.cpp:9
+msgid "Perfect 4th"
+msgstr "4a Perfetta"
+
+#: xrc/xrc_strings.cpp:10
+msgid "augm.4th / dim. 5th"
+msgstr "4a aum. / 5a dim."
+
+#: xrc/xrc_strings.cpp:18
+msgid "Major 9th"
+msgstr "9a Maggiore"
+
+#: xrc/xrc_strings.cpp:20
+msgid "Major 10th"
+msgstr "10a Maggiore"
+
+#: xrc/xrc_strings.cpp:22
+msgid "augm. 11th / dim. 12th"
+msgstr "11a aum. / 12a dim."
+
+#: xrc/xrc_strings.cpp:27
+msgid "Major 14th"
+msgstr "14a Maggiore"
+
+#: xrc/xrc_strings.cpp:30 xrc/xrc_strings.cpp:31
+msgid "Accidentals"
+msgstr "Alterazioni"
+
+#: xrc/xrc_strings.cpp:32
+msgid "&Use only notes from key signature"
+msgstr "&Usa soltanto note dall'armatura di chiave"
+
+#: xrc/xrc_strings.cpp:33
+msgid "&Allow chromatic accidentals"
+msgstr "Consenti &alterazioni cromatiche"
+
+#: xrc/xrc_strings.cpp:50 xrc/xrc_strings.cpp:242 xrc/xrc_strings.cpp:298
+msgid "You must choose one key signature at least! "
+msgstr "Devi scegliere almeno un'armatura di chiave!"
+
+#: xrc/xrc_strings.cpp:51 xrc/xrc_strings.cpp:243 xrc/xrc_strings.cpp:299
+msgid "Other settings"
+msgstr "Altre impostazioni"
+
+#: xrc/xrc_strings.cpp:52
+msgid "Notes' range"
+msgstr "Estensione note"
+
+#: xrc/xrc_strings.cpp:53 xrc/xrc_strings.cpp:70 xrc/xrc_strings.cpp:73
+#: xrc/xrc_strings.cpp:76 xrc/xrc_strings.cpp:79 xrc/xrc_strings.cpp:82
+#: xrc/xrc_strings.cpp:85 xrc/xrc_strings.cpp:88
+msgid "Min. note"
+msgstr "Nota minima"
+
+#: xrc/xrc_strings.cpp:54 xrc/xrc_strings.cpp:71 xrc/xrc_strings.cpp:74
+#: xrc/xrc_strings.cpp:77 xrc/xrc_strings.cpp:80 xrc/xrc_strings.cpp:83
+#: xrc/xrc_strings.cpp:86 xrc/xrc_strings.cpp:89
+msgid "Max. note"
+msgstr "Nota massima"
+
+#: xrc/xrc_strings.cpp:55 xrc/xrc_strings.cpp:91
+msgid "Minimum pitch must be lower than maximum pitch "
+msgstr "La tonalità minima deve essere inferiore a quella massima"
+
+#: xrc/xrc_strings.cpp:61
+msgid "Start both intervals with the same note"
+msgstr "Inizia entrambi gli intervalli con la stessa nota"
+
+#: xrc/xrc_strings.cpp:64
+msgid ""
+"It is not possible to generate any interval. Selected notes range interval "
+"(see tab 'Other settings') is lower than minimun allowed interval (see tab "
+"'Intervals')"
+msgstr ""
+"Non è possibile generare intervalli. L'estensione di note dell'intervallo "
+"(vedi scheda 'Altre impostazioni') è inferiore al minimo intervallo "
+"consentito (vedi scheda 'Intervalli')"
+
+#: xrc/xrc_strings.cpp:66
+msgid "Score generation settings"
+msgstr "Impostazioni di generazione partitura"
+
+#: xrc/xrc_strings.cpp:67
+msgid "Clefs and Notes"
+msgstr "Chiavi e Note"
+
+#: xrc/xrc_strings.cpp:68
+msgid ""
+"Mark the clefts to use and set up the minimun and\n"
+"maximum pitches for the notes to use with each selected clef."
+msgstr ""
+"Segna le chiavi da usare ed imposta la minima e\n"
+"massima tonalità per le note da usare per ogni chiave selezionata."
+
+#: xrc/xrc_strings.cpp:90
+msgid "You must choose at least one clef! "
+msgstr "Devi scegliere almeno una chiave!"
+
+#: xrc/xrc_strings.cpp:92
+msgid "Maximum interval between two consecutive notes"
+msgstr "Massimo intervallo fra due note consecutive"
+
+#: xrc/xrc_strings.cpp:93
+msgid "Time signatures"
+msgstr "Indicazioni tempo"
+
+#: xrc/xrc_strings.cpp:94
+msgid "Binary subdivision"
+msgstr "Suddivisione binaria"
+
+#: xrc/xrc_strings.cpp:95
+msgid "2 4 time signature"
+msgstr "metrica 2 4"
+
+#: xrc/xrc_strings.cpp:96
+msgid "3 4"
+msgstr "3 4"
+
+#: xrc/xrc_strings.cpp:97
+msgid "4 4"
+msgstr "4 4"
+
+#: xrc/xrc_strings.cpp:98
+msgid "2 8"
+msgstr "2 8"
+
+#: xrc/xrc_strings.cpp:99
+msgid "2 2"
+msgstr "2 2"
+
+#: xrc/xrc_strings.cpp:100
+msgid "3 2"
+msgstr "3 2"
+
+#: xrc/xrc_strings.cpp:101
+msgid "Ternary subdivision"
+msgstr "Suddivisione ternaria"
+
+#: xrc/xrc_strings.cpp:102
+msgid "6 8 time signature"
+msgstr "metrica 6 8"
+
+#: xrc/xrc_strings.cpp:103
+msgid "9 8"
+msgstr "9 8"
+
+#: xrc/xrc_strings.cpp:104
+msgid "12 8"
+msgstr "12 8"
+
+#: xrc/xrc_strings.cpp:105
+msgid "3 8"
+msgstr "3 8"
+
+#: xrc/xrc_strings.cpp:106
+msgid "You must choose at least one time signature! "
+msgstr "Devi scegliere almeno un tempo!"
+
+#: xrc/xrc_strings.cpp:124
+msgid "Rhymths"
+msgstr "Ritmi"
+
+#: xrc/xrc_strings.cpp:125
+msgid "Add rhythm"
+msgstr "Aggiungi ritmo"
+
+#: xrc/xrc_strings.cpp:126
+msgid "Delete rhythm"
+msgstr "Cancella ritmo"
+
+#: xrc/xrc_strings.cpp:128 xrc/xrc_strings.cpp:194 xrc/xrc_strings.cpp:200
+msgid "&Cancel"
+msgstr "&Annulla"
+
+#: xrc/xrc_strings.cpp:130
+msgid "Pattern's editor"
+msgstr "Editor di modello"
+
+#: xrc/xrc_strings.cpp:131
+msgid "Step 1. Choose attributes for next note/rest to enter:"
+msgstr "Passo 1. Scegli gli attributi per la prossima nota/pausa da inserire:"
+
+#: xrc/xrc_strings.cpp:132
+msgid "Dotted"
+msgstr "Puntato"
+
+#: xrc/xrc_strings.cpp:133
+msgid "Tied next"
+msgstr "Prossimo legato"
+
+#: xrc/xrc_strings.cpp:134
+msgid "Not beamed"
+msgstr "Not raggruppato"
+
+#: xrc/xrc_strings.cpp:135
+msgid "Start of a beamed group"
+msgstr "Inizia un raggruppamento"
+
+#: xrc/xrc_strings.cpp:136
+msgid "Continue in beamed group"
+msgstr "Continua un raggruppamento"
+
+#: xrc/xrc_strings.cpp:137
+msgid "End of beamed group"
+msgstr "Fine del raggruppamento"
+
+#: xrc/xrc_strings.cpp:138
+msgid "Step 2. Enter the the desired note/rest:"
+msgstr "Passo 2. Inserisci la nota/pausa desiderata:"
+
+#: xrc/xrc_strings.cpp:139
+msgid "Whole note"
+msgstr "Semibreve"
+
+#: xrc/xrc_strings.cpp:140
+msgid "Half note"
+msgstr "Minima"
+
+#: xrc/xrc_strings.cpp:141
+msgid "Quarter note"
+msgstr "Semiminima"
+
+#: xrc/xrc_strings.cpp:142
+msgid "8th note"
+msgstr "Croma"
+
+#: xrc/xrc_strings.cpp:143
+msgid "16th note"
+msgstr "Semicroma"
+
+#: xrc/xrc_strings.cpp:144
+msgid "32th note"
+msgstr "Biscroma"
+
+#: xrc/xrc_strings.cpp:145
+msgid "64th note"
+msgstr "Semibiscroma"
+
+#: xrc/xrc_strings.cpp:146
+msgid "Whole rest"
+msgstr "Pausa di semibreve"
+
+#: xrc/xrc_strings.cpp:147
+msgid "Half rest"
+msgstr "Pausa di minima"
+
+#: xrc/xrc_strings.cpp:148
+msgid "Quarter rest"
+msgstr "Pausa di semiminima"
+
+#: xrc/xrc_strings.cpp:149
+msgid "8th rest"
+msgstr "Pausa di croma"
+
+#: xrc/xrc_strings.cpp:150
+msgid "16th rest"
+msgstr "Pausa di semicroma"
+
+#: xrc/xrc_strings.cpp:151
+msgid "32th rest"
+msgstr "Pausa di biscroma"
+
+#: xrc/xrc_strings.cpp:152
+msgid "64th rest"
+msgstr "Pausa di semibiscroma"
+
+#: xrc/xrc_strings.cpp:154
+msgid "Clear all"
+msgstr "Cancella tutto"
+
+#: xrc/xrc_strings.cpp:177
+msgid "dd/mm/aaaa"
+msgstr "dd/mm/aaaa"
+
+#: xrc/xrc_strings.cpp:190 xrc/xrc_strings.cpp:196
+msgid "LenMus Phonascus updater"
+msgstr "Sistema di aggiornamento di LenMus"
+
+#: xrc/xrc_strings.cpp:191
+msgid "Available updates"
+msgstr "Aggiornamenti disponibili"
+
+#: xrc/xrc_strings.cpp:192
+msgid "Item description"
+msgstr "Descrizione elemento"
+
+#: xrc/xrc_strings.cpp:193
+msgid "Download selected items"
+msgstr "Download degli elementi selezionati"
+
+#: xrc/xrc_strings.cpp:197
+msgid "Checking for available updates"
+msgstr "Controlla aggiornamenti disponibili"
+
+#: xrc/xrc_strings.cpp:198
+msgid ""
+"This program will connect to LenMus website and look for \n"
+"available updates.\n"
+"\n"
+"Press 'Proceed' to start."
+msgstr ""
+"Questo programma si connetterà al sito web di LenMus \n"
+"per controllare se ci sono aggiornamenti.\n"
+"\n"
+"Premere 'Procedi' per iniziare."
+
+#: xrc/xrc_strings.cpp:199
+msgid "Proceed"
+msgstr "Procedi"
+
+#: xrc/xrc_strings.cpp:202
+msgid "Configuration: Chords' identification"
+msgstr "Configurazione: identificazione degli accordi"
+
+#: xrc/xrc_strings.cpp:203
+msgid "Chords"
+msgstr "Accordi"
+
+#: xrc/xrc_strings.cpp:204
+msgid "Triads"
+msgstr "Triadi"
+
+#: xrc/xrc_strings.cpp:211
+msgid "Sevenths"
+msgstr "Settime"
+
+#: xrc/xrc_strings.cpp:220
+msgid "Other chords"
+msgstr "Altri accordi"
+
+#: xrc/xrc_strings.cpp:244
+msgid "Play modes"
+msgstr "Modalità di suono"
+
+#: xrc/xrc_strings.cpp:245
+msgid "Chord (simultaneous notes)"
+msgstr "Accordo (note simultanee)"
+
+#: xrc/xrc_strings.cpp:246
+msgid "Arpegiated (ascending)"
+msgstr "Arpeggiato (ascendente)"
+
+#: xrc/xrc_strings.cpp:247
+msgid "Arpegiated (descending)"
+msgstr "Arpeggiato (discendente)"
+
+#: xrc/xrc_strings.cpp:249
+msgid "Allow inversions"
+msgstr "Consenti inversioni"
+
+#: xrc/xrc_strings.cpp:250 xrc/xrc_strings.cpp:304
+msgid "Display key signature"
+msgstr "Mostra armatura di chiave"
+
+#: xrc/xrc_strings.cpp:254
+msgid "Configuration: Scales' identification"
+msgstr "Configurazione: identificazione scale"
+
+#: xrc/xrc_strings.cpp:255
+msgid "Scales"
+msgstr "Scale"
+
+#: xrc/xrc_strings.cpp:256
+msgid "Major scales"
+msgstr "Scale maggiori"
+
+#: xrc/xrc_strings.cpp:261
+msgid "Minor scales"
+msgstr "Scale minori"
+
+#: xrc/xrc_strings.cpp:266
+msgid "Gregorian scales"
+msgstr "Scale gregoriane"
+
+#: xrc/xrc_strings.cpp:274
+msgid "Other scales"
+msgstr "Altre scale"
+
+#: xrc/xrc_strings.cpp:300
+msgid "Play mode"
+msgstr "Modalità di riproduzione"
+
+#: xrc/xrc_strings.cpp:301
+msgid "&Ascending"
+msgstr "&Ascendente"
+
+#: xrc/xrc_strings.cpp:302
+msgid "&Descending"
+msgstr "&Discendente"
+
+#: xrc/xrc_strings.cpp:303
+msgid "&Both"
+msgstr "&Entrambe"
+
+#: xrc/xrc_strings.cpp:308
+msgid "Cadence settings"
+msgstr "Impostazioni cadenza"
+
+#: xrc/xrc_strings.cpp:309
+msgid "Cadences"
+msgstr "Cadenze"
+
+#: xrc/xrc_strings.cpp:311 xrc/xrc_strings.cpp:389
+msgid "Perfect authentic"
+msgstr "Autentica perfetta"
+
+#: xrc/xrc_strings.cpp:312
+msgid "V --> I"
+msgstr "V --> I"
+
+#: xrc/xrc_strings.cpp:313
+msgid "V7 --> I"
+msgstr "V7 --> I"
+
+#: xrc/xrc_strings.cpp:314
+msgid "V aug5 --> I"
+msgstr "V aum5 --> I"
+
+#: xrc/xrc_strings.cpp:315
+msgid "V dim5 --> I"
+msgstr "V dim5 --> I"
+
+#: xrc/xrc_strings.cpp:316 xrc/xrc_strings.cpp:324 xrc/xrc_strings.cpp:335
+#: xrc/xrc_strings.cpp:344
+msgid "check/uncheck all"
+msgstr "marca/smarca tutti"
+
+#: xrc/xrc_strings.cpp:318
+msgid "V --> I (one or both with inversions)"
+msgstr "V --> I (una o entrambe con inversioni)"
+
+#: xrc/xrc_strings.cpp:320
+msgid "IV --> I"
+msgstr "IV --> I"
+
+#: xrc/xrc_strings.cpp:321
+msgid "IVm --> I"
+msgstr "IVm --> I"
+
+#: xrc/xrc_strings.cpp:322
+msgid "II/6 --> I"
+msgstr "II/6 --> I"
+
+#: xrc/xrc_strings.cpp:323
+msgid "IIm/6 --> I"
+msgstr "IIm/6 --> I"
+
+#: xrc/xrc_strings.cpp:326
+msgid "Half cadences"
+msgstr "Cadenza imperfetta"
+
+#: xrc/xrc_strings.cpp:327
+msgid "IIm/6 --> V"
+msgstr "IIm/6 --> V"
+
+#: xrc/xrc_strings.cpp:328
+msgid "IV --> V"
+msgstr "IV --> V"
+
+#: xrc/xrc_strings.cpp:329
+msgid "I --> V"
+msgstr "I --> V"
+
+#: xrc/xrc_strings.cpp:330
+msgid "I/64 --> V"
+msgstr "I/64 --> V"
+
+#: xrc/xrc_strings.cpp:331
+msgid "IVm/6 --> V (Phrygian half cadence)"
+msgstr "IVm/6 --> V (cadenza imperfetta frigia)"
+
+#: xrc/xrc_strings.cpp:332
+msgid "II --> V"
+msgstr "II --> V"
+
+#: xrc/xrc_strings.cpp:333
+msgid "Neapolitan sixth --> V"
+msgstr "Sesta napoletana --> V"
+
+#: xrc/xrc_strings.cpp:334
+msgid "VI+ --> V"
+msgstr "VI+ --> V"
+
+#: xrc/xrc_strings.cpp:337
+msgid "V --> IV"
+msgstr "V --> IV"
+
+#: xrc/xrc_strings.cpp:338
+msgid "V --> IVm"
+msgstr "V --> IVm"
+
+#: xrc/xrc_strings.cpp:339
+msgid "V --> IIm"
+msgstr "V --> IIm"
+
+#: xrc/xrc_strings.cpp:340
+msgid "V --> III"
+msgstr "V --> III"
+
+#: xrc/xrc_strings.cpp:341
+msgid "V --> VII"
+msgstr "V --> VII"
+
+#: xrc/xrc_strings.cpp:342
+msgid "V --> VI"
+msgstr "V --> VI"
+
+#: xrc/xrc_strings.cpp:343
+msgid "V --> VIm"
+msgstr "V --> VIm"
+
+#: xrc/xrc_strings.cpp:380
+msgid "How to show key signature?"
+msgstr "Come visualizzare l'armatura di chiave?"
+
+#: xrc/xrc_strings.cpp:381
+msgid "&Play A4 note"
+msgstr "&Suona la nota La4"
+
+#: xrc/xrc_strings.cpp:382
+msgid "Play &tonic chord"
+msgstr "Suona accordo &tonico"
+
+#: xrc/xrc_strings.cpp:385
+msgid "Identify cadence &group (terminal/transient)"
+msgstr "Identifica il &gruppo della cadenza (terminale/transitorio)"
+
+#: xrc/xrc_strings.cpp:386
+msgid "Identify cadence &type"
+msgstr "Identifica il &tipo di cadenza"
+
+#: xrc/xrc_strings.cpp:387
+msgid "Cadence types"
+msgstr "Tipi di cadenze"
+
+#: xrc/xrc_strings.cpp:388
+msgid "Terminal cadences"
+msgstr "Cadenze terminali"
+
+#: xrc/xrc_strings.cpp:392
+msgid "Transient cadences"
+msgstr "Cadenze transitorie"
+
+#: xrc/xrc_strings.cpp:395
+msgid "You must choose al least two buttons! "
+msgstr "Devi scegliere almeno due bottoni!"
+
+#: xrc/xrc_strings.cpp:396
+msgid "You must choose at least one cadence in tab 'cadences'! "
+msgstr "Devi scegliere almeno una cadenza nella scheda 'cadenze'!"
+
+#~ msgid "Show this help message"
+#~ msgstr "Mostra questo messaggio di aiuto"
+
+#~ msgid "Run Midi wizard"
+#~ msgstr "Esegui configurazione guidata MIDI"
+
+#~ msgid "MIDI configuration wizard"
+#~ msgstr "Configurazione guidata MIDI"
+
+#~ msgid "dd/mm/yyyy"
+#~ msgstr "dd/mm/aaaa"
+
+#~ msgid "&Accept"
+#~ msgstr "&Ok"
+
+#~ msgid "&Help"
+#~ msgstr "&Aiuto"
+
+#~ msgid "Add/remove a tie to/from selected notes"
+#~ msgstr "Aggiungi/rimuovi legame note selezionate"
+
+#~ msgid "Add/remove tuplet to/from selected notes"
+#~ msgstr "Aggiungi/rimuovi gruppo irregolare note selezionate"
+
+#~ msgid "Adjust selected beam to draw it horizontal"
+#~ msgstr ""
+#~ "Aggiusta il raggruppamento selezionato per disegnarlo orizzontalmente"
+
+#, fuzzy
+#~ msgid "Barlines"
+#~ msgstr "Stanghetta"
+
+#, fuzzy
+#~ msgid "Barlines and rehearsal marks"
+#~ msgstr "Strumenti di modifica segni di prova e stanghette"
+
+#~ msgid "Beam together all selected notes"
+#~ msgstr "Raggruppa tutte le note selezionate"
+
+#~ msgid "Beams"
+#~ msgstr "Raggruppamenti"
+
+#~ msgid "Brass quintet"
+#~ msgstr "Quintetto di ottoni"
+
+#~ msgid "Brass trio"
+#~ msgstr "Trio di ottoni"
+
+#~ msgid "Break beam at current cursor position"
+#~ msgstr "Rompi raggruppamento alla posizione attuale del cursore"
+
+#~ msgid "C clef on 1st line"
+#~ msgstr "Chiave di Do sulla 1a linea"
+
+#~ msgid "C clef on 2nd line"
+#~ msgstr "Chiave di Do sulla 2a linea"
+
+#~ msgid "C clef on 3rd line"
+#~ msgstr "Chaive di Do sulla 3a linea"
+
+#~ msgid "C clef on 4th line"
+#~ msgstr "Chiave di Do sulla 4a linea"
+
+#, fuzzy
+#~ msgid "Change page margins"
+#~ msgstr "Cambia margine"
+
+#, fuzzy
+#~ msgid "Change tool set ..."
+#~ msgstr "Cambia testo"
+
+#~ msgid "Choir 3 voices (SSA)"
+#~ msgstr "Coro a 3 voci (SSA)"
+
+#~ msgid "Choir 4 voices (SATB)"
+#~ msgstr "Coro a 4 voci (SATB)"
+
+#~ msgid "Choir SATB + piano"
+#~ msgstr "Coro SATB + piano"
+
+#~ msgid "Choir SSA + piano"
+#~ msgstr "Coro SSA + piano"
+
+#, fuzzy
+#~ msgid "Clefs, keys and time signatures\tF2"
+#~ msgstr "Strumenti di modifica chiave, armatura e tempo"
+
+#~ msgid "Dots"
+#~ msgstr "Punti"
+
+#, fuzzy
+#~ msgid "Duration"
+#~ msgstr "Durata nota"
+
+#, fuzzy
+#~ msgid "Edit tools for barlines and rehearsal marks"
+#~ msgstr "Strumenti di modifica segni di prova e stanghette"
+
+#, fuzzy
+#~ msgid "Edit tools for clefs, keys and time signatures"
+#~ msgstr "Strumenti di modifica chiave, armatura e tempo"
+
+#, fuzzy
+#~ msgid "Error copying program files"
+#~ msgstr "Errore nell'analisi del file XML"
+
+#, fuzzy
+#~ msgid "Error creating shortcut on desktop"
+#~ msgstr "Errore nella verifica di aggiornamenti"
+
+#, fuzzy
+#~ msgid "Examples of music scores"
+#~ msgstr "Apri una partitura MusicXML"
+
+#~ msgid "F clef on 4th line"
+#~ msgstr "Chiave di Fa sulla 4a linea"
+
+#, fuzzy
+#~ msgid "File to save"
+#~ msgstr "Strumenti per file"
+
+#~ msgid "G clef on 2nd line"
+#~ msgstr "Chiave di Sol sulla 2a linea"
+
+#, fuzzy
+#~ msgid "Harmony"
+#~ msgstr "Armonica"
+
+#, fuzzy
+#~ msgid "Harmony exercise"
+#~ msgstr "Armonica"
+
+#, fuzzy
+#~ msgid "Installation canceled"
+#~ msgstr "Stampa annullata"
+
+#, fuzzy
+#~ msgid "Key signature"
+#~ msgstr "Armatura di chiave"
+
+#~ msgid "Language '%s' will be used the next time you run LenMus."
+#~ msgstr "Il linguaggio '%s' sarà usato la prossima volta che avvii LenMus."
+
+#, fuzzy
+#~ msgid "Lines and arrows"
+#~ msgstr "Margini e spaziatori"
+
+#~ msgid "Modifiers"
+#~ msgstr "Modificatori"
+
+#, fuzzy
+#~ msgid "Notes and rests"
+#~ msgstr "Estensione note"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#, fuzzy
+#~ msgid "Octave"
+#~ msgstr "ottava"
+
+#, fuzzy
+#~ msgid "Page title"
+#~ msgstr "aggiungi titolo"
+
+#~ msgid "Percussion clef"
+#~ msgstr "Chiave di percussione"
+
+#, fuzzy
+#~ msgid "Rhythm"
+#~ msgstr "Aggiungi ritmo"
+
+#, fuzzy
+#~ msgid "Run LenMus"
+#~ msgstr "Per sapere cos'è LenMus"
+
+#, fuzzy
+#~ msgid "Select time signature %d/%d"
+#~ msgstr "Scegliere il tipo di tempo"
+
+#~ msgid "Select voice %d"
+#~ msgstr "Seleziona voce %d"
+
+#, fuzzy
+#~ msgid "Select voice Alto"
+#~ msgstr "Seleziona voce %d"
+
+#, fuzzy
+#~ msgid "Select voice Bass"
+#~ msgstr "Seleziona voce %d"
+
+#, fuzzy
+#~ msgid "Select voice Soprano"
+#~ msgstr "Seleziona voce %d"
+
+#, fuzzy
+#~ msgid "Select voice Tenor"
+#~ msgstr "Seleziona voce %d"
+
+#~ msgid "String quartet"
+#~ msgstr "Quartetto d'archi"
+
+#~ msgid "Subdivide beamed group at current cursor position"
+#~ msgstr "Suddividi raggruppamento alla posizione attuale del cursore"
+
+#~ msgid "Text"
+#~ msgstr "Testo"
+
+#, fuzzy
+#~ msgid "The installer is already running."
+#~ msgstr "Un'altra istanza di LenMus è in esecuzione."
+
+#, fuzzy
+#~ msgid "Toggle stem in selected notes"
+#~ msgstr "Raggruppa tutte le note selezionate"
+
+#, fuzzy
+#~ msgid "Top level tools"
+#~ msgstr "Strumenti per file"
+
+#, fuzzy
+#~ msgid "Voice"
+#~ msgstr "Voce (Alt)"
+
+#~ msgid "Voice (Alt)"
+#~ msgstr "Voce (Alt)"
+
+#~ msgid "Woodwind quintet"
+#~ msgstr "Quintetto di strumenti a fiato"
+
+#~ msgid "Woodwind trio"
+#~ msgstr "Trio di strumenti a fiato"
+
+#, fuzzy
+#~ msgid "Would you like to continue the installation?"
+#~ msgstr "Desideri continuare con l'installazione?"
+
+#~ msgid "&Close\tCtrl+W"
+#~ msgstr "C&hiudi\tCtrl+W"
+
+#~ msgid "&Edit"
+#~ msgstr "&Modifica"
+
+#~ msgid "&New\tCtrl+N"
+#~ msgstr "&Nuovo\tCtrl+N"
+
+#~ msgid "&Open ...\tCtrl+O"
+#~ msgstr "&Apri ...\tCtrl+O"
+
+#~ msgid "&Preferences"
+#~ msgstr "&Preferenze"
+
+#~ msgid "&Print ...\tCtrl+P"
+#~ msgstr "S&tampa ...\tCtrl+P"
+
+#~ msgid "&Quit\tCtrl+Q"
+#~ msgstr "Esci\tCtrl+Q"
+
+#~ msgid "&Redo"
+#~ msgstr "&Redo (rifai)"
+
+#~ msgid "&Save\tCtrl+S"
+#~ msgstr "&Salva\tCtrl+S"
+
+#~ msgid "&Test sound"
+#~ msgstr "&Test sonoro"
+
+#~ msgid "&Tool box"
+#~ msgstr "&Riquadro strumenti"
+
+#~ msgid "&Undo"
+#~ msgstr "&Undo (annulla)"
+
+#~ msgid "&Visit LenMus website"
+#~ msgstr "Visita il sito di LenMus"
+
+#~ msgid "&Window"
+#~ msgstr "&Finestra"
+
+#~ msgid "Add clef"
+#~ msgstr "Aggiungi chiave"
+
+#, fuzzy
+#~ msgid "Add figured bass"
+#~ msgstr "Inserisci pausa"
+
+#, fuzzy
+#~ msgid "Add key signature"
+#~ msgstr "Aggiungi armatura di chiave"
+
+#, fuzzy
+#~ msgid "Add line or arrow"
+#~ msgstr "Margini e spaziatori"
+
+#, fuzzy
+#~ msgid "Add notes"
+#~ msgstr "Aggiungi un legame"
+
+#, fuzzy
+#~ msgid "Add rests"
+#~ msgstr "Aggiungi titoli"
+
+#, fuzzy
+#~ msgid "Add text"
+#~ msgstr "Aggiungi un legame"
+
+#, fuzzy
+#~ msgid "Add textbox"
+#~ msgstr "Aggiungi un legame"
+
+#, fuzzy
+#~ msgid "Add time signature"
+#~ msgstr "Aggiungi indicazione tempo"
+
+#~ msgid "Automatic voice assignment"
+#~ msgstr "Assegnazione automatica voce"
+
+#~ msgid "Hide/show edition tool box window"
+#~ msgstr "Mostra/nascondi riquadro strumenti per modifica"
+
+#, fuzzy
+#~ msgid "Open LenMus document"
+#~ msgstr "Apri documento HTML"
+
+#~ msgid "Open help book"
+#~ msgstr "Apri il libro d'aiuto"
+
+#~ msgid "S&top"
+#~ msgstr "S&top"
+
+#, fuzzy
+#~ msgid "Bass"
+#~ msgstr "Raggruppamenti"
+
+#~ msgid "Arial"
+#~ msgstr "Arial"
+
+#~ msgid "Project team"
+#~ msgstr "Project team"
+
+#~ msgid ""
+#~ "LenMus is a free program to help you in the study of music theory and  "
+#~ "ear training. It is available for Windows but soon it will be also "
+#~ "available for Mac OS X, Linux, and other Unix-like operating systems."
+#~ msgstr ""
+#~ "LenMus è un programma gratuito che ti aiuta nello studio della teoria "
+#~ "musicale e nell'allenamento uditivo. E' disponibile per Windows ma presto "
+#~ "lo sarà anche per Mac OS X, Linux ed altri sistemi operativi Unix-like."
+
+#~ msgid ""
+#~ "This program uses the <b>Anti-Grain Geometry</b> (http://www.antigrain."
+#~ "com) software developed by Maxim Shemanarev. AGG is an excellent open "
+#~ "source, free graphic library, in source code. It produces pixel images in "
+#~ "memory from vectorial data and it supports anti-aliasing, has very high "
+#~ "performance, it is platform independent, very flexible and extensible, "
+#~ "with a light weight design, and very good reliability and stability."
+#~ msgstr ""
+#~ "Questo programma usa il software <b>Anti-Grain Geometry</b> sviluppato da "
+#~ "Maxim Shemanerev. AGG è un'eccellente libreria open source che genera "
+#~ "immagini di pixel a partire da dati vettoriali. Supporta l'anti-aliasing, "
+#~ "ha un'elevata performance, è indipendente dalla piattaforma, molto "
+#~ "flessibile ed estensibile, con un design orientato alla leggerezza, "
+#~ "nonché un'affidabilità e stabilità molto buone."
+
+#~ msgid ""
+#~ "Most of 'lmbasic.ttf' font glyphs are taken from <b>LilyPond</b> GNU GPL "
+#~ "project (http://lilypond.org), Feta font."
+#~ msgstr ""
+#~ "Gran parte dei glifi dei caratteri in 'lmbasic.ttf' sono stati estratti "
+#~ "dal progetto GNU GPL <b>LilyPond</b>, carattere Feta."
+
+#~ msgid "(alphabetical order)"
+#~ msgstr "(in ordine alfabetico)"
+
+#~ msgid ""
+#~ "This program has been designed and developed by volunteers. Some of them "
+#~ "devoted a few hours, others months or years. But all them gave their time "
+#~ "for free to the project. Thanks to all them."
+#~ msgstr ""
+#~ "Questo programma è stato progettato e sviluppato da volontari. Alcuni vi "
+#~ "hanno dedicato poche ore, altri mesi oppure anni, ma tutti hanno prestato "
+#~ "gratuitamente parte del loro tempo per lo sviluppo di questo progetto. "
+#~ "Grazie a tutti loro."
+
+#~ msgid "Website maintenace:"
+#~ msgstr "Manutenzione sito:"
+
+#~ msgid "Sorry, an error has occurred while allocating the font."
+#~ msgstr ""
+#~ "Spiacente, si è verificato un errore nel tentativo di caricare il "
+#~ "carattere."
+
+#~ msgid "New score"
+#~ msgstr "Nuova partitura"
+
+#~ msgid "Show/hide page margins and spacers"
+#~ msgstr "Mostra/nascondi margini di pagina e spaziatori"
+
+#~ msgid "Show/hide navigation panel"
+#~ msgstr "Mostra/Nascondi pannello di navigazione"
+
+#~ msgid "Previous page of current eMusicBook"
+#~ msgstr "Pagina precedente del corrente eMusicBook"
+
+#~ msgid "Next page of current eMusicBook"
+#~ msgstr "Pagina successiva del corrente eMusicBook"
+
+#~ msgid "Go to next visited page"
+#~ msgstr "Vai alla pagina visitata successivamente"
+
+#~ msgid "eBooks navigation tools"
+#~ msgstr "Strumenti di navigazione negli eBook"
+
+#~ msgid "Hide/show eMusicBooks"
+#~ msgstr "Nascondi/mostra eMusicBook"
+
+#~ msgid "&Import..."
+#~ msgstr "&Importa"
+
+#~ msgid "Save score as a MusicXML file"
+#~ msgstr "Salva partitura come file MusicXML"
+
+#~ msgid "As &bmp image"
+#~ msgstr "Come immagine &bmp"
+
+#~ msgid "Save score as BMP images"
+#~ msgstr "Salva partitura come immagini BMP"
+
+#~ msgid "As &jpg image"
+#~ msgstr "Come immagine &jpg"
+
+#~ msgid "Save score as JPG images"
+#~ msgstr "Salva partitura come immagini JPG"
+
+#~ msgid "&Export ..."
+#~ msgstr "&Esporta ..."
+
+#~ msgid "Save score in other formats"
+#~ msgstr "Salva partitura in altri formati"
+
+#~ msgid "Print Pre&view"
+#~ msgstr "Anteprima di Stampa"
+
+#, fuzzy
+#~ msgid "View index"
+#~ msgstr "Prossimo legato"
+
+#, fuzzy
+#~ msgid "Back page"
+#~ msgstr "pagina"
+
+#, fuzzy
+#~ msgid "Next page"
+#~ msgstr "Successivo >"
+
+#~ msgid "&Rulers"
+#~ msgstr "Ri&ghelli"
+
+#~ msgid "Margins and spacers"
+#~ msgstr "Margini e spaziatori"
+
+#~ msgid "Edit name, abbreviation, MIDI settings and other properties"
+#~ msgstr "Modifica nome, abbreviazione, impostazioni MIDI e altre proprietà"
+
+#~ msgid "&Play"
+#~ msgstr "&Riproduci"
+
+#~ msgid "Cl&ose"
+#~ msgstr "C&hiudi"
+
+#~ msgid "&Next"
+#~ msgstr "Successivo"
+
+#~ msgid "&Previous"
+#~ msgstr "Precedente"
+
+#~ msgid "Show editor reference card"
+#~ msgstr "Mostra una scheda di riferimento per la modifica"
+
+#, fuzzy
+#~ msgid "e&Books"
+#~ msgstr "eMusicBook"
+
+#~ msgid "&Instrument"
+#~ msgstr "S&trumento"
+
+#~ msgid "Test mode: using .hhp help file"
+#~ msgstr "Modalità test: usa file help .hhp"
+
+#~ msgid "Name for the exported file"
+#~ msgstr "Nome per il file esportato"
+
+#~ msgid ""
+#~ "There is a problem previewing.\n"
+#~ "Perhaps your current printer is not set correctly?"
+#~ msgstr ""
+#~ "C'è un problema nell'anteprima.\n"
+#~ "Forse non hai impostato correttamente la stampante?"
+
+#~ msgid "Previewing"
+#~ msgstr "Anteprima"
+
+#~ msgid "Normal text"
+#~ msgstr "Testo normale"
+
+#~ msgid "Title"
+#~ msgstr "Titolo"
+
+#~ msgid "Move %s"
+#~ msgstr "Sposta %s"
+
+#~ msgid "Insert time signature"
+#~ msgstr "Inserisci simbolo di tempo"
+
+#~ msgid "attach text"
+#~ msgstr "associa testo"
+
+#~ msgid "change barline"
+#~ msgstr "modifica stanghetta"
+
+#~ msgid "change MIDI settings"
+#~ msgstr "modifica impostazioni MIDI"
+
+#~ msgid "move note"
+#~ msgstr "sposta nota"
+
+#, fuzzy
+#~ msgid "Normal mode"
+#~ msgstr "Testo normale"
+
+#~ msgid "Subtitle"
+#~ msgstr "Sottotitolo"
+
+#~ msgid "Composer"
+#~ msgstr "Compositore"
+
+#~ msgid "Arranger"
+#~ msgstr "Arrangiatore"
+
+#~ msgid "Lyricist"
+#~ msgstr "Autore dei testi"
+
+#~ msgid "Select paper size and orientation"
+#~ msgstr "Scegliere la dimensione del foglio e l'orientamento"
+
+#~ msgid "Paper size"
+#~ msgstr "Dimensioni foglio"
+
+#~ msgid "Landscape"
+#~ msgstr "In largo"
+
+#~ msgid "Portrait"
+#~ msgstr "In lungo"
+
+#~ msgid "Add titles"
+#~ msgstr "Aggiungi titoli"
+
+#~ msgid "Title:"
+#~ msgstr "Titolo:"
+
+#~ msgid "Subtitle:"
+#~ msgstr "Sottotitolo:"
+
+#~ msgid "Composer:"
+#~ msgstr "Compositore:"
+
+#~ msgid "Arranger:"
+#~ msgstr "Arrangiatore:"
+
+#~ msgid "Lyricist:"
+#~ msgstr "Autore dei testi:"
+
+#~ msgid "Welcome"
+#~ msgstr "Benvenuto"
+
+#~ msgid "Open eMusicBooks "
+#~ msgstr "Apri un eMusicBook"
+
+#, fuzzy
+#~ msgid "Create and edit music scores (beta 0 version)"
+#~ msgstr "Crea e modifica partiture musicali"
+
+#~ msgid "New score ..."
+#~ msgstr "Nuova partitura ..."
+
+#~ msgid "Recent scores"
+#~ msgstr "Partiture recenti"
+
+#~ msgid "[lmComposer6::GenerateScore] No usable fragments!"
+#~ msgstr "[lmComposer6::GenerateScore] Nessun frammento usabile."
+
+#~ msgid ""
+#~ "Program error: Loop detected in lmCadencesConstrains::GetRandomCadence."
+#~ msgstr ""
+#~ "Errore programma: ciclo rilevato in lmCadencesConstrains::"
+#~ "GetRandomCadence."
+
+#~ msgid ""
+#~ "Program error: Loop detected in lmChordConstrains::GetRandomChordType."
+#~ msgstr ""
+#~ "Errore programma: rilevato ciclo in lmChordConstrains::GetRandomChordType."
+
+#~ msgid "Dump score"
+#~ msgstr "Preleva partitura"
+
+#~ msgid "Program error: Loop detected in lmRandomGenerator::GenerateClef."
+#~ msgstr ""
+#~ "Errore programma: ciclo rilevato in lmRandomGenerator::GenerateClef."
+
+#~ msgid "Program error: Loop detected in lmRandomGenerator::GenerateKey."
+#~ msgstr "Errore programma: ciclo rilevato in lmRandomGenerator::GenerateKey."
+
+#~ msgid "Program error: Loop detected in lmRandomGenerator::GenerateTime."
+#~ msgstr ""
+#~ "Errore programma: ciclo rilevato in lmRandomGenerator::GenerateTime."
+
+#, fuzzy
+#~ msgid ""
+#~ "Program error: Loop detected in lmHarmonyConstrains::GetRandomCadence."
+#~ msgstr ""
+#~ "Errore programma: ciclo rilevato in lmCadencesConstrains::"
+#~ "GetRandomCadence."
+
+#~ msgid ""
+#~ "Program error: Loop detected in lmScalesConstrains::GetRandomChordType."
+#~ msgstr ""
+#~ "Errore programma: rilevato ciclo in lmScalesConstrains::"
+#~ "GetRandomChordType."
+
+#~ msgid "Global error: No clef constraints specified\n"
+#~ msgstr "Errore globale: nessun vincolo di chiave specificato\n"
+
+#~ msgid "Global error: No time signature constraints specified\n"
+#~ msgstr "Errore globale: nessun vincolo di tempo specificato\n"
+
+#~ msgid "Global error: No key signature constraints specified\n"
+#~ msgstr "Errore globale: nessun vincolo di armatura chiave specificato\n"
+
+#~ msgid "score"
+#~ msgstr "partitura"
+
+#~ msgid "Program failure: not enough space for drawing just one bar."
+#~ msgstr ""
+#~ "Errore: non c'è spazio sufficiente neanche per disegnare anche solo una "
+#~ "barra."
+
+#~ msgid "Sorry, not enough memory to create a Bitmap to display the page."
+#~ msgstr ""
+#~ "Spiacente, non hai abbastanza memoria per creare una Bitmap che "
+#~ "visualizzi la pagina."
+
+#~ msgid "eMusicBooks"
+#~ msgstr "eMusicBook"
+
+#~ msgid "(bookmarks)"
+#~ msgstr "(segnalibri)"
+
+#~ msgid "Add current page to bookmarks"
+#~ msgstr "Aggiungi la pagina corrente ai segnalibri"
+
+#~ msgid "Remove current page from bookmarks"
+#~ msgstr "Rimuovi la pagina corrente dai segnalibri"
+
+#~ msgid "Find"
+#~ msgstr "Trova"
+
+#~ msgid "Show all"
+#~ msgstr "Mostra tutto"
+
+#~ msgid ""
+#~ "Display all index items that contain the given substring. The search is "
+#~ "case insensitive."
+#~ msgstr ""
+#~ "Mostra tutti gli elementi dell'indice che contengono la sottostringa "
+#~ "data. La ricerca non è sensibile alle maiuscole."
+
+#~ msgid "Show all items in index"
+#~ msgstr "Mostra tutti gli elementi dell'indice"
+
+#~ msgid "Index"
+#~ msgstr "Indice"
+
+#~ msgid "Case sensitive"
+#~ msgstr "Sensibile alle maiuscole"
+
+#~ msgid "Whole words only"
+#~ msgstr "Solo parole intere"
+
+#~ msgid ""
+#~ "Search contents of help book(s) for all occurrences of the text you typed "
+#~ "above"
+#~ msgstr ""
+#~ "Cerca nei contenuti degli help book per tutte le occorrenze del testo "
+#~ "sopra digitato"
+
+#~ msgid "Please choose the page to display:"
+#~ msgstr "Scegliere la pagina da mostrare:"
+
+#~ msgid "Help Topics"
+#~ msgstr "Argomenti d'aiuto"
+
+#~ msgid "%i of %i"
+#~ msgstr "%i di %i"
+
+#~ msgid "Search in all books"
+#~ msgstr "Cerca in tutti i libri"
+
+#~ msgid "Help Printing"
+#~ msgstr "Aiuto per la stampa"
+
+#~ msgid "Cannot print an empty page."
+#~ msgstr "Non posso stampare una pagina vuota."
+
+#~ msgid "HTML files (*.html;*.htm)|*.html;*.htm|"
+#~ msgstr "HTML files (*.html;*.htm)|*.html;*.htm|"
+
+#~ msgid "Help books (*.htb)|*.htb|Help books (*.zip)|*.zip|"
+#~ msgstr "Help books (*.htb)|*.htb|Help books (*.zip)|*.zip|"
+
+#~ msgid "HTML Help Project (*.hhp)|*.hhp|"
+#~ msgstr "HTML Help Project (*.hhp)|*.hhp|"
+
+#~ msgid "All files (*.*)|*"
+#~ msgstr "Tutti i file (*.*)|*"
+
+#, fuzzy
+#~ msgid "Error in text!"
+#~ msgstr "Modifica testo"
+
+#, fuzzy
+#~ msgid "Line"
+#~ msgstr "Licenza"
+
+#, fuzzy
+#~ msgid "Line properties"
+#~ msgstr "Proprietà stanghetta"
+
+#~ msgid "Barline properties"
+#~ msgstr "Proprietà stanghetta"
+
+#~ msgid "Move forward: out of measure"
+#~ msgstr "Sposta avanti: fuori misura"
+
+#, fuzzy
+#~ msgid "Quick selection"
+#~ msgstr "Cancella selezione"
+
+#, fuzzy
+#~ msgid "Figured bass properties"
+#~ msgstr "Proprietà stanghetta"
+
+#~ msgid "Group:"
+#~ msgstr "Gruppo:"
+
+#~ msgid "MIDI"
+#~ msgstr "MIDI"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Abbreviation"
+#~ msgstr "Abbreviazione"
+
+#~ msgid "Instrument properties"
+#~ msgstr "Proprietà strumento"
+
+#~ msgid "metronome mark"
+#~ msgstr "segno metronomo"
+
+#~ msgid "Delete tie &previous"
+#~ msgstr "Cancella il &precedente"
+
+#~ msgid "c%d"
+#~ msgstr "do%d"
+
+#~ msgid "d%d"
+#~ msgstr "re%d"
+
+#~ msgid "e%d"
+#~ msgstr "mi%d"
+
+#~ msgid "f%d"
+#~ msgstr "fa%d"
+
+#~ msgid "g%d"
+#~ msgstr "sol%d"
+
+#~ msgid "a%d"
+#~ msgstr "la%d"
+
+#~ msgid "b%d"
+#~ msgstr "si%d"
+
+#~ msgid "Select instrument:"
+#~ msgstr "Seleziona strumento:"
+
+#~ msgid "Lyrics"
+#~ msgstr "Parole"
+
+#~ msgid "Style%d"
+#~ msgstr "Stile%d"
+
+#~ msgid "Attach text"
+#~ msgstr "Aggiungi un testo"
+
+#~ msgid "Notes after the clef will be affected by this action."
+#~ msgstr "Le note dopo la chiave saranno influenzate da quest'azione."
+
+#~ msgid ""
+#~ "Would you like to keep notes' pitch and, therefore, to change notes' "
+#~ "positions on the staff? or, would you prefer to keep notes placed on "
+#~ "their current staff positions? (implies pitch change)"
+#~ msgstr ""
+#~ "Desideri mantenere la tonalità delle note e, di conseguenza, cambiare la "
+#~ "posizione delle note sul pentagramma? Oppure preferisci mantenere le note "
+#~ "nelle posizioni attuali sul pentagramma (e cambiarne la tonalità)?"
+
+#~ msgid "Keep position"
+#~ msgstr "Mantieni posizione"
+
+#~ msgid "Change notes' pitch and keep their current staff position."
+#~ msgstr ""
+#~ "Cambia tonalità delle note e mantieni la loro posizione attuale sul "
+#~ "pentagramma."
+
+#~ msgid "Keep pitch"
+#~ msgstr "Mantieni tonalità"
+
+#~ msgid "Keep pitch and move notes to new staff positions."
+#~ msgstr ""
+#~ "Mantieni tonalità e sposta le note su nuove posizioni del pentagramma."
+
+#~ msgid "The insert, delete or change clef command will be cancelled."
+#~ msgstr ""
+#~ "I comandi di inserimento, cancellazione o modifica chiave saranno "
+#~ "annullati."
+
+#~ msgid "Notes after the key will be affected by this action."
+#~ msgstr "Le note dopo la chiave saranno influenzate da quest'azione."
+
+#~ msgid ""
+#~ "Would you like to keep notes' pitch and, therefore, to add/remove "
+#~ "accidentals to the affected notes?"
+#~ msgstr ""
+#~ "Desideri mantenere la tonalità delle note e, quindi, aggiungere/rimuovere "
+#~ "alterazioni alle note coinvolte?"
+
+#~ msgid "Keep pitch by adding/removing accidentals when necessary."
+#~ msgstr "Mantieni tonalità aggiungendo/rimuovendo alterazioni se necessario."
+
+#~ msgid "Change pitch"
+#~ msgstr "Cambia tonalità"
+
+#~ msgid ""
+#~ "Do nothing. Notes' pitch will be affected by the change in key signature."
+#~ msgstr ""
+#~ "Non fare nulla. La tonalità delle note sarà modificata in seguito al "
+#~ "cambiamento dell'armatura di chiave."
+
+#~ msgid "The insert, delete or change key command will be cancelled."
+#~ msgstr ""
+#~ "I comandi di inserimento, cancellazione o modifica della chiave saranno "
+#~ "annullati."
+
+#~ msgid "Can't create a thread!"
+#~ msgstr "Non posso creare un thread!"
+
+#~ msgid "Can't start the thread!"
+#~ msgstr "Non posso far partire il thread!"
+
+#~ msgid "Error. <%s> files are not supported"
+#~ msgstr "Errore. File <%s> non supportati"
+
+#~ msgid ""
+#~ "Importing XML file %s\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Importazione file XML %s\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "MusicXML file imported OK. There are %d warnings."
+#~ msgstr ""
+#~ "\n"
+#~ "Importazione file MusicXML riuscita. Rilevati %d avvertimenti."
+
+#~ msgid "Warnings while importing a MusicXML score."
+#~ msgstr "Avvertimenti nell'importazione di una partitura MusicXML."
+
+#~ msgid "Parsing <%s>: tag <%s> not supported."
+#~ msgstr "Analisi <%s>: tag <%s> non supportato."
+
+#~ msgid "Part id = %s not defined in <part-list>"
+#~ msgstr "La parte id = %s non è definita in <part-list>"
+
+#~ msgid "Parsing <%s>: duration=%d, timeShift=%f"
+#~ msgstr "Analisi <%s>: duration=%d, timeShift=%f"
+
+#~ msgid "Parsing <clef>: staff_number=%s, clef=%s, line=%s"
+#~ msgstr "Analisi <clef>: staff_number=%s, clef=%s, line=%s"
+
+#~ msgid "Parsing <staves>: num_staves=%s"
+#~ msgstr "Analisi <staves>: num_staves=%s"
+
+#~ msgid "Parsing <key>: fifths=%s, mode=%s"
+#~ msgstr "Analisi <key>: fifths=%s, mode=%s"
+
+#~ msgid "Parsing <time>: beats=%s, beat-type=%s"
+#~ msgstr "Analisi <time>: beats=%s, beat-type=%s"
+
+#~ msgid "Parsing <bar-style>: bar_style=%s"
+#~ msgstr "Analisi <bar-style>: bar_style=%s"
+
+#~ msgid "Parsing <offset>: offset=%s"
+#~ msgstr "Analisi <offset>: offset=%s"
+
+#~ msgid "Parsing <%s>: unknown note type %s"
+#~ msgstr "Analisi <%s>: tipo di nota sconosciuto %s"
+
+#~ msgid "Parsing <beam>: value=%s, beam-level=%s"
+#~ msgstr "Analisi <beam>: value=%s, beam-level=%s"
+
+#~ msgid "Parsing <note.<beam>: unknown beam type %s"
+#~ msgstr "Analisi <note>.<beam>: tipo beam sconosciuto %s"
+
+#~ msgid "Parsing <note>.<stem>: unknown type %s"
+#~ msgstr "Analisi <note>.<stem>: tipo sconosciuto %s"
+
+#~ msgid "Parsing <stem>: stem type=%s, enum=%d"
+#~ msgstr "Analisi <stem>: stem type=%s, enum=%d"
+
+#~ msgid "Parsing <staff>: num.Staff=%s"
+#~ msgstr "Analisi <staff>: num.Staff=%s"
+
+#~ msgid "Parsing <chord>"
+#~ msgstr "Analisi <chord>"
+
+#~ msgid "Parsing <rest>"
+#~ msgstr "Analisi <rest>"
+
+#~ msgid "Parsing <grace>"
+#~ msgstr "Analisi <grace>"
+
+#~ msgid "Parsing <cue>"
+#~ msgstr "Analisi <cue>"
+
+#~ msgid "Parsing <tie>. Type=%s"
+#~ msgstr "Analisi <tie>. Type=%s"
+
+#~ msgid "Parsing <notations>"
+#~ msgstr "Analisi <notations>"
+
+#~ msgid "Parsing <fermata>"
+#~ msgstr "Analisi <fermata>"
+
+#~ msgid ""
+#~ "Parsing <tuplet>. Type=%s, bracket=%s, above=%s, showNumber=%s, number=%d"
+#~ msgstr ""
+#~ "Analisi <tuplet>. Type=%s, bracket=%s, above=%s, showNumber=%s, number=%d"
+
+#~ msgid "Parsing <note>.<lyric>: unknown syllabic value %s"
+#~ msgstr "Analisi <note>.<lyric>: valore sillabico sconosciuto %s"
+
+#~ msgid "Parsing <lyric>"
+#~ msgstr "Analisi <lyric>"
+
+#~ msgid "Parsing <note>.<accidental>: unknown type %s"
+#~ msgstr "Analisi <note>.<accidental>: tipo sconosciuto %s"
+
+#~ msgid "Parsing <accidental>. Type=%s"
+#~ msgstr "Analisi <accidental>. Type=%s"
+
+#~ msgid "Attribute \"%s\" not found in tag <%s>."
+#~ msgstr "Attributo \"%s\" non trovato nel tag <%s>."
+
+#~ msgid "Yes-no attribute \"%s\" has an invalid value \"%s\"."
+#~ msgstr "L'attributo si-no \"%s\" ha un valore invalido \"%s\"."
+
+#~ msgid "Parsing <duration>: duration=%s"
+#~ msgstr "Analisi <duration>: duration=%s"
+
+#~ msgid "Parsing <divisions>: divisions=%s"
+#~ msgstr "Analisi <divisions>: divisions=%s"
+
+#~ msgid "Parsing <placement>: placement='%s'>"
+#~ msgstr "Analisi <placement>: placement='%s'>"
+
+#~ msgid "<placement> element has an invalid value \"%s\". Assumed 'above'"
+#~ msgstr ""
+#~ "L'elemento <placement> ha un valore \"%s\" invalido. Si assume 'above'"
+
+#~ msgid "Errors"
+#~ msgstr "Errori"
+
+#~ msgid "Object"
+#~ msgstr "Oggetto"

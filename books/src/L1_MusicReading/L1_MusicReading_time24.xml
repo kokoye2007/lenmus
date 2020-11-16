@@ -1,0 +1,52 @@
+<!-- =============================================== -->
+<!-- eMusicBook: Music reading. Level 1.             -->
+<!-- =============================================== -->
+
+<theme id="time_24">
+<title>The 2/4 time signature</title>
+
+<para>
+The first time signature we are going to use is the 2/4 time signature:
+</para>
+
+<score>
+    <music>
+        (score (vers 1.5)
+         (instrument
+          (musicData (clef G)(key C)
+            (time 2 4)
+            (barline end noVisible) )))
+    </music>
+</score>
+
+<para>
+As you know 2/4 means that each measure has two beats and that each beat gets a quarter
+note. Therefore, each measure will get two quarter notes. For example:
+</para>
+
+<score>
+    <control_play />
+    <music>
+        (score (vers 1.5)
+         (instrument
+          (musicData (clef G)(key C)
+            (time 2 4)
+            (n e4 q)(n g4 q)(barline simple)
+            (n g4 q)(n a4 q)(barline simple)
+            (n f4 q)(n c5 q)(barline end) )))
+    </music>
+</score>
+
+<para>
+We also know that the first beat of each measure is the stronger one. Therefore, if you
+count beats along with the music, the 2/4 time signature will imply a rhythm such as
+'ONE-and-Two-and-ONE-and-Two-and ...', stressing the ONE syllable, as if you were a
+soldier marching. For studying music reading it makes sense to mark the beats with the
+hand, the first beat of each measure with a knock down (on the table or in the air) and
+the second beat of each measure with a knock up (in the air or on the shoulder). You
+can also mark the beats with your foot, it you prefer, but it is very, very important
+to mark the beats. You should make a habit out of it, at least until you get enough
+skills at reading music.
+</para>
+
+</theme>

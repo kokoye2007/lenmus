@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="EarNotes">
+<title>Notes identification</title>
+
+<para>Exercise: Listen notes and identify them</para>
+
+<exercise type="IdfyNotes" height="40">
+    <control_settings>EarIdfyNotes</control_settings>
+</exercise>
+
+</theme>

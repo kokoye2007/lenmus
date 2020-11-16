@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<content>
+<theme id="thm221">
+<titleabbrev>Lesson %d</titleabbrev>
+<title>Tied dotted 8th note</title>
+<tocimage>img221.png</tocimage>
+
+<para>In this lesson the next patterns are introduced:</para>
+
+<score>
+    <music>
+    (score (vers 1.6)
+      (instrument
+        (musicData
+        (time 2 4 noVisible)
+        (n * s g+)(n * e. g-)(barline double)
+        (n * s g+)(n * e. l g-)(n * q)(barline double)
+        (n * s g+)(n * e. l g-)(n * e g+)(n * e g-)(barline end)
+    )))
+    </music>
+</score>
+
+<part>
+<title>Listen and take notice of the differences</title>
+
+<score>
+    <control_play />
+    <control_measures />
+    <music>
+    (score (vers 1.6)
+      (instrument
+        (musicData
+        (clef G)(key C)(time 2 4)
+        (n a4 s g+)(n a4 e. g-)(n a4 s g+)(n a4 e. g-)(barline)
+        (n a4 s g+)(n a4 e. l g-)(n a4 q)(barline)
+        (n a4 s g+)(n a4 e. l g-)(n a4 e g+)(n a4 e g-)(barline end)
+    )))
+    </music>
+</score>
+</part>
+
+<part>
+<title>Exercises</title>
+
+<para>
+<link linkend="thm221_E1">Exercise 1</link> - Train your ear: Pattern of 16th note and
+dotted 8th note.</para>
+
+<para>
+<link linkend="thm221_E2">Exercise 2</link> - Train your ear: 16th note and dotted 8th
+note tied to quarter note.</para>
+
+<para>
+<link linkend="thm221_E3">Exercise 3</link> - Train your ear: 16th note and dotted 8th
+note tied to 8th note.</para>
+
+<para>
+<link linkend="thm221_E4">Exercise 4</link> - Read scores containing the rhythms
+studied in this lesson.</para>
+
+</part>
+
+</theme>
+
+<!-- ============================================================================ -->
+<!-- Exercise 1                                                                   -->
+<!-- ============================================================================ -->
+
+<theme id="thm221_E1" toc="no">
+<titleabbrev>Exercises</titleabbrev>
+<title>16th note and dotted 8th note</title>
+<para>Press 'Play' and listen. Train your ear and practise the newly introduced patterns.</para>
+<exercise type='TheoMusicReading'>
+    <control_go_back>thm221</control_go_back>
+    <control_play />
+    <control_solfa />
+    <fragment>24,34,44;(n * s g+)(n * e. g-)</fragment>
+    <clef>G;a3;a5</clef>
+    <clef>F4;a2;f4</clef>
+    <time>24,34,44</time>
+    <key>D</key><key>b</key><key>B-</key><key>g</key><key>A</key><key>f+</key><key>E-</key><key>c</key><key>E</key><key>c+</key><key>A-</key><key>f</key>
+</exercise>
+</theme>
+
+<!-- ============================================================================ -->
+<!-- Exercise 2                                                                   -->
+<!-- ============================================================================ -->
+
+<theme id="thm221_E2" toc="no">
+<titleabbrev>Exercises</titleabbrev>
+<title>16th note and dotted 8th note tied to quarter note</title>
+<para>Press 'Play' and listen. Train your ear and practise the newly introduced patterns.</para>
+<exercise type='TheoMusicReading'>
+    <control_go_back>thm221</control_go_back>
+    <control_play />
+    <control_solfa />
+    <fragment>24,34,44;(n * s g+)(n * e. l g-)(n * q)</fragment>
+    <clef>G;a3;a5</clef>
+    <clef>F4;a2;f4</clef>
+    <time>24,34,44</time>
+    <key>D</key><key>b</key><key>B-</key><key>g</key><key>A</key><key>f+</key><key>E-</key><key>c</key><key>E</key><key>c+</key><key>A-</key><key>f</key>
+</exercise>
+</theme>
+
+<!-- ============================================================================ -->
+<!-- Exercise 3                                                                   -->
+<!-- ============================================================================ -->
+
+<theme id="thm221_E3" toc="no">
+<titleabbrev>Exercises</titleabbrev>
+<title>16th note and dotted 8th note tied to 8th note</title>
+<para>Press 'Play' and listen. Train your ear and practise the newly introduced patterns.</para>
+<exercise type='TheoMusicReading'>
+    <control_go_back>thm221</control_go_back>
+    <control_play />
+    <control_solfa />
+    <fragment>24,34,44;(n * s g+)(n * e. l g-)(n * e g+)(n * e g-)</fragment>
+    <clef>G;a3;a5</clef>
+    <clef>F4;a2;f4</clef>
+    <time>24,34,44</time>
+    <key>D</key><key>b</key><key>B-</key><key>g</key><key>A</key><key>f+</key><key>E-</key><key>c</key><key>E</key><key>c+</key><key>A-</key><key>f</key>
+</exercise>
+</theme>
+
+<!-- ============================================================================ -->
+<!-- Exercise 4                                                                   -->
+<!-- ============================================================================ -->
+
+<theme id="thm221_E4" toc="no">
+<titleabbrev>Exercises</titleabbrev>
+<title>Tied dotted 8th note</title>
+<para>Press 'Play' and listen. Train your ear and practise the newly introduced patterns.</para>
+<exercise type='TheoMusicReading'>
+    <control_go_back>thm221</control_go_back>
+    <control_play />
+    <control_solfa />
+    <fragment>24,34,44;(n * s g+)(n * e. g-),(n * e)(r e)</fragment>
+    <fragment>24,34,44;(n * s g+)(n * e. g-),(n * s g+)(n * e. g-),(n * s g+)(n * e. g-)</fragment>
+    <fragment>24,34,44;(n * q l),(n * e. g+)(n * s g-),(n * e. g+)(n * s g-),(n * e. g+)(n * s g-),(n * e g+)(n * e l g-),(n * q)</fragment>
+    <fragment>24,34,44;(n * s g+)(n * e. l g-),(n * e g+)(n * e g-),(n * e g+ t3)(n * e)(n * e g- t-),(n * e. g+)(n * s g-),(n * e g+ t3)(n * e)(n * e g- t-),(n * q)</fragment>
+    <fragment>24,34,44;(n * s g+)(n * e. l g-),(n * q)</fragment>
+    <fragment>24,34,44;(n * s g+)(n * e. g-),(n * q)</fragment>
+    <fragment>24,34,44;(n * s g+)(n * e. l g-),(n * e g+)(n * e g-)</fragment>
+    <fragment>24,34,44;(n * s g+)(n * e. l g-),(n * e g+)(n * e g-),(n * e)(r e)</fragment>
+    <fragment>24,34,44;(n * s g+)(n * e. g-),(n * s g+)(n * e. l g-),(n * q)</fragment>
+    <fragment>24,34,44;(n * s g+)(n * e. g-),(n * e g+)(n * e g-)</fragment>
+    <clef>G;a3;a5</clef>
+    <clef>F4;a2;f4</clef>
+    <time>24,34,44</time>
+    <key>D</key><key>b</key><key>B-</key><key>g</key><key>A</key><key>f+</key><key>E-</key><key>c</key><key>E</key><key>c+</key><key>A-</key><key>f</key>
+</exercise>
+</theme>
+
+</content>

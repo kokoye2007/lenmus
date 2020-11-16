@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="EarCompareIntervals">
+<title>Intervals' comparison</title>
+
+<para>Exercise: Listen two intervals and identify which one is greater</para>
+
+<exercise type="EarCompareIntervals" height="30">
+    <max_interval>8</max_interval>
+    <control_settings>EarCompare</control_settings>
+</exercise>
+
+</theme>

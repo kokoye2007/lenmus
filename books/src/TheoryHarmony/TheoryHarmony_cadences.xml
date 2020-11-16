@@ -1,0 +1,134 @@
+<!-- =============================================== -->
+<!-- eMusicBook: Theory and harmony                  -->
+<!-- =============================================== -->
+
+<theme id="th1_cadences">
+<title>Cadences</title>
+
+<style name="figured-bass-10">
+   <font-name>serif</font-name>
+   <font-size>10pt</font-size>
+   <font-style>normal</font-style>
+   <color>#000000</color>
+</style>
+<style name="figured-bass-7">
+   <font-name>serif</font-name>
+   <font-size>7pt</font-size>
+   <font-style>normal</font-style>
+   <color>#000000</color>
+</style>
+
+<para>
+In music, the term 'cadence' has several meanings. In harmony we are going to refer to a particular sequence of usually two chords whose function it is to create a sensation of either stability, rest and ending, or of pause, tension and unstablility. Cadences have a function similar to that of punctuation marks (comma, period, etc.) in written language: they mark breathing places and pauses in music, they serve to structure the musical phrases and they also help to establish tonality. Listen for example to the following three chords:
+</para>
+
+<score>
+    <control_play />
+    <metronome>80</metronome>
+    <music>
+        (score (vers 1.6)
+          (instrument (staves 2)
+          (musicData
+            (clef G p1)
+            (clef F4 p2)
+            (key C)
+            (time 2 4)
+            (spacer 50)
+            (n c3 h p2 (stem down)(text ''I'' (style "figured-bass-10") dx:-10 dy:100))
+			    (goBack h)(n c4 h (stem up))(goBack h)
+                (n e4 h p1 (stem down))(goBack h)(n g4 h (stem up))
+            (barline)
+            (spacer 20)
+            (n g3 q p2 (stem down)(text ''V'' (style "figured-bass-10") dx:-10 dy:100))
+				(goBack q)(n d4 q (stem up))(goBack q)
+                (n g4 q p1 (stem down))(goBack q)(n b4 q (stem up))
+            (spacer 30)
+            (n c3 q p2 (stem down)(text ''I'' (style "figured-bass-10") dx:-10 dy:100))
+				(goBack q)(n e4 q (stem up))(goBack q)
+                (n g4 q p1 (stem down))(goBack q)(n c5 q (stem up))
+            (spacer 20)
+            (barline end)
+        )))
+    </music>
+</score>
+
+<para>
+You will notice the feeling of conclusion, of reaching the end of a musical piece. The chord sequence does not create expectations of continuation. The composer could end the musical composition in the last chord and the listener will perceive that the end has been reached and remain 'satisfied' with finishing at that point. On the contrary, listen to the following chord sequence:
+</para>
+
+
+<score>
+    <control_play />
+    <metronome>80</metronome>
+    <music>
+        (score (vers 1.6)
+          (instrument (staves 2)
+          (musicData
+            (clef G p1)
+            (clef F4 p2)
+            (key C)
+            (time 2 4)
+            (spacer 50)
+            (n c3 h p2 (stem down)(text ''I'' (style "figured-bass-10") dx:-10 dy:100))
+				(goBack h)(n c4 h (stem up))(goBack h)
+                (n e4 h p1 (stem down))(goBack h)(n g4 h (stem up))
+            (spacer 1)
+            (barline)
+            (spacer 30)
+            (n g3 q p2 (stem down)(text ''I'' (style "figured-bass-10") dx:-10 dy:100)
+            	(text ''6'' (style "figured-bass-7") dx:4 dy:85)
+            	(text ''4'' (style "figured-bass-7") dx:4 dy:110))
+				(goBack q)(n c4 q (stem up))(goBack q)
+                (n e4 q p1 (stem down))(goBack q)(n g4 q (stem up))
+            (spacer 30)
+            
+            (n g3 q p2 (stem down)(text ''V'' (style "figured-bass-10") dx:-10 dy:100))
+				(goBack q)(n d4 q (stem up))(goBack q)
+                (n g4 q p1 (stem down))(goBack q)(n b4 q (stem up))
+            (spacer 20)
+            (barline end)
+        )))
+    </music>
+</score>
+
+<para>
+Now the sensation is not conclusive. It is more like a short pause and it creates an expectation of continuation. If we end the music piece at the last chord, we will leave the listener with a longing for more.
+</para>
+
+<para>
+Cadences are not difficult to recognize by ear but it is sometimes harder to recognize them in written music.
+</para>
+
+<part>
+<title>Cadence types</title>
+
+<para>
+Depending on the sensation they create, cadences are classified in two fundamental types:
+</para>
+
+<orderedlist>
+<listitem>
+<emphasis>Terminal cadences</emphasis>. They create a sensation of stability, rest and ending of the musical phrase or sentence.
+</listitem>
+<listitem>
+<emphasis>Transient cadences</emphasis>. They typically result in creating tension and a sensation of unstablility, as well as an expectation of continuation.
+</listitem>
+</orderedlist>
+
+<para>
+As an exercise you will hear a cadence and based on the sensation it provokes, try to identify if the cadence is terminal or transient.
+</para>
+
+<para></para>
+
+<exercise type="IdfyCadences" height="52">
+    <cadences>all</cadences>
+    <cadence_buttons>terminal,transient</cadence_buttons>
+    <mode>earTraining</mode>
+</exercise>
+
+</part>
+
+</theme>
+
+

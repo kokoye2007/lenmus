@@ -1,0 +1,149 @@
+<!-- =============================================== -->
+<!-- eMusicBook: Music reading. Level 1.             -->
+<!-- =============================================== -->
+
+<theme id="notes">
+<title>Note symbols</title>
+
+<para>
+We have learnt that the vertical position of a note on the staff determines its pitch.
+The duration of the note (that, is the duration of its sound) is indicated by using
+different types of signs for the notes, so each note sign corresponds to a different
+duration. The following picture shows the different types of notes and their names:
+</para>
+
+<score>
+    <music>
+        (score (vers 1.5)
+         (opt StaffLines.Hide yes)
+         (opt Render.SpacingMethod 1)
+         (opt Render.SpacingValue 10)
+         (instrument
+          (musicData (clef G noVisible)(key C)
+            (text _''Whole'' dx:0 dy:70)
+            (n a4 w)
+            (spacer 100)
+            (text _''Half'' dx:0 dy:70)
+            (n a4 h)
+            (spacer 100)
+            (text _''Quarter'' dx:0 dy:70)
+            (n a4 q)
+            (spacer 100)
+            (text _''Eight'' dx:0 dy:70)
+            (n a4 e)
+            (barline end noVisible)
+         )))
+    </music>
+</score>
+
+<score>
+    <music>
+        (score (vers 1.5)
+         (opt StaffLines.Hide yes)
+         (opt Render.SpacingMethod 1)
+         (opt Render.SpacingValue 10)
+         (instrument
+          (musicData (clef G noVisible)(key C)
+            (text _''16th'' dx:0 dy:70)
+            (n a4 s)
+            (spacer 120)
+            (text _''32th'' dx:0 dy:70)
+            (n a4 t)
+            (spacer 120)
+            (text _''64th'' dx:0 dy:70)
+            (n a4 i)
+            (barline end noVisible)
+         )))
+    </music>
+</score>
+
+
+<para>
+In the coming lessons we will start using only the quarter note and will learn about
+note duration. Progressively, we will introduce the other note symbols. In this lesson
+we are going to learn some basic terminology about note symbols and some rules about
+how to draw them.
+</para>
+
+<para>
+The note symbols have three distinct parts: (1) the note-head, (2) the stem and
+(3) the flag (also named hook or tail), as depicted in next figure:
+</para>
+
+<para role='center'>
+<imagedata fileref='notesymbol_parts.png' />
+</para>
+
+<para>
+Stems normally go up for notes placed below the third line and
+go down for notes placed on or above the third line:
+</para>
+
+<score>
+    <music>
+        (score (vers 1.5)
+         (opt Render.SpacingMethod 1)
+         (opt Render.SpacingValue 30)
+         (instrument
+          (musicData (clef G)(key C)
+            (spacer 30)
+            (n e4 q)(n f4 q)(n g4 q)(n a4 q)
+            (n b4 q)(n c5 q)(n d5 q)(n e5 q)(n f5 q)
+            (spacer 20)
+            (barline end noVisible)
+         )))
+    </music>
+</score>
+
+<para>
+Stems are drawn on the right-hand side of the note-head when the stem goes up, and on
+the left-hand side of the note-head when the stem goes down. Flags are always drawn
+on the right-hand side of the stem:
+</para>
+
+<score>
+    <music>
+        (score (vers 1.5)
+         (opt Render.SpacingMethod 1)
+         (opt Render.SpacingValue 30)
+         (instrument
+          (musicData (clef G)(key C)
+            (spacer 30)
+            (n e4 e)(n f4 e)(n g4 e)(n a4 e)
+            (n b4 e)(n c5 e)(n d5 e)(n e5 e)(n f5 e)
+            (spacer 20)
+            (barline end noVisible)
+         )))
+    </music>
+</score>
+
+
+<para>
+Often, consecutive notes with flags are linked together in groups by replacing the
+flags by lines called 'beams'. The number of beams must be the same as the number of
+flags each individual note would have had when drawn isolated. In the following
+example the four individual notes at the first part can also be drawn grouped, as
+shown in the second part:
+</para>
+
+<score>
+    <music>
+        (score (vers 1.5)
+         (opt Render.SpacingMethod 1)
+         (opt Render.SpacingValue 30)
+         (instrument
+          (musicData (clef G)(key C)
+            (spacer 30)
+            (n e4 e)(n f4 e)(n g4 s)(n a4 s)
+            (spacer 20)
+            (barline double)
+            (spacer 20)
+            (n e4 e g+)(n f4 e)(n g4 s)(n a4 s g-)
+            (spacer 20)
+            (barline end noVisible)
+         )))
+    </music>
+</score>
+
+
+</theme>

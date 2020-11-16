@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="TheoKeySignatures">
+<title>Key signatures' identification</title>
+
+<para>Exercise: Identify a key signature or indicate the number of accidentals it has</para>
+
+<exercise type="TheoKeySignatures" height="35">
+    <max_accidentals>7</max_accidentals>
+    <problem_type>Both</problem_type>
+    <clef>G</clef>
+    <mode>Both</mode>
+</exercise>
+
+</theme>

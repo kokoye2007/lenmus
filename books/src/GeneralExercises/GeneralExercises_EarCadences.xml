@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="EarCadences">
+<title>Cadences' identification</title>
+
+<para>Exercise: Listen a cadence and identify its type</para>
+
+<exercise type="IdfyCadences" height="57">
+    <control_settings>EarIdfyCadence</control_settings>
+    <mode>earTraining</mode>
+</exercise>
+
+</theme>

@@ -1,0 +1,11 @@
+(score
+   (vers 2.0)
+   (instrument (infoMIDI 75 1)
+      (musicData
+         (clef G)
+         (t_Var key)
+         (t_Var time)
+      )
+   )
+)
+

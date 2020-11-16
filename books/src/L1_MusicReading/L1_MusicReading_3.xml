@@ -1,0 +1,138 @@
+<!-- =============================================== -->
+<!-- eMusicBook: Music reading. Level 1.             -->
+<!-- =============================================== -->
+
+<content>
+<theme id="mr1_thm3">
+<title>Leger lines</title>
+
+<para>
+When it is necessary to write a note higher or lower than the pitch represented by the
+staff lines, extra lines can be added to the staff. They are called 'leger (or ledger)
+lines' and are drawn as short lines, slightly longer than the note head. For example,
+the following score shows the natural scale starting on C:
+</para>
+
+<score>
+    <control_play />
+    <music>
+        (score (vers 1.5)
+         (instrument
+          (musicData (clef G)(key C)
+            (time 2 4 noVisible)
+            (n c4 q)(n d4 q)
+            (n e4 q)(n f4 q)(n g4 q)(n a4 q)(n b4 q)(n c5 q)
+            (barline end) )))
+    </music>
+</score>
+
+<para>
+Leger lines can also be added on top, for high pitch notes:
+</para>
+
+<score>
+    <control_play />
+    <music>
+        (score (vers 1.5)
+         (opt Render.SpacingFactor 0.4)
+         (instrument
+          (musicData (clef G)(key C)
+            (time 2 4 noVisible)
+            (n a3 q)(n b3 q)(barline simple noVisible)
+            (n c4 q)(n d4 q)(barline simple noVisible)
+            (n e4 q)(n f4 q)(barline simple noVisible)
+            (n g4 q)(n a4 q)(barline simple noVisible)
+            (n b4 q)(n c5 q)(barline simple noVisible)
+            (n d5 q)(n e5 q)(barline simple noVisible)
+            (n f5 q)(n g5 q)(barline simple noVisible)
+            (n a5 q)(n b5 q)(barline simple noVisible)
+            (n c6 q)
+            (barline end)
+        )))
+    </music>
+</score>
+
+<para>
+As notes written on leger lines are more difficult to read, usually only two
+or three leger lines are used. If the pitch range does not fit on this
+extended staff, it is usually preferable to switch clef to avoid having
+to add more leger lines.
+</para>
+
+<para>
+In the exercises of this lesson we are going to start reading scores with
+one leger line. In following lessons the range will be extended.
+</para>
+
+<part>
+<title>Exercises</title>
+
+<para>
+<link linkend="mr1_thm3_E1">Exercise 1</link> - Practise reading scores with
+leger lines below first line.
+</para>
+
+<para>
+<link linkend="mr1_thm3_E2">Exercise 2</link> - Practise reading scores with
+leger lines above fifth line.
+</para>
+
+</part>
+
+</theme>
+
+<!-- ====================== -->
+<!-- Exercise 1  -->
+<!-- ====================== -->
+
+<theme id="mr1_thm3_E1" toc="no">
+<titleabbrev>Lesson %d. Exercise 1</titleabbrev>
+<title>Leger lines below</title>
+
+<para>Practise reading scores with leger lines below first line.</para>
+
+<exercise type="TheoMusicReading">
+    <control_go_back>mr1_thm3</control_go_back>
+    <control_play />
+    <control_solfa />
+    <clef>G;c4;g4</clef>
+    <key>C</key>
+    <key>a</key>
+    <time>24</time>
+    <fragment>24;(n * q)(n * q),(n * q)(n * q),(n * q l)(n * q)</fragment>
+    <fragment>24;(n * q)(n * q),(n * q)(n * q),(n * h)</fragment>
+    <fragment>24;(r q)(n * q),(n * q)(n * q),(n * q l)(n * q)</fragment>
+    <fragment>24;(r q)(n * q),(n * q)(n * q),(n * h)</fragment>
+    <fragment>24;(n * q)(n * q),(n * h),(r h)</fragment>
+</exercise>
+
+</theme>
+
+<!-- ====================== -->
+<!-- Exercise 2  -->
+<!-- ====================== -->
+
+<theme id="mr1_thm3_E2" toc="no">
+<titleabbrev>Lesson %d. Exercise 2</titleabbrev>
+<title>Leger lines above</title>
+
+<para>Practise reading scores with leger lines above fifth line.</para>
+
+<exercise type="TheoMusicReading">
+    <control_go_back>mr1_thm3</control_go_back>
+    <control_play />
+    <control_solfa />
+    <clef>G;d5;a5</clef>
+    <key>C</key>
+    <key>a</key>
+    <time>24</time>
+    <fragment>24;(n * q)(n * q),(n * q)(n * q),(n * q l)(n * q)</fragment>
+    <fragment>24;(n * q)(n * q),(n * q)(n * q),(n * h)</fragment>
+    <fragment>24;(r q)(n * q),(n * q)(n * q),(n * q l)(n * q)</fragment>
+    <fragment>24;(r q)(n * q),(n * q)(n * q),(n * h)</fragment>
+    <fragment>24;(n * q)(n * q),(n * h),(r h)</fragment>
+</exercise>
+
+</theme>
+
+</content>

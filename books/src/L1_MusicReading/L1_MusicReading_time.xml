@@ -1,0 +1,66 @@
+<!-- =============================================== -->
+<!-- eMusicBook: Music reading. Level 1.             -->
+<!-- =============================================== -->
+
+<theme id="time_signature">
+<title>Time signatures</title>
+
+<para>
+Most music has a rhythm that you can perceive as a repetitive pattern of pulses. It is
+easy to identify these pulses: it is what we all do when we clap our hands or tap our
+foot while listening to a song. These pulses are the 'beats' of the music and are the
+basis to organize written music.
+</para>
+
+<para>
+We said in previous lesson that written music is divided on the staff into parts named
+'measures'. Although there are exceptions, in general all the measures of a
+piece of music have the same number of beats.
+Therefore, we must learn that written music is organized by dividing it into small
+groups of beats, and these groups are called 'measures'.
+</para>
+
+<para>
+To know how many beats are there in a measure, a 'time signature' is placed at the
+beginning of the staff, after the clef. The time signature is the two numbers placed
+above and below the third line:
+</para>
+
+<score>
+    <music>
+        (score (vers 1.5)
+         (instrument
+          (musicData (clef G)(key C)
+            (time 2 4)
+            (text _''A 2/4 time signature'' dx:0 dy:80)
+            (spacer 280)
+            (barline end noVisible)
+        )))
+    </music>
+</score>
+
+
+<para>
+The top number tells how many beats there are in a measure and the bottom number shows
+the type of note that gets one beat. For now you must learn that the bottom number 4
+means 'quarter note'. So, the time signature in the previous example says that each
+measure will have two beats and that each beat will get a quarter note. The time
+signature is often called the 'meter' of a piece.
+</para>
+
+<para>
+So the time signature is just an arbitrary device to help us to understand and write
+the rhythm. But remember that rhythm is something natural that exists by itself in the music.
+</para>
+
+
+<para>
+Not all beats in a measure are equal: there are strong beats (louder), medium and weak
+beats. The first beat of a measure is normally the strongest one and the other beats
+are weaker. The pattern of strong and weak beats is what makes rhythmic patterns
+different. It is important to learn to recognize the time signature when listening to
+a piece of music. This may take some practice but it is a useful practice for anyone
+who is learning music.
+</para>
+
+</theme>

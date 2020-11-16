@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="TheoIntervals">
+<title>Interval's construction</title>
+
+<exercise type="BuildIntervals" height="35">
+    <accidentals>simple</accidentals>
+    <control_settings>BuildIntervals</control_settings>
+</exercise>
+
+</theme>

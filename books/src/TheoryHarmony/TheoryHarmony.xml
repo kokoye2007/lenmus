@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE book [
+    <!ENTITY ch_credits SYSTEM "TheoryHarmony_0_credits.xml">
+
+    <!ENTITY ch_scales_110  SYSTEM "TheoryHarmony_110_semitones-chromatic.xml">
+    <!ENTITY ch_scales_120  SYSTEM "TheoryHarmony_120_diatonic-scales.xml">
+    <!ENTITY ch_scales_130  SYSTEM "TheoryHarmony_130_tones-major-scale.xml">
+    <!ENTITY ch_scales_140  SYSTEM "TheoryHarmony_140_minor-natural.xml">
+    <!ENTITY ch_scales_150  SYSTEM "TheoryHarmony_150_minor-harmonic-melodic.xml">
+    <!ENTITY ch_scales_160  SYSTEM "TheoryHarmony_160_scales-exercises.xml">
+
+    <!ENTITY ch_intervals_210  SYSTEM "TheoryHarmony_210_intervals.xml">
+<!--
+    <!ENTITY ch_intervals_220  SYSTEM "TheoryHarmony_220_inversions.xml">
+    <!ENTITY ch_intervals_230  SYSTEM "TheoryHarmony_230_quality-intervals.xml">
+    <!ENTITY ch_intervals_240  SYSTEM "TheoryHarmony_240_chromatic-alterations.xml">
+-->
+
+    <!--<!ENTITY ch_g6t2_triads-chords  SYSTEM "TheoryHarmony_g6t2_triads-chords.xml">-->
+
+    <!ENTITY ch_cadences  SYSTEM "TheoryHarmony_cadences.xml">
+    <!ENTITY ch_terminal  SYSTEM "TheoryHarmony_terminal.xml">
+    <!ENTITY ch_transient SYSTEM "TheoryHarmony_transient.xml">
+    <!ENTITY ch_cad_review SYSTEM "TheoryHarmony_cad_review.xml">
+
+    <!--<!ENTITY ch_g6_figured_bass SYSTEM "TheoryHarmony_g6_figured_bass.xml">-->
+
+    <!--<!ENTITY ch_g6t1_harmony  SYSTEM "TheoryHarmony_g6t1_harmony.xml">-->
+]>
+
+<book id="TheoryHarmony">
+<info>
+    <title>Theory and harmony</title>
+    <abstract>
+    A collection of lessons and exercises on music theory.
+    </abstract>
+    <copyright>
+        <year>2007-2010</year>
+        <holder>LenMus project</holder>
+    </copyright>
+    <legalnotice>
+        <para>Permission is granted to copy, distribute and/or modify this document
+        under the terms of the Creative Commons Attribution-Share-Alike License 3.0
+        or later, with the exceptions described in the
+        <link linkend="th1_99_credits">Credits and Copyrights</link> page
+        of this book. The text of the Creative Commons Attribution-Share-Alike
+        License 3.0 is available at <ulink url="http://creativecommons.org/licenses/by-sa/3.0/">
+        http://creativecommons.org/licenses/by-sa/3.0/</ulink>
+        </para>
+        <para role='center'>
+        <imagedata fileref='cc-by-sa.png' />
+        </para>
+    </legalnotice>
+</info>
+
+<theme id="ch0">
+<titleabbrev>Contents</titleabbrev>
+<title>Presentation</title>
+
+<para>
+The 'Theory and harmony' eBook is not yet finished and, currently, it is just a collection of lessons on music theory.
+</para>
+
+<para>
+My main objective is not to write
+about music theory (there are many good books on this that you can use) but to spend my time
+in writing software. But some texts are necessary, I don't have much time for writing texts and it takes a lot of time to prepare an eBbook. Therefore, I have decided to publish the
+lessons as soon as I write them, instead of waiting until the whole book is finished.
+</para>
+
+
+<part>
+<title>Table of content</title>
+
+<itemizedlist>
+    <listitem>Presentation</listitem>
+    <listitem><link linkend="th1_99_credits">Credits and copyrights</link></listitem>
+    <listitem>Scales<sbr/>
+        <itemizedlist>
+            <listitem><link linkend="th1_110_scales">Semitones. The chromatic scale</link></listitem>
+            <listitem><link linkend="th1_120_scales">Diatonic scales. Tonal center</link></listitem>
+            <listitem><link linkend="th1_130_scales">Tones.Major scales</link></listitem>
+            <listitem><link linkend="th1_140_scales">Minor natural scales</link></listitem>
+            <listitem><link linkend="th1_150_scales">Harmonic and melodic minor scales</link></listitem>
+            <listitem><link linkend="th1_160_scales">Exercises</link></listitem>
+        </itemizedlist> </listitem>
+
+    <listitem>Intervals<sbr/>
+        <itemizedlist>
+            <listitem><link linkend="th1_210_intervals">What is an interval?</link></listitem>
+<!--
+            <listitem><link linkend="th1_220_intervals">Inversions and compound intervals</link></listitem>
+            <listitem><link linkend="th1_230_intervals">Quality of intervals</link></listitem>
+            <listitem><link linkend="th1_240_intervals">Chromatic alterations</link></listitem>
+-->
+        </itemizedlist> </listitem>
+
+    <listitem>Cadences<sbr/>
+        <itemizedlist>
+            <listitem><link linkend="th1_cadences">Cadences</link></listitem>
+            <listitem><link linkend="terminal">Terminal cadences</link></listitem>
+            <listitem><link linkend="transient">Transient cadences</link></listitem>
+            <listitem><link linkend="cad_review">Exercises on cadences</link></listitem>
+        </itemizedlist> </listitem>
+
+</itemizedlist>
+
+
+<para>
+
+</para>
+
+<para>
+</para>
+
+<para>
+</para>
+
+</part>
+
+</theme>
+
+
+&ch_credits;
+
+<chapter id="ch1">
+<titleabbrev>Scales</titleabbrev>
+<title>Scales</title>
+
+    &ch_scales_110;
+    &ch_scales_120;
+    &ch_scales_130;
+    &ch_scales_140;
+    &ch_scales_150;
+    &ch_scales_160;
+
+</chapter>
+
+<chapter id="ch2">
+<titleabbrev>Intervals</titleabbrev>
+<title>Intervals</title>
+
+    &ch_intervals_210;
+<!--
+    &ch_intervals_220;
+    &ch_intervals_230;
+    &ch_intervals_240;
+-->
+
+</chapter>
+
+<!--<chapter id="ch3">
+<titleabbrev>Chords</titleabbrev>
+<title>Chords</title>
+
+    &ch_g6t2_triads-chords;
+
+</chapter>-->
+
+<chapter id="ch4">
+<titleabbrev>Cadences</titleabbrev>
+<title>Cadences</title>
+
+    &ch_cadences;
+    &ch_terminal;
+    &ch_transient;
+    &ch_cad_review;
+
+</chapter>
+
+<!--<chapter id="ch5">
+<titleabbrev>Figured bass</titleabbrev>
+<title>Figured bass</title>
+
+    &ch_g6_figured_bass;
+
+</chapter>-->
+
+
+<!--;&ch_g6t1_harmony;-->
+
+
+</book>

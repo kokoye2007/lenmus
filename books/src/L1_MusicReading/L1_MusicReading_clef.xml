@@ -1,0 +1,91 @@
+<!-- =============================================== -->
+<!-- eMusicBook: Music reading. Level 1.             -->
+<!-- =============================================== -->
+
+<theme id="clef">
+<title>The clef</title>
+
+<para>
+Sounds are represented by notes. There are seven notes named either using the first
+seven letters of the alphabet A, B, C, D, E, F (Anglo-Saxon system) or using the names
+Do, Re, Mi, Fa, Sol, La and Si (Ti) (Latin system). To determine which pitch (sound)
+is represented by each line and space in the staff a symbol, named 'the clef', is
+placed at the beginning of each staff. In this course we are going to start with the
+study of the G clef, also named 'treble clef', that is represented by the following
+symbol:
+</para>
+
+<!-- Empty staff with a G clef -->
+<score>
+    <music>
+        (score (vers 1.5)
+         (instrument
+          (musicData (clef G)(key C)
+            (time 2 4 noVisible)
+            (barline end noVisible) )))
+    </music>
+</score>
+
+
+<para>The clef assigns a particular line to a specific pitch, and all other pitches
+are mapped in ascending and descending order to the lines and spaces above and below
+that reference line. In the G clef, the G note of the fourth octave is assigned to the
+second line:
+</para>
+
+<!-- staff with a G clef -->
+<score>
+    <music>
+        (score (vers 1.5)
+         (instrument
+          (musicData (clef G)(key C)
+            (time 2 4 noVisible)
+            (spacer 60)
+            (text _''G'' dx:0 dy:-10)
+            (n g4 w)
+            (barline end noVisible)
+        )))
+    </music>
+</score>
+
+<para>
+As a result, the staff lines and spaces get automatically assigned
+to consecutive notes, as shown in the next score:
+</para>
+
+<!-- staff with a G clef and notes on all spaces and lines, with their names -->
+<score>
+    <control_play />
+    <metronome>320</metronome>
+    <music>
+        (score (vers 1.5)
+         (opt Render.SpacingMethod 1)
+         (opt Render.SpacingValue 50)
+         (instrument
+          (musicData (clef G)(key C)
+            (time 2 4 noVisible)
+            (text _''E'' dx:0 dy:-10)
+            (n e4 w)(barline simple noVisible)
+            (text _''F'' dx:0 dy:-10)
+            (n f4 w)(barline simple noVisible)
+            (text _''G'' dx:0 dy:-10)
+            (n g4 w)(barline simple noVisible)
+            (text _''A'' dx:0 dy:-10)
+            (n a4 w)(barline simple noVisible)
+            (text _''B'' dx:0 dy:-10)
+            (n b4 w)(barline simple noVisible)
+            (text _''C'' dx:0 dy:-10)
+            (n c5 w)(barline simple noVisible)
+            (text _''D'' dx:0 dy:-10)
+            (n d5 w)(barline simple noVisible)
+            (text _''E'' dx:0 dy:-10)
+            (n e5 w)(barline simple noVisible)
+            (text _''F'' dx:0 dy:-10)
+            (n f5 w)(barline simple noVisible)
+        )))
+    </music>
+</score>
+
+
+
+</theme>

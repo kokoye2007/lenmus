@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="TheoScales">
+<title>Scales' identification</title>
+
+<para>Exercise: Identify the scale shown</para>
+
+<exercise type="IdfyScales" height="35">
+    <control_settings>TheoIdfyScale</control_settings>
+    <mode>theory</mode>
+</exercise>
+
+</theme>

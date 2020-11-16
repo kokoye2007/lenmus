@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<UpdateData>
+
+<platform name="Win32">
+    <version>5.6.0</version>
+    <package>LenMus Phonascus 5.6.0</package>
+<!-- ******* Max. usable space **** Up to 7 lines *********** -->
+    <description>
+- LenMus includes now a preconfigured internal MIDI synthesizer
+  and, therefore, the user no longer needs to install a MIDI
+  synthesizer or configure the program to use it.
+- The MIDI assistant has been removed.
+- Added sound configuration options, to allow to configure the
+  internal synthesizer or to use an external synthesizer.
+- Fixed a couple of bugs related to translations.
+     </description>
+    <download_url>http://www.lenmus.org/en/phonascus/downloads</download_url>
+</platform>
+
+</UpdateData>
+

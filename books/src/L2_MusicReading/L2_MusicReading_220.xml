@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<content>
+<theme id="thm220">
+<titleabbrev>Lesson %d</titleabbrev>
+<title>Compound time. 8th note tied to next beat</title>
+<tocimage>img220.png</tocimage>
+
+<para>In this lesson the next patterns are introduced:</para>
+
+<score>
+    <music>
+    (score (vers 1.6)
+      (instrument
+        (musicData
+        (time 6 8)
+        (n * q)(n * e l)(n * q)(n * e)(barline double)
+        (n * q. l)(n * e g+)(r e)(n * e g-)(barline end)
+    )))
+    </music>
+</score>
+
+<part>
+<title>Listen and take notice of the differences</title>
+
+<score>
+    <control_play />
+    <control_measures />
+    <music>
+    (score (vers 1.6)
+      (instrument
+        (musicData
+        (clef G)(key C)(time 6 8)
+        (n a4 q)(n a4 e)(n a4 q)(n a4 e)(barline)
+        (n a4 q)(n a4 e l)(n a4 q)(n a4 e)(barline)
+        (n a4 q.)(n a4 e g+)(r e)(n a4 e g-)(barline)
+        (n a4 q. l)(n a4 e g+)(r e)(n a4 e g-)(barline end)
+    )))
+    </music>
+</score>
+</part>
+
+<part>
+<title>Exercises</title>
+
+<para>
+<link linkend="thm220_E1">Exercise 1</link> - Train your ear: 8th note tied to
+next beat.</para>
+
+<para>
+<link linkend="thm220_E2">Exercise 2</link> - Train your ear: Dotted quarter note
+tied to group of 8th note, 8th rest and 8th note.</para>
+<para>
+<link linkend="thm220_E3">Exercise 3</link> - Read scores containing the rhythms
+studied in this lesson.</para>
+
+
+
+</part>
+
+</theme>
+
+<!-- ============================================================================ -->
+<!-- Exercise 1                                                                   -->
+<!-- ============================================================================ -->
+
+<theme id="thm220_E1" toc="no">
+<titleabbrev>Exercises</titleabbrev>
+<title>Compound time. 8th note tied to next beat</title>
+<para>Press 'Play' and listen. Train your ear and practise the newly introduced patterns.</para>
+<exercise type='TheoMusicReading'>
+    <control_go_back>thm220</control_go_back>
+    <control_play />
+    <control_solfa />
+    <fragment>68;(n * q)(n * e l)(n * q)(n * e)</fragment>
+    <clef>G;a3;a5</clef>
+    <clef>F4;a2;f4</clef>
+    <time>68</time>
+    <key>D</key><key>b</key><key>B-</key><key>g</key><key>A</key><key>f+</key><key>E-</key><key>c</key><key>E</key><key>c+</key><key>A-</key><key>f</key>
+</exercise>
+</theme>
+
+<!-- ============================================================================ -->
+<!-- Exercise 2                                                                   -->
+<!-- ============================================================================ -->
+
+<theme id="thm220_E2" toc="no">
+<titleabbrev>Exercises</titleabbrev>
+<title>Dotted quarter note tied to group of 8th note, 8th rest and 8th note</title>
+<para>Press 'Play' and listen. Train your ear and practise the newly introduced patterns.</para>
+<exercise type='TheoMusicReading'>
+    <control_go_back>thm220</control_go_back>
+    <control_play />
+    <control_solfa />
+    <fragment>68;(n * q. l)(n * e g+)(r e)(n * e g-)</fragment>
+    <clef>G;a3;a5</clef>
+    <clef>F4;a2;f4</clef>
+    <time>68</time>
+    <key>D</key><key>b</key><key>B-</key><key>g</key><key>A</key><key>f+</key><key>E-</key><key>c</key><key>E</key><key>c+</key><key>A-</key><key>f</key>
+</exercise>
+</theme>
+
+<!-- ============================================================================ -->
+<!-- Exercise 3                                                                   -->
+<!-- ============================================================================ -->
+
+<theme id="thm220_E3" toc="no">
+<titleabbrev>Exercises</titleabbrev>
+<title>Compound time. 8th note tied to next beat</title>
+<para>Press 'Play' and listen. Train your ear and practise the newly introduced patterns.</para>
+<exercise type='TheoMusicReading'>
+    <control_go_back>thm220</control_go_back>
+    <control_play />
+    <control_solfa />
+    <fragment>68,98,128;(r e)(n * e g+)(n * e g-),(n * q)(n * e l),(n * q)(n * e),(n * q.)</fragment>
+    <fragment>68,98,128;(n * q)(n * e l),(n * e l)(n * q),(n * q.),(n * q. l),(n * e g+)(r e)(n * e g-),(n * e)(n * q l),(n * e g+)(n * e)(n * e g-),(n * q.)</fragment>
+    <fragment>68,98,128;(n * q)(n * e l),(n * q)(n * e),(n * e g+)(n * e)(n * e l g-),(n * e g+)(n * e)(n * e g-),(n * q. l),(n * e g+)(r e)(n * e g-),(n * e g+)(n * e)(n * e g-),(n * q.)</fragment>
+    <fragment>68,98,128;(n * q)(n * e l),(n * q)(n * e),(n * e g+)(n * e)(n * e l g-),(n * q.)</fragment>
+    <clef>G;a3;a5</clef>
+    <clef>F4;a2;f4</clef>
+    <time>68,98,128</time>
+    <key>D</key><key>b</key><key>B-</key><key>g</key><key>A</key><key>f+</key><key>E-</key><key>c</key><key>E</key><key>c+</key><key>A-</key><key>f</key>
+</exercise>
+</theme>
+
+</content>

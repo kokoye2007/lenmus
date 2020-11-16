@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="IdfyIntervals">
+<title>Interval's identification</title>
+
+<exercise type="IdfyIntervals" height="35">
+    <accidentals>simple</accidentals>
+    <control_settings>IdfyIntervals</control_settings>
+</exercise>
+
+</theme>

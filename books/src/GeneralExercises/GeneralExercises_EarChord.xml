@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="EarChord">
+<title>Chords' identification</title>
+
+<para>Exercise: Listen a chord and identify its type</para>
+
+<exercise type="IdfyChord" height="35">
+    <control_settings>EarIdfyChord</control_settings>
+    <mode>earTraining</mode>
+</exercise>
+
+</theme>

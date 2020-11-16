@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="EarTonalities">
+<title>Tonality identification</title>
+
+<para>Exercise: Listen note A4 and chords I-IV-V-I and identify the tonality</para>
+
+<exercise type="IdfyTonality" height="50">
+    <control_settings>EarIdfyTonality</control_settings>
+</exercise>
+
+</theme>

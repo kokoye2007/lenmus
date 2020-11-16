@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme id="EarTunning">
+<title>Tunning exercise</title>
+
+<para>Exercise: Listen two very near sounds and identify which one has higher pitch.</para>
+
+<exercise type="EarTunning" height="30">
+    <control_settings>EarTunning</control_settings>
+</exercise>
+
+</theme>

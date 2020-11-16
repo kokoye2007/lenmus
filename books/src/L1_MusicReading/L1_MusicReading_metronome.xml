@@ -1,0 +1,150 @@
+<!-- =============================================== -->
+<!-- eMusicBook: Music reading. Level 1.             -->
+<!-- =============================================== -->
+
+<content>
+<theme id="metronome">
+<title>The tempo and the metronome</title>
+
+<part>
+<title>The tempo</title>
+
+<para>
+The tempo of a piece of music is its speed, that is, how fast or slow the beats should
+go. But the time signature does not give you an idea about this, as it only says
+how many beats there are in a measure. In written music there are two ways to specify the
+tempo of a piece of music. Traditionally, composers relied on using verbal descriptions,
+writing indications such as 'Slow', 'Very fast', or 'Calmly'. These tempo words are
+normally written in Italian and are very common, even today. You should learn them:
+</para>
+
+<itemizedlist>
+<listitem><emphasis>Largo</emphasis> - very slow and broad</listitem>
+<listitem><emphasis>Larghetto</emphasis> - not quite as slow as largo</listitem>
+<listitem><emphasis>Lento</emphasis> - very slow</listitem>
+<listitem><emphasis>Adagio</emphasis> - slow</listitem>
+<listitem><emphasis>Andante</emphasis> - literally 'walking', a medium slow tempo</listitem>
+<listitem><emphasis>Moderato</emphasis> - moderate, or medium</listitem>
+<listitem><emphasis>Allegretto</emphasis> - Not as fast as allegro</listitem>
+<listitem><emphasis>Allegro</emphasis> - fast</listitem>
+<listitem><emphasis>Vivo, or Vivace</emphasis> - lively and brisk</listitem>
+<listitem><emphasis>Presto</emphasis> - very fast</listitem>
+<listitem><emphasis>Prestissimo</emphasis> - very, very fast</listitem>
+</itemizedlist>
+
+
+<para>
+The modern way to specify tempo is by giving the number of beats per minute.
+This is represented in the score by the letters 'm.m.' followed by the beats per minute rate.
+This indication is normally written at the beginning:
+</para>
+
+<score>
+    <music>
+        (score (vers 1.5)
+         (instrument
+          (musicData (clef G)(key C)(time 2 4)
+            (metronome 60)
+            (spacer 50)
+            (n e4 q)(n g4 q)(barline simple)
+            (n g4 q)(n a4 q)(barline simple)
+            (n f4 q)(n c5 q)(barline end) )))
+    </music>
+</score>
+
+<para>
+Instead of letters 'm.m.' also note symbols are used:
+</para>
+
+
+<score>
+    <music>
+        (score (vers 1.5)
+         (instrument
+          (musicData (clef G)(key C)(time 2 4)
+            (metronome q 60)
+            (spacer 50)
+            (n e4 q)(n g4 q)(barline simple)
+            (n g4 q)(n a4 q)(barline simple)
+            (n f4 q)(n c5 q)(barline end) )))
+    </music>
+</score>
+
+</part>
+
+
+
+<part>
+<title>The metronome</title>
+
+<para>
+The metronome is a device that produces click sounds on regular basis. The speed can
+be easily adjusted to the required rate. It was invented by Johann Mälzel in 1816. The
+m.m. letters for tempo indication comes after 'Mälzel metronome'.
+</para>
+
+<para>
+The traditional metronomes are mechanic, based on a pendulum with a rod. The pendulum
+rod swings back and forth in tempo, producing a 'tick' sound on each swing. Modern
+metronomes are electronic. The following figure shows an example of a typical mechanic
+metronome:
+</para>
+
+<para role='center'>
+<imagedata fileref='metronome_image.png' />
+</para>
+
+<para>
+As an orientation, the following table gives the assignment between traditional tempo
+terms and metronome settings:
+</para>
+
+<itemizedlist>
+<listitem><emphasis>Largo</emphasis>: 40-49</listitem>
+<listitem><emphasis>Adagio</emphasis>: 50-59</listitem>
+<listitem><emphasis>Andante</emphasis>: 60-79</listitem>
+<listitem><emphasis>Moderato</emphasis>: 80-99</listitem>
+<listitem><emphasis>Allegretto</emphasis>: 100-119</listitem>
+<listitem><emphasis>Allegro</emphasis>: 120-159</listitem>
+<listitem><emphasis>Presto</emphasis>: 160-179</listitem>
+<listitem><emphasis>Prestissimo</emphasis>: 180-200</listitem>
+</itemizedlist>
+
+</part>
+
+<part>
+<title>The LenMus program metronome</title>
+
+<para>
+The LenMus program has a built-in metronome that you can use as an independent metronome.
+For example, when practising with your musical instrument or when doing sight-reading.
+</para>
+
+<para>
+Just click on the 'metronome' button
+<imagedata fileref='tool_metronome_16.png' /> and the sound will immediately start. To stop
+the metronome click on the button again. To adjust the tempo just type the
+required tempo number in the box on the right of the metronome button (2), or click on the up/down arrows
+on the right (3) to adjust the desired tempo. Try it now!
+</para>
+
+<para role='center'>
+<imagedata fileref='metronome_settings.png' />
+</para>
+
+<para>
+When playing back a score its tempo is also controlled by the built-in settings.
+Just change the displayed tempo number and the tempo of the score will automatically
+adjust to it.
+</para>
+
+<para>
+If you would like to hear the metronome while playing a score, press the metronome
+button before or during playback.
+</para>
+
+</part>
+
+</theme>
+
+</content>
